@@ -20,10 +20,10 @@ let media = (nota1 + nota2 + nota3)/3
 if (media < 50) {
     alert("reprovado")
 }
-else if(media >=50 & media <70) {
+else if(media >=50 && media <70) {
     alert("recuperação")
 }
 else {
     alert("passou de semestre")
 }
-alert("A média foi:"+media)
+alert("A média foi: "+media)
