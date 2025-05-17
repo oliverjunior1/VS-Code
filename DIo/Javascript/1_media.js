@@ -16,7 +16,7 @@ let nota3 = Number(prompt("Coloque a nota 3"))
 
 
 let media = (nota1 + nota2 + nota3)/3
-90
+
 if (media < 50) {
     alert("reprovado")
 }
