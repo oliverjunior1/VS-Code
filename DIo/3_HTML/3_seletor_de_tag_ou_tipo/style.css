@@ -1,0 +1,30 @@
+h1 {
+    background-color: darkblue;
+    color: lightblue;
+}
+
+div {
+    background: lightblue;
+    color: darkblue;
+}
+
+li {
+    background: lightgreen;
+}
+
+#texto-boas-vindas {
+    background-color: red;
+    color: white;
+}
+
+.seletores-mais-comuns {
+    color: red;
+}
+
+.texto-maiusculo {
+    text-transform: uppercase;
+}
+
+* {
+    font-weight: bold;
+}
