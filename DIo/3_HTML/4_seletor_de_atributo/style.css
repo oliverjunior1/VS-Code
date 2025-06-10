@@ -1,0 +1,23 @@
+[title="Netflix"] {
+    color: red;
+}
+
+[title="Prime"] {
+    color: lightblue;
+}
+
+[title="Spotify"] {
+    color: green;
+}
+
+[title~="Streaming"] {
+    background: red;
+}
+
+[title^=https] {
+    background: lightgreen;
+}
+
+[title$=login] {
+    background: pink;
+}
