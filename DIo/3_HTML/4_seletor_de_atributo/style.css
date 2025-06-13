@@ -9,15 +9,16 @@
 [title="Spotify"] {
     color: green;
 }
-
+/*procura o nome Sporify*/
 [title~="Streaming"] {
     background: red;
-}
+}/*procura a palavra streaming*/
 
 [title^=https] {
     background: lightgreen;
 }
-
+/*procura o https no início do endereço*/
 [title$=login] {
     background: pink;
 }
+/*procura o texto no final do endereço ou em qualquer lugar*/
