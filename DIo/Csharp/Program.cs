@@ -1,42 +1,28 @@
-﻿while (true)
+﻿// int[] array_test = new int[] { 25, 76, 15, 27 };
+
+// for (int i = 0; i < 4; i++)
+// {
+//     Console.WriteLine($"The array {i} é {array_test[i]}");
+// }
+///////////////////////////////////////////////////////////////
+int[] arrayInteiros = new int[3];
+
+arrayInteiros[0] = 72;
+arrayInteiros[1] = 64;
+arrayInteiros[2] = 50;
+// arrayInteiros[3] = 1;
+
+// Percorrendo o Array com o For
+for (int i = 0; i < arrayInteiros.Length; i++)
 {
-    Console.WriteLine("Put the number to see the day: ");
-    string day_string = Console.ReadLine();
-    int day = Convert.ToInt32(day_string);
-    switch (day)
-    {
-        case 1:
-            Console.WriteLine("Sunday");
-            break;
-        
-        case 2:
-            Console.WriteLine("Monady");
-            break;
-        
-        case 3:
-            Console.WriteLine("Tuesday");
-            break;
-        
-        case 4:
-            Console.WriteLine("Wednesday");
-            break;
-        
-        case 5:
-            Console.WriteLine("Thursday");
-            break;
-        
-        case 6:
-            Console.WriteLine("Friday");
-            break;
-        
-        case 7:
-            Console.WriteLine("Saturday");
-            break;
-        
-        
-        default:
-            Console.WriteLine("Invalid number!");
-            break;
-        
-    }
+    Console.WriteLine($"Posicao nº {i} - {arrayInteiros[i]}");
 }
+
+// Console.WriteLine("Percorrendo o array com o foreach");
+// int contadorForEach = 0;
+// foreach (int valor in arrayInteiros)
+// {
+//     Console.WriteLine($"Posicao nº{contadorForEach}-{valor}");
+//     contadorForEach++;
+// }
+Array.Resize(ref arrayInteiros, arrayInteiros.Length * 2);
