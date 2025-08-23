@@ -1,4 +1,7 @@
-﻿double x = 25;
-double y = Math.Sqrt(x);
+﻿int i = 0;
 
-Console.WriteLine($"The square root of {x} is {y}.");
+while (i <= 10)
+{
+    Console.WriteLine($"I will say {i} times, Jesus is my love.");
+    i++;
+}
