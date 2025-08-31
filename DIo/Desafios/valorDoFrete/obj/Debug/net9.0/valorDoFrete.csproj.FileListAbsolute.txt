@@ -1,0 +1,15 @@
+C:\Users\Olive\VS Code\DIo\Desafios\valorDoFrete\bin\Debug\net9.0\valorDoFrete.exe
+C:\Users\Olive\VS Code\DIo\Desafios\valorDoFrete\bin\Debug\net9.0\valorDoFrete.deps.json
+C:\Users\Olive\VS Code\DIo\Desafios\valorDoFrete\bin\Debug\net9.0\valorDoFrete.runtimeconfig.json
+C:\Users\Olive\VS Code\DIo\Desafios\valorDoFrete\bin\Debug\net9.0\valorDoFrete.dll
+C:\Users\Olive\VS Code\DIo\Desafios\valorDoFrete\bin\Debug\net9.0\valorDoFrete.pdb
+C:\Users\Olive\VS Code\DIo\Desafios\valorDoFrete\obj\Debug\net9.0\valorDoFrete.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Olive\VS Code\DIo\Desafios\valorDoFrete\obj\Debug\net9.0\valorDoFrete.AssemblyInfoInputs.cache
+C:\Users\Olive\VS Code\DIo\Desafios\valorDoFrete\obj\Debug\net9.0\valorDoFrete.AssemblyInfo.cs
+C:\Users\Olive\VS Code\DIo\Desafios\valorDoFrete\obj\Debug\net9.0\valorDoFrete.csproj.CoreCompileInputs.cache
+C:\Users\Olive\VS Code\DIo\Desafios\valorDoFrete\obj\Debug\net9.0\valorDoFrete.sourcelink.json
+C:\Users\Olive\VS Code\DIo\Desafios\valorDoFrete\obj\Debug\net9.0\valorDoFrete.dll
+C:\Users\Olive\VS Code\DIo\Desafios\valorDoFrete\obj\Debug\net9.0\refint\valorDoFrete.dll
+C:\Users\Olive\VS Code\DIo\Desafios\valorDoFrete\obj\Debug\net9.0\valorDoFrete.pdb
+C:\Users\Olive\VS Code\DIo\Desafios\valorDoFrete\obj\Debug\net9.0\valorDoFrete.genruntimeconfig.cache
+C:\Users\Olive\VS Code\DIo\Desafios\valorDoFrete\obj\Debug\net9.0\ref\valorDoFrete.dll
