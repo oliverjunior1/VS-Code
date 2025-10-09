@@ -95,6 +95,7 @@ Console.WriteLine("Loto Facil: " + string.Join(", ", lotoFacil.Distinct()));
 
 */
 // class and object example
+/*
 Person person1 = new Person();
 person1.Name = "Joaquim";
 person1.Age = 25;
@@ -114,3 +115,25 @@ public class Person
     }
 }
 
+*/
+
+//1. 	Solicita o nome e idade do usuário.
+Console.WriteLine("Enter your name: ");
+string name = Console.ReadLine();
+Console.WriteLine("Enter your age: ");
+int age = Convert.ToInt32(Console.ReadLine());
+//2. 	Imprime uma mensagem personalizada.
+Console.WriteLine($"Hello {name}, you are {age} years old.");
+//3. 	Diz se o usuário é maior de idade.
+if (age >= 18)
+{
+    Console.WriteLine("You are an adult.");
+}
+else
+{
+    Console.WriteLine("You are a minor.");
+}
+//4. 	Calcula e imprime o ano de nascimento do usuário.
+int currentYear = DateTime.Now.Year;
+int birthYear = currentYear - age;
+Console.WriteLine($"You were born in {birthYear}.");
