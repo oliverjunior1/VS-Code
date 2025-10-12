@@ -1,0 +1,35 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.grid-item {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  text-align: center;
+}
+/* This is a single-line comment */
+h1 {
+    color: red;
+}
+/* This is a multi-line comment
+   that spans several lines */
+p {
+    color: blue;
+    font-size: 20px;
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid black;
+}
+/* Another comment */
+div {
+    background-color: lightgrey;
+    margin: 5px;
+    padding: 10px;
+    border: 2px dashed green;
+}   
+/* End of comments */
+
