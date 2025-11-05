@@ -1,0 +1,2 @@
+SELECT COUNT(*) FROM payment
+WHERE amount NOT BETWEEN 8 AND 9;
