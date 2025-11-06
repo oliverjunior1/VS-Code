@@ -115,7 +115,7 @@ public class Person
     }
 }
 
-*/
+
 
 //1. 	Solicita o nome e idade do usuário.
 Console.WriteLine("Enter your name: ");
@@ -137,3 +137,24 @@ else
 int currentYear = DateTime.Now.Year;
 int birthYear = currentYear - age;
 Console.WriteLine($"You were born in {birthYear}.");
+
+*/
+
+//5. 	Calcula e imprime quantos anos faltam para o usuário se aposentar (considerando 65 anos para homens e 60 para mulheres).
+Console.WriteLine("Enter your gender (M/F): ");
+string gender = Console.ReadLine();
+int retirementAge = (gender.ToUpper() == "M") ? 65 : 60;
+int age = Convert.ToInt32(Console.ReadLine());
+int yearsLeft = retirementAge - age;
+Console.WriteLine($"You have {yearsLeft} years left until retirement.");
+
+if (yearsLeft > 0)
+{
+    Console.WriteLine($"You have {yearsLeft} years left until retirement.");
+}
+else
+{
+    Console.WriteLine("You are already retired.");
+}
+
+
