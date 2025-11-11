@@ -12,4 +12,6 @@ SELECT * FROM payment WHERE rental_id>1 AND amount>10;
 SELECT * FROM film_actor WHERE actor_id>10 OR film_id >10;
 SELECT * FROM city WHERE city_id>15 AND city like 'B%';
 SELECT * FROM city WHERE city NOT LIKE 'B%' AND city NOT LIKE 'C%';
+INSERT INTO Customers (CustomerName, ContactName, Address, City, PostalCode Country) 
+VALUES ('Cardinal', 'Tom B. Erichsen', 'Skagen 21', 'Stavanger', '4006', 'Norway');
 
