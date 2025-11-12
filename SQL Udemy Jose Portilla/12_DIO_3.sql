@@ -4,3 +4,7 @@ SELECT address, COUNT(*) AS Total FROM address GROUP BY 1 ORDER BY Total DESC LI
 
 SELECT * FROM clientes;
 SELECT COUNT(*) FROM customer;
+
+
+--verificar 
+
