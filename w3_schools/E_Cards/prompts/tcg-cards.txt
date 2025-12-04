@@ -1,0 +1,28 @@
+[ação] 
+create a table context to create a table in postgresql
+
+[contexto]
+- the first table is a table to save a pokemon tcg cards
+- the second table is a table to sabe collections set
+
+[Informações]
+first table: tbl cards
+- hp
+- name
+- type
+- stage
+- info
+- attack
+- damage
+- weak
+- resist
+- retreat
+- cardNumberInCollection
+
+connect to tables with foreign key
+
+the second table: tbl collections
+- id
+- collectionSetName
+- release Date
+- totalCardsInCollection
