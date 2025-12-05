@@ -1,0 +1,29 @@
+[action]
+create a script to crate a table in postgreesql
+
+[context]
+- the first table is a table to sabe a pokemon tcg cards
+- the second table is a table to save collections stage
+
+connect to tables with FOREIGN KEY
+
+[informations]
+first table: tbl_cards
+- id
+- hp
+- name
+- type
+- stage
+- info
+- attack
+- damage
+- weak
+
+
+
+the second table: tbl_collections
+- id
+- CollectionSetName
+- release Date
+- totalCardsInCollection
+- cardNameInCollection
