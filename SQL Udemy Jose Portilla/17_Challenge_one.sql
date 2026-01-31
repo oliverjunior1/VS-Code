@@ -1,5 +1,5 @@
 -- How many payment transactions were greater than $5.00?
-
+SELECT * FROM payment WHERE amount >= 5;
 
 -- How many actors havea fist name thats starts  with the letter P?
 
