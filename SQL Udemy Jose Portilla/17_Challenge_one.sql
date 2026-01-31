@@ -11,6 +11,6 @@ SELECT COUNT(DISTINCT address_id) FROM customer;
 SELECT DISTINCT address_id FROM customer;
 
 -- How many films have a rating of R and a replacement cost between $5 and $15?
-
+SELECT COUNT(*) FROM film WHERE rating = 'R' AND replacement_cost BETWEEN 5 AND 15;
 
 -- How many films have the word Truman womewhere in the title?
