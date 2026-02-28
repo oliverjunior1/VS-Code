@@ -10,5 +10,6 @@ WHERE first_name LIKE 'P%';
 SELECT COUNT(DISTINCT(district)) FROM address;
 
 -- Retrieve the list of names for those districts from the previous question?
+SELECT DISTINCT(district) FROM address;
 -- How many films have a rating of R and a replacement cost between $5 and $15?
 -- How many films have the word Truman somewhere in the title?
