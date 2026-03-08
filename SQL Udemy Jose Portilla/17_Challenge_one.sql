@@ -10,7 +10,7 @@ WHERE first_name LIKE 'P%';
 SELECT COUNT(DISTINCT(address_id)) FROM customer;
 
 -- Retrieve the list of names for those distinct districts from the previous question.
-
+SELECT DISTINCT(address_id) FROM customer;
 
 -- How many films have a rating of R and a replacement cost between $5 and $15?
 
