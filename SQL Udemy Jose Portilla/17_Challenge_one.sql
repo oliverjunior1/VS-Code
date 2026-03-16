@@ -1,6 +1,10 @@
 -- How many payment transactions were greater than $5.00?
+SELECT COUNT(amount) FROM payment
+WHERE amount > 5;
 
 -- How many actors have the fist name thats starts  with the letter P?
+SELECT COUNT(first_name) FROM actor
+WHERE first_name LIKE 'P%';
 
 -- How many unique districts are our customers from?
 
