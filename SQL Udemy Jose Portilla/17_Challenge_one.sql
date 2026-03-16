@@ -7,7 +7,7 @@ SELECT COUNT(first_name) FROM actor
 WHERE first_name LIKE 'P%';
 
 -- How many unique districts are our customers from?
-
+SELECT COUNT(DISTINCT(address_id)) FROM customer;
 
 -- Retrieve the list of names for those distinct districts from the previous question.
 
