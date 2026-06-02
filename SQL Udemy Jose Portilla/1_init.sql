@@ -35,5 +35,5 @@ SELECT idade FROM clientes;
 SELECT idade, clientes FROM clientes WHERE idade > 30;
 
 -- 3. Motrar apenas nome e idade:
-
+SELECT nome, idade FROM clientes;
 
