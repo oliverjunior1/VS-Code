@@ -1,4 +1,4 @@
-SELECT * 
+/*SELECT * 
 FROM clientes;
 
 CREATE TABLE clientes (
@@ -10,3 +10,8 @@ CREATE TABLE clientes (
 INSERT INTO clientes VALUES (1, Ana, 25);
 INSERT INTO clientes VALUES (2, Pedro, 30);
 INSERT INTO clientes VALUES (3, Ana, 22);
+
+SELECT * FROM clientes;
+*/
+
+SELECT * FROM Clientes;
