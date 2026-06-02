@@ -20,4 +20,5 @@ SELECT * FROM clientes;
 
 -- SELECT nome, idade FROM clientes;
 
-
+SELECT * FROM clientes
+WHERE idade > 25;
