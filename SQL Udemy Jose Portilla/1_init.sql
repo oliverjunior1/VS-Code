@@ -32,6 +32,7 @@ INSERT INTO clientes VALUES (6,'Julia',22);
 SELECT idade FROM clientes;
 
 -- 2. Mostrar clientes com idade menor que 30:
+SELECT idade, clientes FROM clientes WHERE idade > 30;
 
 -- 3. Motrar apenas nome e idade:
 
