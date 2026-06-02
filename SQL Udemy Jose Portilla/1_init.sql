@@ -14,4 +14,6 @@ INSERT INTO clientes VALUES (3, Ana, 22);
 SELECT * FROM clientes;
 */
 
-SELECT * FROM Clientes;
+-- SELECT * FROM Clientes;
+
+SELECT nome FROM clientes;
