@@ -16,4 +16,6 @@ SELECT * FROM clientes;
 
 -- SELECT * FROM Clientes;
 
-SELECT nome FROM clientes;
+-- SELECT nome FROM clientes;
+
+SELECT nome, idade FROM clientes;
