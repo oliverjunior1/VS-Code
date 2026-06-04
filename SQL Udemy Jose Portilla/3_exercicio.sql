@@ -18,3 +18,17 @@ VALUES
 FROM vendas_produtos
 GROUP BY produto;*/
 
+-- 2. Média por produto.
+/*SELECT produto,
+       AVG(vendas) AS media_vendas
+FROM vendas_produtos
+GROUP BY produto;*/
+
+--3. Maior venda por produto.
+/*SELECT produto,
+       MAX(vendas) AS maior_venda
+FROM vendas_produtos
+GROUP BY produto;*/
+
+--4. Produtos com total acima de 400.
+SELECT produto FROM vendas_produtos WHERE vendas > 400 GROUP BY produto;
