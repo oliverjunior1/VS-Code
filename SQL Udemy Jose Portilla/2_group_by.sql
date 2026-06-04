@@ -21,8 +21,9 @@ GROUP BY vendedor;
 
 --SELECT * FROM vendas WHERE valor > 100;
 
-SELECT vendedor,
+/*SELECT vendedor,
        SUM(valor) AS total
 FROM vendas
 GROUP BY vendedor
-HAVING SUM(valor) > 300;
+HAVING SUM(valor) > 300;*/
+
