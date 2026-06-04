@@ -15,5 +15,9 @@ media = df['salario'].mean()
 
 print(media)
 
-# 2. Maior salário.
+# 2. Calcule o total
+print(df["salario"].sum())
+
+# 3. Maior salário.
 print(df['salario'].max())
+
