@@ -7,7 +7,7 @@ funcionarios = [
     {"nome": "Carlos", "salario": 6000}
 ]
 
-# 1. Média salarial.
+# 1. Média salarial:
 
 df = pd.DataFrame(funcionarios)
 
@@ -15,9 +15,11 @@ media = df['salario'].mean()
 
 print(media)
 
-# 2. Calcule o total
+# 2. Calcule o total:
 print(df["salario"].sum())
 
-# 3. Maior salário.
+# 3. Maior salário:
 print(df['salario'].max())
+
+# 4. menor salário:
 
