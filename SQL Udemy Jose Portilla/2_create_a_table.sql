@@ -59,7 +59,7 @@ WHERE id IN (2,8,13,18,24);
 UPDATE vendas
 SET produto = 'Tablet'
 WHERE id IN (6,12,16,22);
-*/
+
 
 SELECT * FROM vendas;
 
@@ -69,3 +69,10 @@ WHERE produto IS NULL;
 
 
 SELECT * FROM vendas;
+*/
+
+--SELECT produto, SUM(vendas) AS vendas_mensais
+--FROM vendas GROUP BY produto
+--ORDER BY total DESC
+--LIMIT 5;
+
