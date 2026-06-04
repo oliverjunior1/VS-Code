@@ -35,7 +35,28 @@ VALUES
 (23, 'Marcelo Teixeira', 340.00, 8100.00, 97200.00),
 (24, 'Larissa Freitas', 465.00, 9900.00, 118800.00),
 (25, 'Joao Almeida', 410.00, 9200.00, 110400.00);
-*/
+
 
 SELECT * FROM vendas;
 SELECT nome_vendedor FROM vendas WHERE vendas_mes > 10000;
+SELECT nome_vendedor FROM vendas WHERE vendas_ano > 100000;
+
+
+
+ALTER TABLE vendas
+ADD produto VARCHAR(100);
+
+UPDATE vendas
+SET produto = 'Notebook'
+WHERE id IN (1,4,10,15,20,25);
+
+
+UPDATE vendas
+SET produto = 'Smartphone'
+WHERE id IN (2,8,13,18,24);
+
+
+UPDATE vendas
+SET produto = 'Tablet'
+WHERE id IN (6,12,16,22);
+*/
