@@ -4,6 +4,5 @@ funcionarios = [
     {"nome": "Julia", "salario": 4000}
 ]
 
-menor = min(funcionarios, key=lambda x:x['salario'])
-
-print(menor)
+maior = max(funcionarios, key=lambda x:x['salario'])
+print(maior)
