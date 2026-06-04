@@ -24,3 +24,6 @@ print(df['salario'].max())
 # 4. menor salário:
 print(df["salario"].min())
 
+# 5. Crie uma lista contendo apenas valores acima da média:
+print(df[df["salario"]>df["salario"].mean()])
+
