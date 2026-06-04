@@ -4,5 +4,5 @@ funcionarios = [
     {"nome": "Julia", "salario": 4000}
 ]
 
-maior = max(funcionarios, key=lambda x:x['salario'])
+maior = max(funcionarios, key= lambda x:x['salario'])
 print(maior)
