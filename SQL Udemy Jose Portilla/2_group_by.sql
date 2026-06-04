@@ -19,4 +19,10 @@ GROUP BY vendedor;
 
 --SELECT vendedor, MIN(valor) AS menor_venda FROM vendas GROUP BY vendedor;
 
-SELECT * FROM vendas WHERE valor > 100;
+--SELECT * FROM vendas WHERE valor > 100;
+
+SELECT vendedor,
+       SUM(valor) AS total
+FROM vendas
+GROUP BY vendedor
+HAVING SUM(valor) > 300;
