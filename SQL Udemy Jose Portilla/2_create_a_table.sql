@@ -60,3 +60,12 @@ UPDATE vendas
 SET produto = 'Tablet'
 WHERE id IN (6,12,16,22);
 */
+
+SELECT * FROM vendas;
+
+UPDATE vendas
+SET produto = 'Monitor'
+WHERE produto IS NULL;
+
+
+SELECT * FROM vendas;
