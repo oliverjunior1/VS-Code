@@ -11,4 +11,6 @@ GROUP BY vendedor;
 
 --ALTER TABLE vendas RENAME COLUMN produto TO nome_produto;
 
-SELECT vendedor, COUNT(*) AS quantidade FROM vendas GROUP BY vendedor;
+--SELECT vendedor, COUNT(*) AS quantidade FROM vendas GROUP BY vendedor;
+
+SELECT vendedor, AVG(valor) AS ticket_medio FROM vendas GROUP BY vendedor;
