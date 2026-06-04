@@ -22,4 +22,5 @@ print(df["salario"].sum())
 print(df['salario'].max())
 
 # 4. menor salário:
+print(df["salario"].min())
 
