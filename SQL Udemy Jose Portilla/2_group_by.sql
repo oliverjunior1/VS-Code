@@ -17,4 +17,6 @@ GROUP BY vendedor;
 
 --SELECT vendedor, MAX(valor) AS maior_venda FROM vendas GROUP BY vendedor;
 
-SELECT vendedor, MIN(valor) AS menor_venda FROM vendas GROUP BY vendedor;
+--SELECT vendedor, MIN(valor) AS menor_venda FROM vendas GROUP BY vendedor;
+
+SELECT * FROM vendas WHERE valor > 100;
