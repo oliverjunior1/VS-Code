@@ -39,4 +39,9 @@ VALUES
 ('Pedro', 100),
 ('Julia', 500);*/
 
+--1. Total gasto por cliente.
+SELECT cliente, SUM(valor) FROM clientes_vendas GROUP BY cliente;
 
+--2. Quantidade de pedidos.
+--3. Ticket médio.
+--4. Clientes que gastaram mais de 300.
