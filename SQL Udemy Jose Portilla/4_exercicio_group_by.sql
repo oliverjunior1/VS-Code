@@ -25,7 +25,18 @@ GROUP BY departamento
 HAVING AVG(salario) > 5500;*/
 
 
-CREATE TABLE clientes_vendas (
+/*CREATE TABLE clientes_vendas (
     cliente VARCHAR(50),
     valor DECIMAL(10,2)
-);
+);*/
+
+/*INSERT INTO clientes_vendas (cliente, valor)
+VALUES
+('Ana', 100),
+('Ana', 200),
+('Ana', 150),
+('Pedro', 300),
+('Pedro', 100),
+('Julia', 500);*/
+
+
