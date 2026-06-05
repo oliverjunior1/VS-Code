@@ -18,8 +18,14 @@ VALUES
 --SELECT departamento,SUM(salario) FROM funcionarios GROUP BY departamento;
 
 --3. Departamentos com média acima de 5500.
-SELECT departamento,
+/*SELECT departamento,
        AVG(salario) AS media_salarial
 FROM funcionarios
 GROUP BY departamento
-HAVING AVG(salario) > 5500;
+HAVING AVG(salario) > 5500;*/
+
+
+CREATE TABLE clientes_vendas (
+    cliente VARCHAR(50),
+    valor DECIMAL(10,2)
+);
