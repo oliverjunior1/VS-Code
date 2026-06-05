@@ -11,3 +11,7 @@ VALUES
 ('RH', 6000),
 ('Financeiro', 8000);*/
 
+--1. Média salarial por departamento.
+SELECT departamento, AVG(salario) FROM funcionarios GROUP BY departamento;
+--2. Total salarial por departamento.
+--3. Departamentos com média acima de 5500.
