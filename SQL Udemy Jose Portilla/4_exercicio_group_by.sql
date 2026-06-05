@@ -40,8 +40,10 @@ VALUES
 ('Julia', 500);*/
 
 --1. Total gasto por cliente.
-SELECT cliente, SUM(valor) FROM clientes_vendas GROUP BY cliente;
+SELECT cliente, SUM(valor) AS soma_cliente FROM clientes_vendas  GROUP BY cliente;
 
 --2. Quantidade de pedidos.
+SELECT cliente, COUNT(cliente) AS quantidade_de_compras FROM clientes_vendas GROUP BY cliente;
+
 --3. Ticket médio.
 --4. Clientes que gastaram mais de 300.
