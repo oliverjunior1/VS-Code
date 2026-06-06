@@ -25,5 +25,7 @@ print(salario[1])
 # Média salarial.
 df = pd.DataFrame(funcionarios)
 print(df['salario'].mean())
+
 # Funcionários acima da média.
+print(df[df['salario']>df['salario'].mean()])
 # Funcionários ordenados por salário.
