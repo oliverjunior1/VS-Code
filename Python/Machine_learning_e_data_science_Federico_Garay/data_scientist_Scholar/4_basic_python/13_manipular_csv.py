@@ -24,10 +24,23 @@ df.to_csv('dados.csv', index=False)
 print("Arquivo dados.csv criado com sucesso!")
  """
 
-import csv
+""" import csv
 
 with  open('dados.csv', 'r') as arquivo:
     leitor = csv.reader(arquivo)
 
     for linha in leitor:
-        print(linha)
+        print(linha) """
+
+import csv
+
+with open('saida.csv', 'w', newline='') as arquivo:
+    escritor = csv.writer(arquivo)
+
+    escritor.writerow(
+        ['None', 'Salario']
+    )
+
+    escritor.writerow(
+        ['Ana', 5000]
+    )
