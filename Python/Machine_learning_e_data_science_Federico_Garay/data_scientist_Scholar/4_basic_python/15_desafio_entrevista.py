@@ -14,3 +14,5 @@ print(sr[sr>sr.mean()])
 print(sorted(vendas, reverse=True))
 
 # Aplique desconto de 10%.
+desconto_10 = [x*0.9 for x in vendas]
+print(desconto_10)
