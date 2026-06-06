@@ -5,7 +5,7 @@ salarios_ordenados = sorted(salarios, reverse=True)
 
 print(salarios_ordenados) """
 
-funcionarios = [
+""" funcionarios = [
     {"nome":"Ana","salario":5000},
     {"nome":"Pedro","salario":7000},
     {"nome":"Julia","salario":4000}
@@ -13,4 +13,18 @@ funcionarios = [
 
 sorted_dict = sorted(funcionarios, key=lambda x:x['salario'])
 
-print(sorted_dict)
+print(sorted_dict) """
+
+# Ordene a lista acoma do maior para o menor salário:
+
+funcionarios = [
+    {"nome":"Ana","salario":5000},
+    {"nome":"Pedro","salario":7000},
+    {"nome":"Julia","salario":4000}
+]
+
+sorted_salary = sorted(
+    funcionarios, key=lambda x: x['salario'], reverse=True
+)
+
+print(sorted_salary)
