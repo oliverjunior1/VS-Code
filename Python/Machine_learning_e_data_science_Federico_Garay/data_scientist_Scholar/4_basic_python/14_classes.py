@@ -16,9 +16,12 @@ funcionarios = [
 ]
 
 # Maior salário.
-maior_salario = sorted(funcionarios, key=lambda a:a['salario'])
-print(maior_salario[-1])
+salario = sorted(funcionarios, key=lambda a:a['salario'])
+print(salario[-1])
+
 # Menor salário.
+print(salario[1])
+
 # Média salarial.
 # Funcionários acima da média.
 # Funcionários ordenados por salário.
