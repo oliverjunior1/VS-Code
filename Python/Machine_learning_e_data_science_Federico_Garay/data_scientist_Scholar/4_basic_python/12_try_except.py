@@ -13,7 +13,8 @@ except ValueError:
 # peça salário
 # trate erros de digitação
 
-try:
+""" try:
     salario = float(input("Type your salary: "))
 except:
-    print('You need to put a number.')
+    print('You need to put a number.') """
+
