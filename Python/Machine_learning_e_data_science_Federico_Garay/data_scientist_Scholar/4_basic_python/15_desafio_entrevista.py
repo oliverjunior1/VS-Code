@@ -11,4 +11,6 @@ print(sr.mean())
 print(sr[sr>sr.mean()])
 
 # Ordene do maior para o menor.
+print(sorted(vendas, reverse=True))
+
 # Aplique desconto de 10%.
