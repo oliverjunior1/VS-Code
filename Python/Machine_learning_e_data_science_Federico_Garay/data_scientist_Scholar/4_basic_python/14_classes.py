@@ -30,4 +30,5 @@ print(df['salario'].mean())
 print(df[df['salario']>df['salario'].mean()])
 
 # Funcionários ordenados por salário.
-print(df["salario"].sort_values())
+print('#########################################')
+print(df.sort_values('salario')[['nome','salario']])
