@@ -28,4 +28,6 @@ print(df['salario'].mean())
 
 # Funcionários acima da média.
 print(df[df['salario']>df['salario'].mean()])
+
 # Funcionários ordenados por salário.
+print(df["salario"].sort_values())
