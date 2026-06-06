@@ -4,4 +4,4 @@ print(dobro(25)) """
 
 x = lambda a, b, c: (a**b)//c
 
-print(x(5,6,7))
+print(x(5,6,7)) 
