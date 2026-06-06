@@ -6,6 +6,9 @@ print(sr.sum())
 
 # Calcule média.
 print(sr.mean())
+
 # Filtre vendas acima da média.
+print(sr[sr>sr.mean()])
+
 # Ordene do maior para o menor.
 # Aplique desconto de 10%.
