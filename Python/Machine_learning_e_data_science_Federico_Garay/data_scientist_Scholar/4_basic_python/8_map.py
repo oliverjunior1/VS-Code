@@ -1,5 +1,5 @@
 salarios = [3000, 4000, 5000]
 
-adicionar_15_porcento = list(map(lambda x: x*1.15, salarios))
+retirar_inss = list(map(lambda x: x*0.89, salarios))
 
-print(adicionar_15_porcento)
+print(retirar_inss)
