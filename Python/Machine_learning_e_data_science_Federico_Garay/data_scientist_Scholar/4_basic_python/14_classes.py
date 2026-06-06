@@ -7,7 +7,7 @@
 Ana = Funcionario('Ana', 5000)
 
 print(Ana) """
-
+import pandas as pd
 funcionarios = [
     {"nome":"Ana","salario":5000},
     {"nome":"Pedro","salario":7000},
@@ -23,5 +23,7 @@ print(salario[-1])
 print(salario[1])
 
 # Média salarial.
+df = pd.DataFrame(funcionarios)
+print(df['salario'].mean())
 # Funcionários acima da média.
 # Funcionários ordenados por salário.
