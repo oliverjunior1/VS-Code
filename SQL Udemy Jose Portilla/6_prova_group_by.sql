@@ -43,3 +43,8 @@ ORDER BY vendas_total_vendedor DESC;
 SELECT produto, SUM(valor_produto) AS produtos_mais_vendidos 
 FROM vendas_computer_store GROUP BY produto 
 ORDER BY produtos_mais_vendidos DESC;
+
+-- Ticket médio por vendedor
+SELECT nome_vendedor, AVG(total) AS media_vendas 
+FROM vendas_computer_store GROUP BY nome_vendedor 
+ORDER BY media_vendas DESC;
