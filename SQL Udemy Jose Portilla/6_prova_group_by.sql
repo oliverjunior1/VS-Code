@@ -59,4 +59,7 @@ SELECT produto, SUM(total) AS maior_faturamento
 FROM vendas_computer_store GROUP BY produto
 ORDER BY maior_faturamento DESC;
 
-
+-- Vendedores com vendas acima de 50000
+SELECT nome_vendedor, SUM(total)>50000 AS acima_de_50000
+FROM vendas_computer_store GROUP BY nome_vendedor 
+ORDER BY acima_de_50000 DESC;
