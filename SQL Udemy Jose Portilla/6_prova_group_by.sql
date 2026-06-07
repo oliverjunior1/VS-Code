@@ -48,3 +48,8 @@ ORDER BY produtos_mais_vendidos DESC;
 SELECT nome_vendedor, AVG(total) AS media_vendas 
 FROM vendas_computer_store GROUP BY nome_vendedor 
 ORDER BY media_vendas DESC;
+
+-- Top 5 vendedores
+SELECT nome_vendedor, SUM(total) AS top_5_vendedores 
+FROM vendas_computer_store GROUP BY nome_vendedor 
+ORDER BY top_5_vendedores DESC LIMIT 5;
