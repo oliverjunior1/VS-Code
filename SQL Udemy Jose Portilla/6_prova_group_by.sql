@@ -53,3 +53,10 @@ ORDER BY media_vendas DESC;
 SELECT nome_vendedor, SUM(total) AS top_5_vendedores 
 FROM vendas_computer_store GROUP BY nome_vendedor 
 ORDER BY top_5_vendedores DESC LIMIT 5;
+
+-- Produto com maior faturamento
+SELECT produto, SUM(total) AS maior_faturamento
+FROM vendas_computer_store GROUP BY produto
+ORDER BY maior_faturamento DESC;
+
+
