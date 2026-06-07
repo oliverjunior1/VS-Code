@@ -11,4 +11,6 @@
 
 -- o total vendido por produto.
 
-SELECT produto, SUM(valor) AS total_vendido FROM produtos GROUP BY produto;
+-- SELECT produto, SUM(valor) AS total_vendido 
+-- FROM produtos GROUP BY produto;
+
