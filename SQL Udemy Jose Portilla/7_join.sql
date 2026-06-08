@@ -9,4 +9,10 @@
 -- 	(2, 'Pedro'),
 -- 	(3, 'Julia');
 
-SELECT * FROM clientes_novo;
+-- SELECT * FROM clientes_novo;
+
+CREATE TABLE pedidos(
+pedido_id INT PRIMARY KEY,
+cliente_id INT,
+valor INT
+);
