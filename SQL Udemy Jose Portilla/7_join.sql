@@ -17,8 +17,10 @@
 -- valor INT
 -- );
 
-INSERT INTO pedidos (pedido_id, cliente_id, valor)
-VALUES
-(101,1,100),
-(102,1,200),
-(103,2,300);
+-- INSERT INTO pedidos (pedido_id, cliente_id, valor)
+-- VALUES
+-- (101,1,100),
+-- (102,1,200),
+-- (103,2,300);
+
+SELECT * FROM pedidos;
