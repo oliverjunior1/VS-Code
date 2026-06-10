@@ -36,6 +36,11 @@
 -- INNER JOIN pedidos p
 -- 	ON c.cliente_id = p.cliente_id;
 
+-- Quando usar Left join?
+-- Clientes sem pedidos
+-- Produtos sem vendas
+-- Funcionários sem avaliações
+
 -- SELECT 
 -- 	c.nome,
 -- 	p.valor
@@ -43,7 +48,11 @@
 -- LEFT JOIN pedidos p
 -- 	ON c.cliente_id = p.cliente_id;
 
--- Quando usar Left join?
--- Clientes sem pedidos
--- Produtos sem vendas
--- Funcionários sem avaliações
+-- Encontrando Clientes Sem Compras
+
+SELECT *
+FROM clientes c
+LEFT JOIN pedidos p
+	ON c.cliente_id = p.cliente_id
+WHERE p.cliente_id IS NULL;
+
