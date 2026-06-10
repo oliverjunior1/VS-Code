@@ -29,9 +29,16 @@
 
 -- SELECT * FROM pedidos;
 
-SELECT
+-- SELECT
+-- 	c.nome,
+-- 	p.valor
+-- FROM clientes c
+-- INNER JOIN pedidos p
+-- 	ON c.cliente_id = p.cliente_id;
+
+SELECT 
 	c.nome,
 	p.valor
 FROM clientes c
-INNER JOIN pedidos p
+LEFT JOIN pedidos p
 	ON c.cliente_id = p.cliente_id;
