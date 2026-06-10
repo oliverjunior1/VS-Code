@@ -60,4 +60,10 @@
 -- Muito comum.
 -- Total gasto por cliente:
 
-
+SELECT
+	c.nome,
+	SUM(p.valor) AS total_gasto
+FROM clientes c
+INNER JOIN pedidos p
+	ON c.cliente_id = p.cliente_id
+GROUP BY c.nome;
