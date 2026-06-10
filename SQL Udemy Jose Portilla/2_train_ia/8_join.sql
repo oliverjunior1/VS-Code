@@ -12,3 +12,17 @@
 -- (3,'Julia');
 
 -- SELECT * FROM clientes;
+
+-- Criar a tabela
+-- CREATE TABLE pedidos(
+-- 	pedido_id INT PRIMARY KEY,
+-- 	cliente_id INT,
+-- 	valor DECIMAL(10,2)
+-- );
+
+-- Inserir os registros
+INSERT INTO pedidos (pedido_id, cliente_id, valor)
+VALUES
+(101,1,100.00),
+(102,1,200.00),
+(103,2,300.00);
