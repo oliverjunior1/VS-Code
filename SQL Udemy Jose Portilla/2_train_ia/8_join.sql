@@ -27,4 +27,11 @@
 -- (102,1,200.00),
 -- (103,2,300.00);
 
-SELECT * FROM pedidos;
+-- SELECT * FROM pedidos;
+
+SELECT
+	c.nome,
+	p.valor
+FROM clientes c
+INNER JOIN pedidos p
+	ON c.cliente_id = p.cliente_id;
