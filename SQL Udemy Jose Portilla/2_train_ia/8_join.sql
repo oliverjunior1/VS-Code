@@ -11,3 +11,4 @@
 -- (2,'Pedro'),
 -- (3,'Julia');
 
+-- SELECT * FROM clientes;
