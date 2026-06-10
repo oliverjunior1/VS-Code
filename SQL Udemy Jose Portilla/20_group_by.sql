@@ -19,9 +19,9 @@
  -- GROUP BY staff_id, customer_id
  -- ORDER BY SUM(amount);
 
-SELECT DATE(payment_date), SUM(amount) FROM payment
-GROUP BY DATE(payment_date)
-ORDER BY SUM(amount) DESC;
+-- SELECT DATE(payment_date), SUM(amount) FROM payment
+-- GROUP BY DATE(payment_date)
+-- ORDER BY SUM(amount) DESC;
 
  SELECT DATE(payment_date), SUM(amount) FROM payment
 GROUP BY DATE(payment_date)
