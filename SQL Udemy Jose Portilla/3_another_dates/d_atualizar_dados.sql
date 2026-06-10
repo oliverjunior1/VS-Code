@@ -1,0 +1,1 @@
+UPDATE clientes SET idade = 36 WHERE nome = 'Carlos Souza';
