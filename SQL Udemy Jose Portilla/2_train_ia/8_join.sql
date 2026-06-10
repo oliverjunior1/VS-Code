@@ -36,9 +36,14 @@
 -- INNER JOIN pedidos p
 -- 	ON c.cliente_id = p.cliente_id;
 
-SELECT 
-	c.nome,
-	p.valor
-FROM clientes c
-LEFT JOIN pedidos p
-	ON c.cliente_id = p.cliente_id;
+-- SELECT 
+-- 	c.nome,
+-- 	p.valor
+-- FROM clientes c
+-- LEFT JOIN pedidos p
+-- 	ON c.cliente_id = p.cliente_id;
+
+-- Quando usar Left join?
+-- Clientes sem pedidos
+-- Produtos sem vendas
+-- Funcionários sem avaliações
