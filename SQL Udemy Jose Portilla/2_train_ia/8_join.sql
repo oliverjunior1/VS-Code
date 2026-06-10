@@ -50,9 +50,14 @@
 
 -- Encontrando Clientes Sem Compras
 
-SELECT *
-FROM clientes c
-LEFT JOIN pedidos p
-	ON c.cliente_id = p.cliente_id
-WHERE p.cliente_id IS NULL;
+-- SELECT *
+-- FROM clientes c
+-- LEFT JOIN pedidos p
+-- 	ON c.cliente_id = p.cliente_id
+-- WHERE p.cliente_id IS NULL;
+
+-- JOIN + GROUP BY
+-- Muito comum.
+-- Total gasto por cliente:
+
 
