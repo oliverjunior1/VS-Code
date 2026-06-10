@@ -21,8 +21,10 @@
 -- );
 
 -- Inserir os registros
-INSERT INTO pedidos (pedido_id, cliente_id, valor)
-VALUES
-(101,1,100.00),
-(102,1,200.00),
-(103,2,300.00);
+-- INSERT INTO pedidos (pedido_id, cliente_id, valor)
+-- VALUES
+-- (101,1,100.00),
+-- (102,1,200.00),
+-- (103,2,300.00);
+
+SELECT * FROM pedidos;
