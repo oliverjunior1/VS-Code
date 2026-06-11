@@ -60,10 +60,19 @@
 -- Muito comum.
 -- Total gasto por cliente:
 
-SELECT
+-- SELECT
+-- 	c.nome,
+-- 	SUM(p.valor) AS total_gasto
+-- FROM clientes c
+-- INNER JOIN pedidos p
+-- 	ON c.cliente_id = p.cliente_id
+-- GROUP BY c.nome;
+
+SELECT 
 	c.nome,
-	SUM(p.valor) AS total_gasto
+	SUM(p.valor) AS total
 FROM clientes c
-INNER JOIN pedidos p
+JOIN pedidos p
 	ON c.cliente_id = p.cliente_id
-GROUP BY c.nome;
+GROUP BY c.nome
+HAVING SUM(p.valor) > 250;
