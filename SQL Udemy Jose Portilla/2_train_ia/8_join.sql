@@ -89,3 +89,19 @@ JOIN itens_pedido i
     ON p.produto_id = i.produto_id
 GROUP BY p.nome_produto
 ORDER BY total DESC;
+
+-- Múltiplos JOINs
+SELECT
+    c.nome,
+    p.pedido_id,
+    pr.nome_produto
+FROM clientes c
+
+JOIN pedidos p
+    ON c.cliente_id = p.cliente_id
+
+JOIN itens_pedido i
+    ON p.pedido_id = i.pedido_id
+
+JOIN produtos pr
+    ON i.produto_id = pr.produto_id;
