@@ -14,3 +14,5 @@
 -- (3,'Carla', 29, 'São Paulo',5),
 -- (4,'Diego', 41, 'Recife',2),
 -- (5,'Eva', 30, 'Curitiba',10);
+
+-- SELECT * FROM clientes;
