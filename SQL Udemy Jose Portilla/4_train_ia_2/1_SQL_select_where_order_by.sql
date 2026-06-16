@@ -35,6 +35,8 @@
 -- SELECT AVG(compras) AS media_compras FROM clientes;
 
 -- Agrupa clientes por cidade
+-- AS: dá nome a uma coluna
+-- GROUP BY: agrupa a quantidade de iguais no mesmo grupo.
 SELECT cidade, COUNT(*) AS total
 FROM clientes
 GROUP BY cidade;
