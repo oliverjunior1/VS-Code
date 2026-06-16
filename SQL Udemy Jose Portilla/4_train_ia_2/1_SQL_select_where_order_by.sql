@@ -32,6 +32,8 @@
 -- SELECT COUNT(nome) FROM clientes;
 
 -- Calcula a média da compras
-SELECT AVG(compras) AS media_compras FROM clientes;
+-- SELECT AVG(compras) AS media_compras FROM clientes;
+
+
 
 
