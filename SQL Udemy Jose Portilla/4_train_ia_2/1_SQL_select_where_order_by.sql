@@ -35,9 +35,8 @@
 -- SELECT AVG(compras) AS media_compras FROM clientes;
 
 -- Agrupa clientes por cidade
-SELECT cidade, COUNT(*) AS total
-FROM clientes
-GROUP BY cidade;
+SELECT cidade,COUNT(*) AS total 
+FROM clientes GROUP BY cidade;
 
 
 
