@@ -36,9 +36,7 @@
 
 -- Agrupa clientes por cidade
 
-SELECT cidade, COUNT(*) AS total
-FROM clientes
-GROUP BY cidade;
+
 
 
 
