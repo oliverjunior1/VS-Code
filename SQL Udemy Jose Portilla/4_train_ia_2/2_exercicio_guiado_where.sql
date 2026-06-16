@@ -5,4 +5,6 @@
 -- SELECT nome FROM clientes WHERE compras>=5;
 
 -- Mostrar clientes com idade menor que 30.
-SELECT nome FROM clientes WHERE idade<=30;
+-- SELECT nome FROM clientes WHERE idade<=30;
+
+-- Ordenar clientes por idade, do mais novo para o mais velho.
