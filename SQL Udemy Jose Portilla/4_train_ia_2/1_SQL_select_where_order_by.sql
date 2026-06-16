@@ -16,7 +16,10 @@
 -- (5,'Eva', 30, 'Curitiba',10);
 
 -- Seleciona todas as colunas da tabela clientes
-SELECT *
-FROM clientes;
+-- SELECT *
+-- FROM clientes;
+
+-- Seleciona apenas nome e cidade
+SELECT nome, cidade FROM clientes;
 
 
