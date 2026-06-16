@@ -28,4 +28,7 @@
 -- Mostra clientes ordenados por número de compras, do maior para o menor
 -- SELECT * FROM clientes ORDER BY compras ASC;
 
+-- Conta quantos clientes existem
+SELECT COUNT(nome) FROM clientes;
+
 
