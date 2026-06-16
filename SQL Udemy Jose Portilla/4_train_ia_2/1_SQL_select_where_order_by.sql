@@ -15,4 +15,8 @@
 -- (4,'Diego', 41, 'Recife',2),
 -- (5,'Eva', 30, 'Curitiba',10);
 
--- SELECT * FROM clientes;
+-- Seleciona todas as colunas da tabela clientes
+SELECT *
+FROM clientes;
+
+
