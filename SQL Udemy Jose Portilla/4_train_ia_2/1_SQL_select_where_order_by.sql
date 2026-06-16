@@ -29,6 +29,9 @@
 -- SELECT * FROM clientes ORDER BY compras ASC;
 
 -- Conta quantos clientes existem
-SELECT COUNT(nome) FROM clientes;
+-- SELECT COUNT(nome) FROM clientes;
+
+-- Calcula a média da compras
+SELECT AVG(compras) AS media_compras FROM clientes;
 
 
