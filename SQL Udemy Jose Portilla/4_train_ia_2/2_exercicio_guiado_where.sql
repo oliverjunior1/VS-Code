@@ -8,3 +8,4 @@
 -- SELECT nome FROM clientes WHERE idade<=30;
 
 -- Ordenar clientes por idade, do mais novo para o mais velho.
+SELECT nome, idade FROM clientes ORDER BY idade ASC;
