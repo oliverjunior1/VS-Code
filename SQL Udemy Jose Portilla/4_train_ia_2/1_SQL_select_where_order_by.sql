@@ -25,6 +25,7 @@
 -- Filtra clientes com idade maior ou igual a 30
 -- SELECT * FROM clientes WHERE idade >= 30;
 
-
+-- Mostra clientes ordenados por número de compras, do maior para o menor
+SELECT * FROM clientes ORDER BY compras ASC;
 
 
