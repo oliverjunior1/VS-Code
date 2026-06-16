@@ -9,3 +9,5 @@
 
 -- Ordenar clientes por idade, do mais novo para o mais velho.
 -- SELECT nome, idade FROM clientes ORDER BY idade ASC;
+
+-- Mostrar a maior quantidade de compras.
