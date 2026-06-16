@@ -23,6 +23,8 @@
 -- SELECT nome, cidade FROM clientes;
 
 -- Filtra clientes com idade maior ou igual a 30
-SELECT * FROM clientes WHERE idade >= 30;
+-- SELECT * FROM clientes WHERE idade >= 30;
+
+
 
 
