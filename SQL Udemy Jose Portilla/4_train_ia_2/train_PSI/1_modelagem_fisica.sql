@@ -50,6 +50,7 @@
 -- INSERT INTO cliente
 -- VALUES (1,'Ana', 'ana@email.com');
 
+-- SELECT serve para selecionar um dataset
 -- SELECT * FROM clientes;
 
 
