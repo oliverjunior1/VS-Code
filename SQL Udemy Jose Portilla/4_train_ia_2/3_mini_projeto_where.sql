@@ -31,4 +31,4 @@
 -- SELECT AVG(preco) FROM produtos;
 
 -- O total vendido por produto, usando preco * quantidade.
-SELECT SUM(preco*quantidade) FROM produtos;
+-- SELECT SUM(preco*quantidade) FROM produtos;
