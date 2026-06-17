@@ -1,6 +1,11 @@
-id,nome,idade,cidade
+cliente_id,nome,idade,cidade
 1,Ana,22,São Paulo
 2,Bruno,35,Rio de Janeiro
 3,Carla,29,São Paulo
 4,Diego,41,Recife
 5,Eva,30,Curitiba
+6,Felipe,35,Brasília
+7,Gabriela,27,Goiânia
+8,Hugo,45,São Paulo
+9,Iris,31,Recife
+10,João,38,Curitiba
