@@ -28,3 +28,4 @@
 -- FROM produtos;
 
 -- A média de preço dos produtos.
+-- SELECT AVG(preco) FROM produtos;
