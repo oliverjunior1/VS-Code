@@ -46,5 +46,7 @@
 --     REFERENCES produto(id_produto)
 -- );
 
-INSERT INTO cliente
-VALUES (1,'Ana', 'ana@email.com');
+-- Inserir dados no dataset
+-- INSERT INTO cliente
+-- VALUES (1,'Ana', 'ana@email.com');
+
