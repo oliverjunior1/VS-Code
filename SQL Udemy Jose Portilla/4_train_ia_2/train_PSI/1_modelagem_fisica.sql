@@ -12,8 +12,14 @@
 --     REFERENCES cliente(id_cliente)
 -- );
 
-CREATE TABLE cliente (
-    id_cliente INT PRIMARY KEY,
+-- CREATE TABLE cliente (
+--     id_cliente INT PRIMARY KEY,
+--     nome VARCHAR(100),
+--     email VARCHAR(100)
+-- );
+
+CREATE TABLE produto (
+    id_produto INT PRIMARY KEY,
     nome VARCHAR(100),
-    email VARCHAR(100)
+    preco DECIMAL(10,2)
 );
