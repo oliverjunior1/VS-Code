@@ -18,3 +18,6 @@
 -- SELECT nome, compras FROM clientes 
 -- WHERE compras = (SELECT MAX(compras) 
 -- FROM clientes);
+
+-- Calcular a média de idade dos clientes.
+SELECT AVG(idade) FROM clientes;
