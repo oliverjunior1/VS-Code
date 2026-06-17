@@ -50,3 +50,5 @@
 -- INSERT INTO cliente
 -- VALUES (1,'Ana', 'ana@email.com');
 
+-- SELECT * FROM clientes;
+
