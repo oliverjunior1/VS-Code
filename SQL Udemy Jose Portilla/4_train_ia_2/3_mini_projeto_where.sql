@@ -24,3 +24,4 @@
 -- MAX(preco) FROM produtos);
 
 -- O total de itens vendidos.
+SELECT SUM(quantidade) FROM produtos;
