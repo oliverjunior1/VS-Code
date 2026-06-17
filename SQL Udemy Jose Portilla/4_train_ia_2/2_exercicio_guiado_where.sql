@@ -15,6 +15,6 @@
 -- FROM clientes GROUP BY nome;
 
 -- Mostrar a maior quantidade de compras com o nome correspondente
-SELECT nome, compras FROM clientes 
-WHERE compras = (SELECT MAX(compras) 
-FROM clientes);
+-- SELECT nome, compras FROM clientes 
+-- WHERE compras = (SELECT MAX(compras) 
+-- FROM clientes);
