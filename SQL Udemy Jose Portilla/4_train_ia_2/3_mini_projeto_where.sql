@@ -15,5 +15,10 @@
 -- (5, 'Monitor', 'Informática', 900.00,1);
 
 -- Todos os produtos da categoria Informática.
-SELECT produto FROM produtos 
-WHERE categoria = 'Informática';
+-- SELECT produto FROM produtos 
+-- WHERE categoria = 'Informática';
+
+-- O produto mais caro.
+SELECT produto, preco AS maior_preco 
+FROM produtos WHERE preco = (SELECT 
+MAX(preco) FROM produtos);
