@@ -13,3 +13,7 @@
 -- (3, 'Caderno', 'Papelaria', 25.00,4),
 -- (4, 'Caneta', 'Papelaria', 5.00,10),
 -- (5, 'Monitor', 'Informática', 900.00,1);
+
+-- Todos os produtos da categoria Informática.
+SELECT produto FROM produtos 
+WHERE categoria = 'Informática';
