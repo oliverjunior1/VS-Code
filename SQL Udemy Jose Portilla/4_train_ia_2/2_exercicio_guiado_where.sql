@@ -14,4 +14,4 @@
 -- SELECT MAX(compras) AS biggest
 -- FROM clientes GROUP BY nome;
 
-SELECT nome, compras FROM clientes WHERE compras = (SELECT MAX(compras) FROM clientes);
+SELECT nome, compras AS maiores_compras FROM clientes WHERE compras = (SELECT MAX(compras) FROM clientes);
