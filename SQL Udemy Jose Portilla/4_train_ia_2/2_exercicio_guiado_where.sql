@@ -11,5 +11,12 @@
 -- SELECT nome, idade FROM clientes ORDER BY idade ASC;
 
 -- Mostrar a maior quantidade de compras.
-SELECT MAX(compras) AS biggest
-FROM clientes GROUP BY nome;
+-- SELECT MAX(compras) AS biggest
+-- FROM clientes GROUP BY nome;
+
+SELECT nome, compras
+FROM clientes
+WHERE compras = (
+    SELECT MAX(compras)
+    FROM clientes
+);
