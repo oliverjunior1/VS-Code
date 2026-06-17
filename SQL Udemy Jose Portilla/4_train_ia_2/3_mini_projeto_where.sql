@@ -22,3 +22,5 @@
 -- SELECT produto, preco AS maior_preco 
 -- FROM produtos WHERE preco = (SELECT 
 -- MAX(preco) FROM produtos);
+
+-- O total de itens vendidos.
