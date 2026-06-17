@@ -32,3 +32,19 @@
 --     REFERENCES cliente(id_cliente)
 -- );
 
+-- CREATE TABLE item_pedido (
+--     id_pedido INT,
+--     id_produto INT,
+--     quantidade INT,
+
+--     PRIMARY KEY(id_pedido, id_produto),
+
+--     FOREIGN KEY(id_pedido)
+--     REFERENCES pedido(id_pedido),
+
+--     FOREIGN KEY(id_produto)
+--     REFERENCES produto(id_produto)
+-- );
+
+INSERT INTO cliente
+VALUES (1,'Ana', 'ana@email.com');
