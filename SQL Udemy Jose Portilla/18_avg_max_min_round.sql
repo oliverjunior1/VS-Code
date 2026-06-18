@@ -7,7 +7,9 @@ SELECT * FROM film;
 
 -- SELECT MIN(replacement_cost), MAX(replacement_cost) FROM film;
 
-SELECT AVG(replacement_cost), SUM(replacement_cost) FROM film;
+-- SELECT AVG(replacement_cost), SUM(replacement_cost) FROM film;
+
+SELECT ROUND(AVG(replacement_cost),2) FROM film;
 
 -- SELECT COUNT(film_id) FROM film;
 
