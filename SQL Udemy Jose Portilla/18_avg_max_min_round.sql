@@ -3,9 +3,11 @@ SELECT * FROM film;
 -- SELECT MIN(replacement_cost) FROM film;
 
 -- Show only one result the max here and the minimun there
-SELECT MAX(replacement_cost) FROM film;
+-- SELECT MAX(replacement_cost) FROM film;
 
-SELECT MIN(replacement_cost), MAX(replacement_cost) FROM film;
+-- SELECT MIN(replacement_cost), MAX(replacement_cost) FROM film;
+
+SELECT AVG(replacement_cost), SUM(replacement_cost) FROM film;
 
 -- SELECT COUNT(film_id) FROM film;
 
