@@ -1,4 +1,4 @@
-SELECT * FROM film;
+-- SELECT * FROM film;
 
 -- SELECT MIN(replacement_cost) FROM film;
 
