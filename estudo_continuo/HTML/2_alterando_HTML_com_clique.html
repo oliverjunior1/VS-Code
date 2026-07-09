@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Interação com Botão</title>
+</head>
+<body>
+  <h1 id="titulo">Olá!</h1>
+
+  <button id="botao">Clique aqui</button>
+
+  <script>
+    const titulo = document.querySelector("#titulo");
+    const botao = document.querySelector("#botao");
+
+    botao.addEventListener("click", function () {
+      titulo.textContent = "Você clicou no botão!";
+    });
+  </script>
+</body>
+</html>
