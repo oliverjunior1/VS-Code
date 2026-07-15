@@ -1,0 +1,18 @@
+/*1. Use an element selector to set all p elements color to dimgray
+  2. Use a class selector to set .highlight background-color to yellow
+  3. Use an id selector to set #intro font-size to 20px */
+h1 {
+    color:brown;
+}
+
+p {
+    color: dimgray;
+}
+
+.highlight {
+    background-color: yellow;
+}
+
+#intro {
+    font-size: 20px;
+}
