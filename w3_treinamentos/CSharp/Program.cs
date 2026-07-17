@@ -42,6 +42,23 @@
 // int age = Convert.ToInt32(Console.ReadLine());
 // Console.WriteLine("Your age is: " + age);
 
-Console.WriteLine("Put your age: ");
-int age = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Your age is: "+ age);
+// Class Members
+
+// using System;
+
+// namespace MyApplication
+// {
+//   class Car 
+//   {
+//     string color = "red";
+//     int maxSpeed = 200;
+
+//     static void Main(string[] args)
+//     {
+//       Car myObj = new Car();
+//       Console.WriteLine(myObj.color);
+//       Console.WriteLine(myObj.maxSpeed);
+//     }
+//   }
+// }
+
