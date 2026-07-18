@@ -77,7 +77,7 @@ namespace MyApplication
             Ford.year = 1969;
 
             Car Opel = new Car();
-            Opel.model = "Mustang";
+            Opel.model = "Astra";
             Opel.color = "White";
             Opel.year = 2005;
 

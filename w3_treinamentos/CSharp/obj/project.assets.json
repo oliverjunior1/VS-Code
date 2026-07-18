@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Olive\\VS Code\\w3_treinamentos\\CSharp\\CSharp copy.csproj",
-      "projectName": "CSharp copy",
-      "projectPath": "C:\\Users\\Olive\\VS Code\\w3_treinamentos\\CSharp\\CSharp copy.csproj",
+      "projectUniqueName": "C:\\Users\\Olive\\VS Code\\w3_treinamentos\\CSharp\\CSharp.csproj",
+      "projectName": "CSharp",
+      "projectPath": "C:\\Users\\Olive\\VS Code\\w3_treinamentos\\CSharp\\CSharp.csproj",
       "packagesPath": "C:\\Users\\Olive\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Olive\\VS Code\\w3_treinamentos\\CSharp\\obj\\",
       "projectStyle": "PackageReference",

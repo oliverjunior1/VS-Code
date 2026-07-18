@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CSharp copy")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+45e3a72b15b3f3fc0f5fbbfe684eb9270161d1ea")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aaee2ce97b6250e9772391facf62adef1fc49079")]
 [assembly: System.Reflection.AssemblyProductAttribute("CSharp copy")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CSharp copy")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
