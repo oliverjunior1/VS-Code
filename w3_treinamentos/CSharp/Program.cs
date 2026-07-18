@@ -62,27 +62,28 @@
 //   }
 // }
 
-using System;
-using System.Runtime.CompilerServices;
+// using System;
+// using System.Runtime.CompilerServices;
 
-namespace MyApplication
-{
-    class Program
-    {
-       static void Main(string[] args)
-        {
-            Car Ford = new Car();
-            Ford.model = "Mustang";
-            Ford.color = "red";
-            Ford.year = 1969;
+// namespace MyApplication
+// {
+//     class Program
+//     {
+//        static void Main(string[] args)
+//         {
+//             Car Ford = new Car();
+//             Ford.model = "Mustang";
+//             Ford.color = "red";
+//             Ford.year = 1969;
 
-            Car Opel = new Car();
-            Opel.model = "Astra";
-            Opel.color = "White";
-            Opel.year = 2005;
+//             Car Opel = new Car();
+//             Opel.model = "Astra";
+//             Opel.color = "White";
+//             Opel.year = 2005;
 
-            Console.WriteLine(Ford.model);
-            Console.WriteLine(Opel.model);
-        } 
-    }
-}
+//             Console.WriteLine(Ford.model);
+//             Console.WriteLine(Opel.model);
+//         } 
+//     }
+// }
+
