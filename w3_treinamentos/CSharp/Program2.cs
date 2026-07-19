@@ -40,6 +40,27 @@
 //     }
 // }
 
+// using System;
+
+// namespace Program2
+// {
+//     class Car
+//     {
+//         public string model;
+    
+//         public Car(string modelName)
+//         {
+//             model = modelName;
+//         }
+//         static void Main(string[] args)
+//         {
+//             Car Ford = new Car("Mustang");
+//             Console.WriteLine(Ford.model);
+//         }
+//     }
+
+// }
+
 using System;
 
 namespace Program2
@@ -47,16 +68,19 @@ namespace Program2
     class Car
     {
         public string model;
-    
-        public Car(string modelName)
+        public string color;
+        public int year;
+
+        public Car(string modelNasme, string modelColor, int modelYear)
         {
-            model = modelName;
+            model = modelNasme;
+            color = modelColor;
+            year = modelYear;
         }
         static void Main(string[] args)
         {
-            Car Ford = new Car("Mustang");
-            Console.WriteLine(Ford.model);
+            Car Ford = new Car("Mustang", "Red", 1969);
+            Console.WriteLine(Ford.color + " " + Ford.year + " " + Ford.model);
         }
     }
-
 }
