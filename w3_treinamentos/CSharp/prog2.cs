@@ -1,6 +1,22 @@
-﻿// using System;
+﻿// // using System;
 
-// namespace MyApplication
+// // namespace MyApplication
+// // {
+// //     class Car
+// //     {
+// //         public string model;
+// //         public string color;
+// //         public int year;
+// //         public void fullThrottle()
+// //         {
+// //             Console.WriteLine("The car is going as fast as it can!");
+// //         }
+// //     }
+// // }
+
+// using System;
+
+// namespace Prog2
 // {
 //     class Car
 //     {
@@ -16,16 +32,10 @@
 
 using System;
 
-namespace Prog2
+namespace prog2
 {
     class Car
     {
-        public string model;
-        public string color;
-        public int year;
-        public void fullThrottle()
-        {
-            Console.WriteLine("The car is going as fast as it can!");
-        }
+        public string model = "Mustang";
     }
 }
