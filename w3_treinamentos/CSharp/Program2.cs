@@ -47,7 +47,7 @@
 //     class Car
 //     {
 //         public string model;
-    
+
 //         public Car(string modelName)
 //         {
 //             model = modelName;
@@ -113,23 +113,38 @@
 
 // Access Modifiers
 
+// using System;
+
+
+
+// namespace Car
+// {
+//     class Car
+//     {
+//         public string model;  // Create a field
+
+//         // Constructor
+//         public Car()
+//         {
+//             model = "Mustang";
+//         }
+
+//         static void Main(string[] args)
+//         {
+//             Car myObj = new Car();
+//             Console.WriteLine(myObj.model);
+//         }
+//     }
+// }
+
 using System;
+using prog2;
 
-
-
-namespace Car
+namespace MyApplication
 {
-    class Car
+    class Program
     {
-        public string model;  // Create a field
-
-        // Constructor
-        public Car()
-        {
-            model = "Mustang";
-        }
-
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             Car myObj = new Car();
             Console.WriteLine(myObj.model);

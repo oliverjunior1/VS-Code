@@ -30,8 +30,6 @@
 //     }
 // }
 
-using System;
-
 namespace prog2
 {
     class Car
