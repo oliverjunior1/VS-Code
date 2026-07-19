@@ -21,6 +21,25 @@
 //   }
 // }
 
+// using System;
+
+// namespace Program2
+// {
+//     class Car
+//     {
+//         public string model;
+//         public Car()
+//         {
+//             model = "Mustang";
+//         }
+//         static void Main(string[] args)
+//         {
+//             Car Ford = new Car();
+//             Console.WriteLine(Ford.model);
+//         }
+//     }
+// }
+
 using System;
 
 namespace Program2
@@ -28,14 +47,16 @@ namespace Program2
     class Car
     {
         public string model;
-        public Car()
+    
+        public Car(string modelName)
         {
-            model = "Mustang";
+            model = modelName;
         }
         static void Main(string[] args)
         {
-            Car Ford = new Car();
+            Car Ford = new Car("Mustang");
             Console.WriteLine(Ford.model);
         }
     }
+
 }
