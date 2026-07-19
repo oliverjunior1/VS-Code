@@ -1,22 +1,41 @@
-﻿using System;
+﻿// using System;
+
+// namespace Program2
+// {
+//   // Create a Car class
+//   class Car
+//   {
+//     public string model;  // Create a field
+
+//     // Create a class constructor for the Car class
+//     public Car()
+//     {
+//       model = "Mustang"; // Set the initial value for model
+//     }
+
+//     static void Main(string[] args)
+//     {
+//       Car Ford = new Car();  // Create an object of the Car Class (this will call the constructor)
+//       Console.WriteLine(Ford.model);  // Print the value of model
+//     }
+//   }
+// }
+
+using System;
 
 namespace Program2
 {
-  // Create a Car class
-  class Car
-  {
-    public string model;  // Create a field
-
-    // Create a class constructor for the Car class
-    public Car()
+    class Car
     {
-      model = "Mustang"; // Set the initial value for model
+        public string model;
+        public Car()
+        {
+            model = "Mustang";
+        }
+        static void Main(string[] args)
+        {
+            Car Ford = new Car();
+            Console.WriteLine(Ford.model);
+        }
     }
-
-    static void Main(string[] args)
-    {
-      Car Ford = new Car();  // Create an object of the Car Class (this will call the constructor)
-      Console.WriteLine(Ford.model);  // Print the value of model
-    }
-  }
 }
