@@ -113,3 +113,26 @@
 
 // Access Modifiers
 
+using System;
+
+
+
+namespace Car
+{
+    class Car
+    {
+        public string model;  // Create a field
+
+        // Constructor
+        public Car()
+        {
+            model = "Mustang";
+        }
+
+        static void Main(string[] args)
+        {
+            Car myObj = new Car();
+            Console.WriteLine(myObj.model);
+        }
+    }
+}
