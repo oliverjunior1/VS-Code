@@ -137,17 +137,33 @@
 //     }
 // }
 
-using System;
-using prog2;
+// using System;
+// using prog2;
 
-namespace MyApplication
+// namespace MyApplication
+// {
+//     class Program
+//     {
+//         public static void Main(string[] args)
+//         {
+//             Car myObj = new Car();
+//             Console.WriteLine(myObj.model);
+//         }
+//     }
+// }
+
+using System;
+using prog2;   // importa o namespace onde Person está
+
+namespace Program2
 {
     class Program
     {
-        public static void Main(string[] args)
+        static void Main(string[] args)
         {
-            Car myObj = new Car();
-            Console.WriteLine(myObj.model);
+            Person myObj = new Person();
+            myObj.Name = "Liam";
+            Console.WriteLine(myObj.Name);
         }
     }
 }

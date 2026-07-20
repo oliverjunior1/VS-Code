@@ -30,10 +30,24 @@
 //     }
 // }
 
+// namespace prog2
+// {
+//     class Car
+//     {
+//         public string model = "Mustang";
+//     }
+// }
+
 namespace prog2
 {
-    class Car
+    class Person
     {
-        public string model = "Mustang";
+        private string name;
+
+        public string Name
+        {
+            get { return name; }
+            set { name = value; }
+        }
     }
 }
