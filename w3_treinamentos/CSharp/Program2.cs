@@ -152,18 +152,18 @@
 //     }
 // }
 
-using System;
-using prog2;   // importa o namespace onde Person está
+// using System;
+// using prog2;   // importa o namespace onde Person está
 
-namespace Program2
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            Person myObj = new Person();
-            myObj.Name = "Liam";
-            Console.WriteLine(myObj.Name);
-        }
-    }
-}
+// namespace Program2
+// {
+//     class Program
+//     {
+//         static void Main(string[] args)
+//         {
+//             Person myObj = new Person();
+//             myObj.Name = "Liam";
+//             Console.WriteLine(myObj.Name);
+//         }
+//     }
+// }

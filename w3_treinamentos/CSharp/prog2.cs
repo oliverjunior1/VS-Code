@@ -38,16 +38,16 @@
 //     }
 // }
 
-namespace prog2
-{
-    class Person
-    {
-        private string name;
+// namespace prog2
+// {
+//     class Person
+//     {
+//         private string name;
 
-        public string Name
-        {
-            get { return name; }
-            set { name = value; }
-        }
-    }
-}
+//         public string Name
+//         {
+//             get { return name; }
+//             set { name = value; }
+//         }
+//     }
+// }
