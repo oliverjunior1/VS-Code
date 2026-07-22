@@ -20,6 +20,6 @@
 // var_dump(NULL);
 
 $x = $y = $z = "Fruit";
-echo $x ."". $y ."". $z ."";
+echo $x ." ". $y ." ". $z ." ";
 ?> 
 
