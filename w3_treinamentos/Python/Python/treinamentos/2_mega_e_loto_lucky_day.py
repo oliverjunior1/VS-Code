@@ -1,24 +1,24 @@
 import random
 
-
 def mega():
     x = sorted(list(random.sample(range(1,61),6)))
     print(x)
+    return x
 
 def facil():
     x = sorted(list(random.sample(range(1,26),15)))
     print(x)
+    return x
 
 def luckday():
-    x = sorted(list(random.sample(range(1,32),7)))
-    month = ['january', 'february', 'march', 'april', 'may', 'june'
-             'july', 'august', 'september', 'october', 'november', 'december']
-    print(x, random.choice(month))
+    x = sorted(list(random.sample(range(1,37),7)))
+    month = random.choice(["jan", 'feb', 'mar', 'apr', 'may', 'jun', 'jul', 'aug', 'sep', 'out', 'nov', 'dec'])
+    print(x, month)
+    return x, month
 
 while True:
-    option = int(input('Put 1 to megasena, 2 to lotofacil, 3 to luckyday and 4 to exit: '))
-
-    match option:
+    answer = int(input("Put 1 for megasena, 2 for lotofacil, 3 for luckday and 4 for close: "))
+    match answer:
         case 1:
             mega()
         case 2:
@@ -27,6 +27,5 @@ while True:
             luckday()
         case 4:
             break
-        case _:
-            print('Invalid number')
+
 
