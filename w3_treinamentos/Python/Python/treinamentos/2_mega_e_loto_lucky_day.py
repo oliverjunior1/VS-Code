@@ -1,31 +1,22 @@
 import random
-
 def mega():
-    x = sorted(list(random.sample(range(1,61),6)))
-    print(x)
+    x = sorted(list(random.sample(1,61),6))
     return x
+    print(x)
 
 def facil():
-    x = sorted(list(random.sample(range(1,26),15)))
-    print(x)
+    x = sorted(list(random.sample(1,26),15))
     return x
+    print(x)
 
-def luckday():
-    x = sorted(list(random.sample(range(1,37),7)))
-    month = random.choice(["jan", 'feb', 'mar', 'apr', 'may', 'jun', 'jul', 'aug', 'sep', 'out', 'nov', 'dec'])
-    print(x, month)
-    return x, month
+def mega():
+    x = sorted(list(random.sample(1,37),7))
+    y = random.choice(['jan', 'feb','mar', 'apr', 'may', 'jun', 'jul', 'aug', 'sep', 'out', 'nov', 'dec'])
+    return x,y
+    print(x, y)
 
 while True:
-    answer = int(input("Put 1 for megasena, 2 for lotofacil, 3 for luckday and 4 for close: "))
-    match answer:
-        case 1:
-            mega()
-        case 2:
-            facil()
-        case 3:
-            luckday()
-        case 4:
-            break
+    
+
 
 
