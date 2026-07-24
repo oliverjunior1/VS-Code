@@ -26,8 +26,20 @@
 
 // The Else statement
 
-let hour = 23;
-if (hour < 18) {
+// let hour = 23;
+// if (hour < 18) {
+//     greeting = "Good day";
+// }
+// else {
+//     greeting = "Good evening";
+// }
+// alert(greeting)
+
+let time = 10;
+if (time < 10) {
+    greeting = "Good morning";
+}
+else if (time < 20) {
     greeting = "Good day";
 }
 else {
@@ -35,4 +47,3 @@ else {
 }
 
 alert(greeting)
-
