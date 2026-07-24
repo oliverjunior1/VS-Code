@@ -12,16 +12,27 @@
 
 // alert(text)
 
-let age = 16;
-let country = "USA";
-let text = "You can Not drive!d";
+// let age = 16;
+// let country = "USA";
+// let text = "You can Not drive!d";
 
-if (country=="USA") {
-    if (age >= 16) {
-        text = "You can drive";
-    }
+// if (country=="USA") {
+//     if (age >= 16) {
+//         text = "You can drive";
+//     }
+// }
+
+// alert(text)
+
+// The Else statement
+
+let hour = 23;
+if (hour < 18) {
+    greeting = "Good day";
+}
+else {
+    greeting = "Good evening";
 }
 
-alert(text)
-
+alert(greeting)
 
