@@ -107,7 +107,7 @@ namespace MyApplication
         {
             Car myCar = new Car();
             myCar.honk();
-            Console.WriteLine(myCar.brand + "")
+            Console.WriteLine(myCar.brand + "");
         }
     }
 }
