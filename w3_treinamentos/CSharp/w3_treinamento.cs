@@ -16,15 +16,15 @@
 
 using System;
 
-namespace w3_treinamentos
+namespace w3_treinamento
 {
-    class treinamento
+    class Treino
     {
         public static void Main(string[] args)
         {
             Console.WriteLine("Put your age: ");
             int age = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Your age is: " + age);
+            Console.WriteLine("Your age is: " + age);        
         }
     }
 }
