@@ -12,3 +12,4 @@ class App {name = 'Angular 20';}
 bootstrapApplication(App);
 
 
+
