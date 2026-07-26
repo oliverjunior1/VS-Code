@@ -1,6 +1,6 @@
-x = ['name', 'age', 'hobbie']
-y = ['Joaquim', 33, 'play videogames']
+x = ['name', 'age', 'profission']
+y = ['Joaquim', 42, "IT auxiliar"]
 
-my_dict = dict(zip(x,y))
+union_two_text = dict(zip(x, y))
 
-print(my_dict)
+print(union_two_text)
