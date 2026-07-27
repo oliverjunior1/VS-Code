@@ -112,18 +112,3 @@
 //     }
 // }
 
-using System;
-using System.ComponentModel;
-
-namespace Program
-{
-    class UserInput
-    {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Put your age: ");
-            int age = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Your age is: " + age);
-        }
-    }
-}
