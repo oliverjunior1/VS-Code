@@ -9,6 +9,9 @@
 // $x = 5985;
 // var_dump($x);
 
-$x = 10.365;
+// $x = 10.365;
+// var_dump($x);
+
+$x = true;
 var_dump($x);
 ?>
