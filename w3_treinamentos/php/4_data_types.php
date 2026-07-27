@@ -6,6 +6,9 @@
 // $x = 'Hello world!';
 // var_dump($x);
 
-$x = 5985;
+// $x = 5985;
+// var_dump($x);
+
+$x = 10.365;
 var_dump($x);
 ?>
