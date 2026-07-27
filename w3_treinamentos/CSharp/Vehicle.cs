@@ -1,13 +1,13 @@
-﻿using System;
+﻿// using System;
 
-namespace MyApplication
-{
-    class Vehicle
-    {
-        public string brand = "Ford";
-        public void honk()
-        {
-            Console.WriteLine("Tuut, Tuut!");
-        }
-    }
-}
+// namespace MyApplication
+// {
+//     class Vehicle
+//     {
+//         public string brand = "Ford";
+//         public void honk()
+//         {
+//             Console.WriteLine("Tuut, Tuut!");
+//         }
+//     }
+// }
