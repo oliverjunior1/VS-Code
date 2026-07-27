@@ -112,17 +112,3 @@
 //     }
 // }
 
-using System;
-
-namespace Program
-{
-class UserInput
-{
-    static void Main(string[] args)
-    {
-        Console.WriteLine("Put your name: ");
-        string name = Console.ReadLine();
-        Console.WriteLine("Hello " + name);
-    }
-}
-}
