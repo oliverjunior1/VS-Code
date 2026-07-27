@@ -114,8 +114,8 @@
 
 using System;
 
-namespace Program;
-
+namespace Program
+{
 class Main
 {
     static void Main(string[] args)
@@ -124,4 +124,5 @@ class Main
         name = Console.ReadLine();
         Console.WriteLine("Hello " + name);
     }
+}
 }
