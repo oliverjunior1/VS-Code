@@ -111,3 +111,17 @@
 //         }
 //     }
 // }
+
+using System;
+
+namespace Program;
+
+class Main
+{
+    static void Main(string[] args)
+    {
+        Console.WriteLine("Put your name: ");
+        name = Console.ReadLine();
+        Console.WriteLine("Hello " + name);
+    }
+}

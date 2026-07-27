@@ -52,13 +52,13 @@
 //     }
 // }
 
-using System;
+// using System;
 
-namespace MyApplication
-{
-    class Person
-    {
-        public string Name
-        {get; set;}
-    }
-}
+// namespace MyApplication
+// {
+//     class Person
+//     {
+//         public string Name
+//         {get; set;}
+//     }
+// }
