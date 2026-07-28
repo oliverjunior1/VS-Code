@@ -135,8 +135,10 @@ namespace Program
     {
         static void Main(string[] args)
         {
-            string MiNombre = "Denis";
-            Console.WriteLine("Mi nombre es: "+ MiNombre);
+            string nombre = "Joaquim";
+            string apellido = "Rodrigues de Oliveira Junior";
+            string  todoNombre = nombre + apellido;
+            Console.WriteLine(todoNombre.ToUpper());
         }
     }
 }
