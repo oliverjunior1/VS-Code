@@ -112,17 +112,31 @@
 //     }
 // }
 
+// using System;
+
+// namespace Program
+// {
+//     class UserInput
+//     {
+//         static void Main(string[] args)
+//         {
+//             Console.WriteLine("Put your age");
+//             int age = Convert.ToInt32(Console.ReadLine());
+//             Console.WriteLine("Your age is: "+ age);
+//         }
+//     }
+// }
+
 using System;
 
 namespace Program
 {
-    class UserInput
+    class StringTrainer
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Put your age");
-            int age = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Your age is: "+ age);
+            string MiNombre = "Denis";
+            Console.WriteLine("Mi nombre es: "+ MiNombre);
         }
     }
 }
