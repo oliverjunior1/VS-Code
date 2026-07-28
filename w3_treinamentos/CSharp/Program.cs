@@ -139,6 +139,8 @@ namespace Program
             string apellido = "Rodrigues de Oliveira Junior";
             string  todoNombre = nombre + apellido;
             Console.WriteLine(todoNombre.ToUpper());
+            Console.WriteLine(todoNombre.ToLower());
+
         }
     }
 }
