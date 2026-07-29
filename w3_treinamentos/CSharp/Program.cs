@@ -145,6 +145,20 @@
 //     }
 // }
 
+// using System;
+
+// namespace Program
+// {
+//     class StringTrainer
+//     {
+//         static void Main(string[] args)
+//         {
+//             string animal = "el Perro";
+//             Console.WriteLine("Mi animal favorito es " + animal);
+//         }
+//     }
+// }
+
 using System;
 
 namespace Program
@@ -153,8 +167,7 @@ namespace Program
     {
         static void Main(string[] args)
         {
-            string animal = "el Perro";
-            Console.WriteLine("Mi animal favorito es " + animal);
+            
         }
     }
 }
