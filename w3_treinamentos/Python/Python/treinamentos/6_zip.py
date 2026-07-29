@@ -1,6 +1,6 @@
-x = ['Name', 'Age', 'Profission']
-y = ['Joaquim', 42, "Cashier"]
+indice = ['Name', 'Profission', 'Age']
+dates = ["Napoleão", 'Imperator', 35]
 
-sum_x_y = dict(zip(x,y))
+indice_dates = dict(zip(indice, dates))
 
-print(sum_x_y)
+print(indice_dates)
