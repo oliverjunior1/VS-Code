@@ -153,7 +153,8 @@ namespace Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello");
+            string animal = "el Perro";
+            Console.WriteLine("Mi animal favorito es " + animal);
         }
     }
 }
