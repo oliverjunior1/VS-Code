@@ -9,6 +9,9 @@
 -- SELECT COUNT(*)
 -- FROM film;
 
-SELECT AVG(replacement_cost)
+-- SELECT AVG(replacement_cost)
+-- FROM film;
+
+SELECT ROUND(AVG(replacement_cost),2)
 FROM film;
 
