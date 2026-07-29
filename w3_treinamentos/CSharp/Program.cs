@@ -127,6 +127,24 @@
 //     }
 // }
 
+// using System;
+
+// namespace Program
+// {
+//     class StringTrainer
+//     {
+//         static void Main(string[] args)
+//         {
+//             string nombre = "Joaquim";
+//             string apellido = "Rodrigues de Oliveira Junior";
+//             string  todoNombre = nombre + apellido;
+//             Console.WriteLine(todoNombre.ToUpper());
+//             Console.WriteLine(todoNombre.ToLower());
+
+//         }
+//     }
+// }
+
 using System;
 
 namespace Program
@@ -135,12 +153,7 @@ namespace Program
     {
         static void Main(string[] args)
         {
-            string nombre = "Joaquim";
-            string apellido = "Rodrigues de Oliveira Junior";
-            string  todoNombre = nombre + apellido;
-            Console.WriteLine(todoNombre.ToUpper());
-            Console.WriteLine(todoNombre.ToLower());
-
+            Console.WriteLine("Hello");
         }
     }
 }
