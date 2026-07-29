@@ -6,6 +6,9 @@
 
 -- SELECT MAX(replacement_cost), MIN(replacement_cost) FROM film;
 
-SELECT COUNT(*)
+-- SELECT COUNT(*)
+-- FROM film;
+
+SELECT AVG(replacement_cost)
 FROM film;
 
