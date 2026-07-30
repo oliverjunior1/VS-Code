@@ -5,59 +5,65 @@ import tkinter as tk
 janela = tk.Tk()
 
 # Define o título que aparece na barra superior da janela
-janela.title("inicio jornada")
+janela.title("Meu Primeiro App Tkinter")
 
 # Define o tamanho da janela: largura x altura
-janela.geometry('400x250')
+janela.geometry("400x250")
 
 # Define a cor de fundo da janela
-janela.configure(bg='#e8f4ff')
+janela.configure(bg="#e8f4ff")
+
 
 # Esta função será executada quando o botão for clicado
 def iniciar_jornada():
     # Altera o texto do Label depois do clique
-    mensagem.config(text='Você iniciou sua jornada Tkinter!')
+    mensagem.config(text="Você iniciou sua jornada Tkinter!")
 
     # Altera a cor do texto depois do clique
-    mensagem.config(fg='#0b6b3a')
+    mensagem.config(fg="#0b6b3a")
+
 
 # Cria um texto principal dentro da janela
 titulo = tk.Label(
-    janela,
-    text="Treino de tkinter",
-    font=("Arial", 18, "Bold"),
-    bg="#e8f4ff",
-    fg="#1f2937"
+    janela,                         # Diz que o texto pertence à janela principal
+    text="Treino de Tkinter",        # Texto que será exibido
+    font=("Arial", 18, "bold"),      # Fonte, tamanho e estilo
+    bg="#e8f4ff",                    # Cor de fundo igual à janela
+    fg="#1f2937"                     # Cor do texto
 )
 
 # Coloca o título na tela com espaço vertical
 titulo.pack(pady=20)
 
+
 # Cria uma mensagem inicial
 mensagem = tk.Label(
-    janela,
-    text="Clique no botão para começar",
-    font=("Arial",12),
-    bg='#e5f1ff',
-    fg='#374151'
+    janela,                         # O Label pertence à janela
+    text="Clique no botão para começar",  # Texto inicial
+    font=("Arial", 12),             # Fonte e tamanho
+    bg="#e8f4ff",                   # Cor de fundo
+    fg="#374151"                    # Cor do texto
 )
 
 # Coloca a mensagem na tela
 mensagem.pack(pady=10)
 
+
 # Cria um botão
 botao = tk.Button(
-    janela,
-    text='Começar',
-    font=("Arial", 12, "bold"),
-    bg="#2563eb",
-    fg='white',
-    activebackground='white',
-    command=iniciar_jornada
+    janela,                         # O botão pertence à janela
+    text="Começar",                 # Texto que aparece no botão
+    font=("Arial", 12, "bold"),     # Fonte do botão
+    bg="#2563eb",                   # Cor de fundo do botão
+    fg="white",                     # Cor do texto do botão
+    activebackground="#1d4ed8",     # Cor do botão enquanto está sendo clicado
+    activeforeground="white",       # Cor do texto enquanto está sendo clicado
+    command=iniciar_jornada         # Função chamada ao clicar no botão
 )
 
 # Coloca o botão na tela
 botao.pack(pady=20)
+
 
 # Mantém a janela aberta esperando ações do usuário
 janela.mainloop()
