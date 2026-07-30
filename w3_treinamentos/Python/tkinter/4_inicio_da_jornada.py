@@ -5,19 +5,19 @@ import tkinter as tk
 janela = tk.Tk()
 
 # Define o título que aparece na barra superior da janela
-janela.title("Meu Primeiro App Tkinter")
+janela.title("Meu Primeiro App Tkinter, sou Joaquim")
 
 # Define o tamanho da janela: largura x altura
-janela.geometry("400x250")
+janela.geometry("500x300")
 
 # Define a cor de fundo da janela
-janela.configure(bg="#e8f4ff")
+janela.configure(bg="#37648e")
 
 
 # Esta função será executada quando o botão for clicado
 def iniciar_jornada():
     # Altera o texto do Label depois do clique
-    mensagem.config(text="Você iniciou sua jornada Tkinter!")
+    mensagem.config(text="Você iniciou sua jornada Tkinter, Joaquim!")
 
     # Altera a cor do texto depois do clique
     mensagem.config(fg="#0b6b3a")
@@ -52,7 +52,7 @@ mensagem.pack(pady=10)
 # Cria um botão
 botao = tk.Button(
     janela,                         # O botão pertence à janela
-    text="Começar",                 # Texto que aparece no botão
+    text="Vai lá",                 # Texto que aparece no botão
     font=("Arial", 12, "bold"),     # Fonte do botão
     bg="#2563eb",                   # Cor de fundo do botão
     fg="white",                     # Cor do texto do botão
