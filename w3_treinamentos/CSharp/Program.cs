@@ -159,15 +159,3 @@
 //     }
 // }
 
-using System;
-
-namespace Program
-{
-    class StringTrainer
-    {
-        static void Main(string[] args)
-        {
-            
-        }
-    }
-}
