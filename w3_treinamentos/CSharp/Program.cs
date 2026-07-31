@@ -167,10 +167,10 @@ namespace Program
     {
         static void Main(string[] args)
         {
-            Console.BackgroundColor = ConsoleColor.DarkGreen;
-            Console.ForegroundColor = ConsoleColor.White;
-            Console.Clear();
-            Console.WriteLine("I love you Jesus, you're the love of my life!");
+            // Console.BackgroundColor = ConsoleColor.DarkGreen;
+            // Console.ForegroundColor = ConsoleColor.White;
+            // Console.Clear();
+            // Console.WriteLine("I love you Jesus, you're the love of my life!");
 
         }
     }
