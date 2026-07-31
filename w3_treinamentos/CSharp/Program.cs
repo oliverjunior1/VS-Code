@@ -159,3 +159,15 @@
 //     }
 // }
 
+using System;
+
+namespace Program
+{
+    class Train
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("My name is Joaquim!");
+        }
+    }
+}
