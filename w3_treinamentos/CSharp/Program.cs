@@ -159,3 +159,16 @@
 //     }
 // }
 
+using System;
+
+namespace Program
+{
+    class Basic
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Jesus is my life!");
+
+        }
+    }
+}
