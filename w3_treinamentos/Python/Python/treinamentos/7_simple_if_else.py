@@ -1,3 +1,3 @@
 while True:
-    age = int(input("Type you age: "))
-    print("You can drive!") if age > 18 else print("you can't drive!")
+    age = int(input("Put your age: "))
+    print("You can't drive") if age < 18 else print("You can drive, go away!!!")
