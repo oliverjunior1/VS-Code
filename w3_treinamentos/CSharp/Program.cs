@@ -169,6 +169,7 @@ namespace Program
         {
             Console.BackgroundColor = ConsoleColor.DarkGreen;
             Console.ForegroundColor = ConsoleColor.White;
+            Console.Clear();
             Console.WriteLine("I love you Jesus, you're the love of my life!");
 
         }
