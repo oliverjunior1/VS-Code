@@ -167,7 +167,8 @@ namespace Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Jesus is my life!");
+            Console.BackgroundColor = ConsoleColor.DarkGreen;
+            Console.WriteLine("I love you Jesus, you're the love of my life!");
 
         }
     }
