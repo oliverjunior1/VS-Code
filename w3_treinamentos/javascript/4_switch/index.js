@@ -1,4 +1,4 @@
-day = 5
+day = 2
 
 switch(day) {
     case 1:
