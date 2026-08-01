@@ -5,13 +5,13 @@ import tkinter as tk
 app = tk.Tk()
 
 # Define o título da janela
-app.title("Campo de Nome")
+app.title("Troquei o título")
 
 # Define o tamanho da janela
 app.geometry('450x300')
 
 # Define a cor de fundo da janela
-app.configure(bg='#dbeafe')
+app.configure(bg="#e10e51")
 
 # Esta função será chamada quando o botão for clicado
 def mostrar_saudacao():
@@ -24,7 +24,7 @@ def mostrar_saudacao():
         resultado.config(text='Digite seu nome primeiro.')
     else:
         # Mostra uma saudação personalizada usando o nome digitado
-        resultado.config(text=f"Olá, {nome}! Bem-vindo ao Tkinter.")
+        resultado.config(text=f"{nome} está evoluindo no Tkinter.")
 
 
 # Cria o título principal da tela
@@ -64,13 +64,13 @@ campo_nome.pack(pady=10)
 # Cria um botão que chama a função mostrar_saudacao
 botao = tk.Button(
     app,
-    text='Mostrar Saudação',
+    text='Quem está evoluindo em tkinter?',
     font=('Arial', 12, 'bold'),
     bg='#2563eb',
     fg='white',
     activebackground='white',
     command=mostrar_saudacao
-)
+).pack()
 
 # Exibe o botão na janela
 resultado = tk.Label(
@@ -80,6 +80,8 @@ resultado = tk.Label(
     bg='#dbeafe',
     fg='#0f766e'
 )
+
+label2 = tk.Label(app, text="XP da cobrinha: 2/100").pack()
 
 # Exibe o resultado na janela
 resultado.pack(pady=15)
