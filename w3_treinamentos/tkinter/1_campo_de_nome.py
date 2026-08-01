@@ -82,3 +82,7 @@ resultado = tk.Label(
 )
 
 # Exibe o resultado na janela
+resultado.pack(pady=15)
+
+# Mantém a janela aberta
+app.mainloop()
