@@ -17,8 +17,6 @@
 //             Console.WriteLine(numg);
 //             string miString = miDouble.ToString();
 //             Console.WriteLine(miString);
-
-
 //         }
 //     }
 // }
