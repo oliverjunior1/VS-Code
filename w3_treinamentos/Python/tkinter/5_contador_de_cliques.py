@@ -39,7 +39,7 @@ def zerar_contador():
     global contador
 
     # Volta o contador para zero
-    contador = 0
+    contador = 5
 
     # Atualiza o texto do contador na tela
     texto_contador.config(text="Cliques: 0")
