@@ -11,7 +11,7 @@ janela.title("Contador de Cliques de Joaquim")
 janela.geometry("420x300")
 
 # Define a cor de fundo da janela
-janela.configure(bg="#ecfdf5")
+janela.configure(bg="#1fab6a")
 
 # Cria uma variável para guardar a quantidade de cliques
 contador = 0
@@ -53,8 +53,8 @@ titulo = tk.Label(
     janela,
     text="Treino: Contador de Cliques",
     font=("Arial", 18, "bold"),
-    bg="#ecfdf5",
-    fg="#065f46"
+    bg="#081811",
+    fg="#ef3615"
 )
 
 # Coloca o título na janela
@@ -65,7 +65,7 @@ mensagem = tk.Label(
     janela,
     text="Clique no botão para somar pontos.",
     font=("Arial", 12),
-    bg="#ecfdf5",
+    bg="#6416b7",
     fg="#1f2937"
 )
 
