@@ -5,7 +5,7 @@ import tkinter as tk
 janela = tk.Tk()
 
 # Define o título da janela
-janela.title("Contador de Cliques")
+janela.title("Contador de Cliques de Joaquim")
 
 # Define o tamanho da janela
 janela.geometry("420x300")
