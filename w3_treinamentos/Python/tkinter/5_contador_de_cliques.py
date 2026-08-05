@@ -60,6 +60,9 @@ titulo = tk.Label(
 # Coloca o título na janela
 titulo.pack(pady=20)
 
+# Novo label
+Lavel_novo = tk.Label(janela, text="XP da cobrinha: 5/100")
+
 # Cria uma mensagem de orientação
 mensagem = tk.Label(
     janela,
