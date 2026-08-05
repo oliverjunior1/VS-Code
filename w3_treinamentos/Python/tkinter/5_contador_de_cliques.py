@@ -42,7 +42,7 @@ def zerar_contador():
     contador = 5
 
     # Atualiza o texto do contador na tela
-    texto_contador.config(text="Cliques: 0")
+    texto_contador.config(text="Cliques: 5")
 
     # Volta a mensagem inicial
     mensagem.config(text="Clique no botão para somar pontos.")
@@ -61,7 +61,7 @@ titulo = tk.Label(
 titulo.pack(pady=20)
 
 # Novo label
-Lavel_novo = tk.Label(janela, text="XP da cobrinha: 5/100")
+label_novo = tk.Label(janela, text="XP da cobrinha: 5/100")
 
 # Cria uma mensagem de orientação
 mensagem = tk.Label(
