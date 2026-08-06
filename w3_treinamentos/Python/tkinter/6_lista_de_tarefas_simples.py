@@ -5,7 +5,7 @@ import tkinter as tk
 janela = tk.Tk()
 
 # Define o título da janela
-janela.title("Lista de Tarefas")
+janela.title("Lista de Tarefas em tkinter")
 
 # Define o tamanho da janela
 janela.geometry("450x400")
