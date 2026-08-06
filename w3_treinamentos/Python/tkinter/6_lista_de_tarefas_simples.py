@@ -88,7 +88,7 @@ campo_tarefa.pack(pady=10)
 # Cria o botão que adiciona tarefas
 botao_adicionar = tk.Button(
     janela,
-    text="Adicionar tarefa",
+    text="Criar uma tarefa",
     font=("Arial", 11, "bold"),
     bg="#4f46e5",
     fg="white",
