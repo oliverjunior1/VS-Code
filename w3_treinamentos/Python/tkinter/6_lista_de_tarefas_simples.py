@@ -110,6 +110,9 @@ lista_tarefas = tk.Listbox(
 
 # Coloca a lista na janela
 lista_tarefas.pack(pady=10)
+lista_tarefas.insert(tk.END, "Estudar Tkinter")
+lista_tarefas.insert(tk.END, "Praticar Python")
+lista_tarefas.insert(tk.END, "Ganhar XP da cobrinha")
 
 # Cria o botão que remove tarefas
 botao_remover = tk.Button(
