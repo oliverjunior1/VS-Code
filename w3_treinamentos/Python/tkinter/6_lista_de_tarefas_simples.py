@@ -11,7 +11,7 @@ janela.title("Lista de Tarefas em tkinter")
 janela.geometry("450x400")
 
 # Define a cor de fundo da janela
-janela.configure(bg="#eef2ff")
+janela.configure(bg="#2045c0")
 
 
 # Esta função pega o texto digitado e adiciona na lista
