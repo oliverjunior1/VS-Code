@@ -105,7 +105,7 @@ lista_tarefas = tk.Listbox(
     janela,
     font=("Arial", 12),
     width=35,
-    height=8
+    height=8,
 )
 
 # Coloca a lista na janela
