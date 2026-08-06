@@ -114,7 +114,7 @@ lista_tarefas.pack(pady=10)
 # Cria o botão que remove tarefas
 botao_remover = tk.Button(
     janela,
-    text="Remover selecionada",
+    text="Excluir Tarefa Selecionada",
     font=("Arial", 11, "bold"),
     bg="#dc2626",
     fg="white",
