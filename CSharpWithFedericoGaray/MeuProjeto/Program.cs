@@ -52,7 +52,8 @@ namespace Program
         static void Main(string[] args)
         {
             var nombre = "Federico";
-            String.Format("Mi nombre es {0}", nombre);
+            
+            Console.WriteLine(String.Format("Mi nombre es {0}", nombre));
         }
     }
 }
