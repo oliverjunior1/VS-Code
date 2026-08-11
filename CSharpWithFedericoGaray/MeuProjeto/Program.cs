@@ -29,7 +29,12 @@ namespace Program
     {
         static void Main(string[] args)
         {
-            
+            string nombre = "Federico";
+            string apellido = "Garay";
+            string nombreCompleto = string.Concat("", nombre,apellido,"");
+            Console.WriteLine(nombre.Substring(2));
+            Console.WriteLine(nombre.ToLower());
+            Console.WriteLine(nombre.ToUpper());
         }
     }
 }
