@@ -37,6 +37,7 @@ namespace Program
             Console.WriteLine(nombre.ToUpper());
             Console.WriteLine(nombre.IndexOf('e'));
             Console.WriteLine(nombreCompleto.Trim());
+            Console.WriteLine(string.IsNullOrWhiteSpace(nombre));
         }
     }
 }
