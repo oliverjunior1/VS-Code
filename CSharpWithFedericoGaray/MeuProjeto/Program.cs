@@ -21,25 +21,38 @@
 //     }
 // }
 
+// using System;
+
+// namespace Program
+// {
+//     class StringMethods
+//     {
+//         static void Main(string[] args)
+//         {
+//             string nombre = "Federico";
+//             string apellido = "Garay";
+//             string nombreCompleto = string.Concat("", nombre,apellido,"");
+//             Console.WriteLine(nombre.Substring(2));
+//             Console.WriteLine(nombre.ToLower());
+//             Console.WriteLine(nombre.ToUpper());
+//             Console.WriteLine(nombre.IndexOf('e'));
+//             Console.WriteLine(nombreCompleto.Trim());
+//             Console.WriteLine(string.IsNullOrWhiteSpace(nombre));
+
+//         }
+//     }
+// }
+
 using System;
 
 namespace Program
 {
-    class StringMethods
+    class StringFormat
     {
         static void Main(string[] args)
         {
-            string nombre = "Federico";
-            string apellido = "Garay";
-            string nombreCompleto = string.Concat("", nombre,apellido,"");
-            Console.WriteLine(nombre.Substring(2));
-            Console.WriteLine(nombre.ToLower());
-            Console.WriteLine(nombre.ToUpper());
-            Console.WriteLine(nombre.IndexOf('e'));
-            Console.WriteLine(nombreCompleto.Trim());
-            Console.WriteLine(string.IsNullOrWhiteSpace(nombre));
+            var nombre = "Federico";
+            String.Format("Mi nombre es {0}", nombre);
         }
     }
 }
-
-
