@@ -21,4 +21,17 @@
 //     }
 // }
 
+using System;
+
+namespace Program
+{
+    class StringMethods
+    {
+        static void Main(string[] args)
+        {
+            
+        }
+    }
+}
+
 
