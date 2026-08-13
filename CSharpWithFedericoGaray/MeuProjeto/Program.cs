@@ -67,11 +67,9 @@ namespace Program
     {
         static void Main(string[] args)
         {
-            string Name = "Joaquim";
-            Console.WriteLine(Name.ToUpper());
-            Console.WriteLine(Name.ToLower());
-            // Console.WriteLine();
-            // Console.WriteLine();
+            Console.WriteLine("Put your name to receive the bless:  ");
+            string nombre = Console.ReadLine();
+            Console.WriteLine("God bless you in the name of Jesus: " + nombre);
         }
     }
 }
