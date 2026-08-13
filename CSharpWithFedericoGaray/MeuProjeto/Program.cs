@@ -67,7 +67,11 @@ namespace Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Jesus said: I am the light of the world!");
+            string Name = "Joaquim";
+            Console.WriteLine(Name.ToUpper());
+            Console.WriteLine(Name.ToLower());
+            // Console.WriteLine();
+            // Console.WriteLine();
         }
     }
 }
