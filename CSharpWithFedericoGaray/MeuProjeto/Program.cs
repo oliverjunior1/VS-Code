@@ -67,7 +67,7 @@ namespace Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Jesus is the love of my life!");
+            Console.WriteLine("Jesus said: I am the light of the world!");
         }
     }
 }
