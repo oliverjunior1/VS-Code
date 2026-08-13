@@ -59,3 +59,15 @@
 // }
 
 
+using System;
+
+namespace Program
+{
+    class String
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Jesus is the love of my life!");
+        }
+    }
+}
