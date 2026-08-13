@@ -69,7 +69,10 @@ namespace Program
         {
             Console.WriteLine("Put your name to receive the bless:  ");
             string nombre = Console.ReadLine();
-            Console.WriteLine("God bless you in the name of Jesus: " + nombre);
+            Console.WriteLine("God bless you, in the name of Jesus: " + nombre.ToUpper());
+            Console.WriteLine("God bless you, in the name of Jesus: " + nombre.ToLower());
+            Console.WriteLine("God bless you, in the name of Jesus: " + nombre.Trim());
+            Console.WriteLine("God bless you, in the name of Jesus: " + nombre.Substring(0,5));
         }
     }
 }
