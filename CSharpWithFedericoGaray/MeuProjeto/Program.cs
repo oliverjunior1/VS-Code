@@ -59,15 +59,3 @@
 // }
 
 
-using System;
-
-namespace Program
-{
-    class String
-    {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello");
-        }
-    }
-}
