@@ -43,17 +43,19 @@
 //     }
 // }
 
-using System;
+// using System;
 
-namespace Program
-{
-    class StringFormat
-    {
-        static void Main(string[] args)
-        {
-            var nombre = "Federico";
+// namespace Program
+// {
+//     class StringFormat
+//     {
+//         static void Main(string[] args)
+//         {
+//             var nombre = "Federico";
             
-            Console.WriteLine(String.Format("Mi nombre es {0}", nombre));
-        }
-    }
-}
+//             Console.WriteLine(String.Format("Mi nombre es {0}", nombre));
+//         }
+//     }
+// }
+
+
