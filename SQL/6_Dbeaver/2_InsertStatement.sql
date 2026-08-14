@@ -8,3 +8,6 @@ SELECT * FROM Artist WHERE Name = "Nicki Minaj"; --- Appear her name now
 
 SELECT * FROM Artist WHERE Name = 'Cardi B'; --- There's no record
 
+INSERT INTO Artist VALUES ('Cardi B', 277); --- Here give an error
+
+
