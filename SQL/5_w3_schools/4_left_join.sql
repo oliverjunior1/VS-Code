@@ -1,0 +1,11 @@
+-- SELECT Customers.CustomerName, Orders.OrderID
+-- FROM Customers
+-- LEFT JOIN Orders ON Customers.CustomerID = Orders.CustomerID
+-- ORDER BY Customers.CustomerName;
+
+-- SELECT Customers.CustomerName, Orders.OrderID
+-- FROM Customers
+-- LEFT JOIN Orders
+-- ON Customers.CustomerID = Orders.CustomerID
+-- WHERE Orders.CustomerID IS NULL;
+
