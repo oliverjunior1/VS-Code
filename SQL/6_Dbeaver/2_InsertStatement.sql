@@ -12,6 +12,6 @@ INSERT INTO Artist VALUES ('Cardi B', 277); --- Here give an error
 
 INSERT INTO Artist VALUES (277, 'Cardi B'); --- Now it's work, or we need to put it in order!
 
-
+SELECT * FROM Artist WHERE Name = "Nicki Minaj";
 
 
