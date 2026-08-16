@@ -1,5 +1,5 @@
 while True:
-    day = int(input("Put a number to see the day, and 8 to exit: "))
+    day = int(input("Put the number to see the day and 8 to exit: "))
     match day:
         case 1:
             print("Sunday")
@@ -26,5 +26,5 @@ while True:
             break
         
         case _:
-            print("Invalid number!")
+            print("Wrong date, put from 1 to 7 to see the day!")
         
