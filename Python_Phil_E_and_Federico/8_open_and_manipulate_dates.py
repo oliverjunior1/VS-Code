@@ -8,5 +8,8 @@ Note: assume that the file is saved in the same folder where your code is locate
 
 # print(x.readlines())
 
-with open("Python_Phil_E_and_Federico\\my_text.txt", 'r') as f:
-    print(f.readlines())
+# with open("Python_Phil_E_and_Federico\\my_text.txt", 'r') as f:
+#     print(f.readlines())
+
+with open("C:\\Users\\Olive\\VS Code\\Python_Phil_E_and_Federico\\test.txt") as x:
+    print(x.readlines())
