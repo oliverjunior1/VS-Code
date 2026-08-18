@@ -88,10 +88,23 @@ Store in the base_path variable, a Path object that points to the user's base di
 
 Remember to import Path from the pathlib module, and use the home() method"""
 
-from pathlib import Path
+# from pathlib import Path
 
-# cria um objeto Path que aponta para o diretório base do usuário
-base_path = Path.home()
+# # cria um objeto Path que aponta para o diretório base do usuário
+# base_path = Path.home()
 
-print(base_path)
+# print(base_path)
+
+
+'''Path Practice #2
+Implement and create a relative path that allows us to reach the file path_practice.py from the following folder structure:
+Store that directory in the my_path variable. Don't forget to import Path.'''
+# from pathlib import Path
+
+# # Supondo que você esteja dentro da pasta "exercises"
+# # e o arquivo path_practice.py esteja em uma subpasta chamada "practice"
+# my_path = Path("practice/path_practice.py")
+
+# print(my_path)
+
 
