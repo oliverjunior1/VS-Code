@@ -108,3 +108,11 @@ Store that directory in the my_path variable. Don't forget to import Path.'''
 # print(my_path)
 
 
+################################Clean_console########################################
+
+name = input('Tell me your name: ')
+age = input("Tell me your age: ")
+
+print(f"Your name is {name}, and you are {age} years old")
+
+
