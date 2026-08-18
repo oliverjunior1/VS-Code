@@ -32,10 +32,12 @@ Note: assume that the file is saved in the same folder where your code is locate
 # print(my_file.read())
 
 
-from pathlib import Path
+# from pathlib import Path
 
-folder = Path('Python_Phil_E_and_Federico') / 'my_text.txt'
+# folder = Path('Python_Phil_E_and_Federico') / 'my_text.txt'
 
-my_file = open(folder)
-print(my_file.read())
-#################################
+# my_file = open(folder)
+# print(my_file.read())
+
+#################################Pathlib####################################
+
