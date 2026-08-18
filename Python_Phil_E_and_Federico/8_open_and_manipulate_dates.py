@@ -71,12 +71,27 @@ Note: assume that the file is saved in the same folder where your code is locate
 #     print(txt)
 
 
+# from pathlib import Path
+
+# guide = Path('Europe', 'France', 'Paris', 'Eiffel_tower.txt')
+
+# in_europe = guide.relative_to(Path('Europe'))
+# in_france = guide.relative_to(Path('Europe', 'France'))
+
+# print(in_europe)
+# print(in_france)
+
+
+##################################Exercises#####################################
+"""Path Practice #1
+Store in the base_path variable, a Path object that points to the user's base directory.
+
+Remember to import Path from the pathlib module, and use the home() method"""
+
 from pathlib import Path
 
-guide = Path('Europe', 'France', 'Paris', 'Eiffel_tower.txt')
+# cria um objeto Path que aponta para o diretório base do usuário
+base_path = Path.home()
 
-in_europe = guide.relative_to(Path('Europe'))
-in_france = guide.relative_to(Path('Europe', 'France'))
+print(base_path)
 
-print(in_europe)
-print(in_france)
