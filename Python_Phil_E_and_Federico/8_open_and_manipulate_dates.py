@@ -13,11 +13,29 @@ Note: assume that the file is saved in the same folder where your code is locate
 
 # with open("test.txt") as x:
 #     print(x.readline())
+#################################diretório_direcionado############################################
+# import os
 
-import os
+# path = os.chdir("C:\\Users\\Olive\\VS Code\\Python_Phil_E_and_Federico")
 
-path = os.chdir("C:\\Users\\Olive\\VS Code\\Python_Phil_E_and_Federico")
+# file = open('my_text.txt')
 
-file = open('my_text.txt')
+# print(file.read())
 
-print(file.read())
+
+# from pathlib import Path
+
+# folder = Path('Python_Phil_E_and_Federico')
+# file = folder / 'my_text.txt'
+
+# my_file = open(file)
+# print(my_file.read())
+
+
+from pathlib import Path
+
+folder = Path('Python_Phil_E_and_Federico') / 'my_text.txt'
+
+my_file = open(folder)
+print(my_file.read())
+#################################
