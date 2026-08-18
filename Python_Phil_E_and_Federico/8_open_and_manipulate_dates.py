@@ -14,3 +14,10 @@ Note: assume that the file is saved in the same folder where your code is locate
 # with open("test.txt") as x:
 #     print(x.readline())
 
+import os
+
+path = os.chdir("C:\\Users\\Olive\\VS Code\\Python_Phil_E_and_Federico")
+
+file = open('my_text.txt')
+
+print(file.read())
