@@ -56,8 +56,27 @@ Note: assume that the file is saved in the same folder where your code is locate
 # print(guide)
 
 
+# from pathlib import Path
+
+# base = Path.home()
+# guide = Path(base, 'Europe', 'France', Path('Paris', 'Eiffel_tower.txt'))
+# print(guide.parent.parent.parent)
+
+
+# from pathlib import Path
+
+# guide = Path(Path.home(), 'Europe')
+
+# for txt in Path(guide).glob('**/*.txt'):
+#     print(txt)
+
+
 from pathlib import Path
 
-base = Path.home()
-guide = Path(base, 'Europe', 'France', Path('Paris', 'Eiffel_tower.txt'))
-print(guide.parent.parent.parent)
+guide = Path('Europe', 'France', 'Paris', 'Eiffel_tower.txt')
+
+in_europe = guide.relative_to(Path('Europe'))
+in_france = guide.relative_to(Path('Europe', 'France'))
+
+print(in_europe)
+print(in_france)
