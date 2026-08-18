@@ -41,3 +41,8 @@ Note: assume that the file is saved in the same folder where your code is locate
 
 #################################Pathlib####################################
 
+from pathlib import Path
+
+folder = Path("C:\\Users\\Olive\\VS Code\\Python_Phil_E_and_Federico\\test.txt")
+
+print(folder.read_text())
