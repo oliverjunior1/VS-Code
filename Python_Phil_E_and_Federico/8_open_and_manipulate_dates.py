@@ -45,4 +45,8 @@ from pathlib import Path
 
 folder = Path("C:\\Users\\Olive\\VS Code\\Python_Phil_E_and_Federico\\test.txt")
 
-print(folder.read_text())
+# print(folder.read_text())
+print(folder.stem)
+
+
+
