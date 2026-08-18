@@ -50,9 +50,14 @@ Note: assume that the file is saved in the same folder where your code is locate
 
 ####################################Path######################################
 
+# from pathlib import Path
+
+# guide = Path('Paris', 'Eiffel_tower.txt')
+# print(guide)
+
+
 from pathlib import Path
 
-guide = Path('Paris', 'Eiffel_tower.txt')
-print(guide)
-
-
+base = Path.home()
+guide = Path(base, 'Europe', 'France', Path('Paris', 'Eiffel_tower.txt'))
+print(guide.parent.parent.parent)
