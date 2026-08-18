@@ -109,10 +109,15 @@ Store that directory in the my_path variable. Don't forget to import Path.'''
 
 
 ################################Clean_console########################################
+# from os import system
+# name = input('Tell me your name: ')
+# age = input("Tell me your age: ")
 
-name = input('Tell me your name: ')
-age = input("Tell me your age: ")
+# system('cls')
 
-print(f"Your name is {name}, and you are {age} years old")
+# print(f"Your name is {name}, and you are {age} years old")
+
+####################################files_and_functions###############################
+
 
 
