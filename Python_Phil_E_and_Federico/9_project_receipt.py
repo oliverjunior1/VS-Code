@@ -4,7 +4,7 @@ while True:
     option_country = int(input("Type 1 to brazilian food, 2 to italian food, 3 to spanish food and 4 to exit: "))
     match option_country:
         case 1:
-            option_food = int(input("Put 1 to feijoada, 2 to moqueca capixaba and 3 to pão de queijo: "))
+            option_food = int(input("Put 1 to feijoada, 2 to moqueca capixaba and 3 to pão de queijo and 4 to exit: "))
             match option_food:
                 case 1:
                     x = open("C:\\Users\\Olive\\OneDrive\\Área de Trabalho\\Receita\\Comida Brasileira\\Feijoada.txt")
@@ -36,7 +36,7 @@ while True:
 
         
         case 3:
-            option_food = int(input("Put 1 to feijoada, 2 to moqueca capixaba and 3 to pão de queijo: "))
+            option_food = int(input("Put 1 to feijoada, 2 to moqueca capixaba and 3 to pão de queijo and 4 to exit: "))
             match option_food:
                 case 1:
                     x = open("C:\\Users\\Olive\\OneDrive\\Área de Trabalho\\Receita\\Comida Espanhola\\CHURROS COM CHOCOLATE.txt")
