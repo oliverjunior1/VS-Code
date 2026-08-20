@@ -24,12 +24,13 @@ while True:
             match option_food:
                 case 1:
                     x = open("C:\\Users\\Olive\\OneDrive\\Área de Trabalho\\Receita\\Comida Italiana\\LASAGNA ALLA BOLOGNESE.txt")
-                    print(x)
+                    print(x.read())
                 case 2:
                     x = open("C:\\Users\\Olive\\OneDrive\\Área de Trabalho\\Receita\\Comida Italiana\\RISOTTO ALLA MILANESE.txt")
-                    print(x)
+                    print(x.read())
                 case 3:
                     x = open("C:\\Users\\Olive\\OneDrive\\Área de Trabalho\\Receita\\Comida Italiana\\TIRAMISU.txt")
+                    print(x.read())
                 case 4:
                     break
 
@@ -39,12 +40,13 @@ while True:
             match option_food:
                 case 1:
                     x = open("C:\\Users\\Olive\\OneDrive\\Área de Trabalho\\Receita\\Comida Espanhola\\CHURROS COM CHOCOLATE.txt")
-                    print(x)
+                    print(x.read())
                 case 2:
                     x = open("C:\\Users\\Olive\\OneDrive\\Área de Trabalho\\Receita\\Comida Espanhola\\PAELLA VALENCIANA.txt")
-                    print(x)
+                    print(x.read())
                 case 3:
                     x = open("C:\\Users\\Olive\\OneDrive\\Área de Trabalho\\Receita\Comida Espanhola\\TORTILLA ESPAÑOLA.txt")
+                    print(x.read())
                 case 4:
                     break
 
