@@ -8,12 +8,13 @@ while True:
             match option_food:
                 case 1:
                     x = open("C:\\Users\\Olive\\OneDrive\\Área de Trabalho\\Receita\\Comida Brasileira\\Feijoada.txt")
-                    print(x)
+                    print(x.read())
                 case 2:
                     x = open("C:\\Users\\Olive\\OneDrive\\Área de Trabalho\\Receita\\Comida Brasileira\\Moqueca capixaba.txt")
-                    print(x)
+                    print(x.read())
                 case 3:
                     x = open("C:\\Users\\Olive\\OneDrive\\Área de Trabalho\\Receita\\Comida Brasileira\\Pão de queijo.txt")
+                    print(x.read())
                 case 4:
                     break
 
