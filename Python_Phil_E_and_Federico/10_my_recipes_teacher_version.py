@@ -2,17 +2,13 @@ import os
 from pathlib import Path
 from os import system
 
+my_path = Path("C:/Users/Olive/OneDrive/Área de Trabalho/Receita")
 
-my_path = Path.home("C:\\Users\\Olive\\OneDrive\\Área de Trabalho\\Receita")
-
-def count_recipes(Path):
+def count_recipes(path: Path):
     counter = 0
-
-    for txt in Path(path).glob("**/*.txt"):
+    for txt in path.glob("**/*.txt"):
         counter += 1
-
     return counter
-
 
 def start():
     system('cls')
@@ -35,6 +31,7 @@ def start():
 
     return menu_choice
 
+menu = int(start())
 
 start()
 
