@@ -33,7 +33,14 @@ def start():
 
 menu = int(start())
 
-start()
+def show_categories(path):
+    print("Categories:")
+    categories_path = Path(path)
+    categories_list = []
+    counter = 1
+
+    for folter in categories_path.iterdir():
+        folder_str = str(folder.name)
 
 
 #show start menu
