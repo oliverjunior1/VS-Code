@@ -47,6 +47,13 @@ def show_categories(path):
 
     return categories_list
 
+def choose_categories(a_list):
+    correct_choice = 'x'
+    while not correct_choice.isnumeric() or int(correct_choice) not in range(1,len(a_list)+1):
+        correct_choice = input('\nChoose a category:')
+
+    return a_list[int(correct_choice) - 1]
+
 
 
 
@@ -56,7 +63,7 @@ menu = 0
 
 if menu == 1:
     my_categories = show_categories(my_path)
-    # choose category
+    my_category = choose_categories(my_categories)
     # show recipes
     # choose recipe
     # read recipe
@@ -65,7 +72,7 @@ if menu == 1:
 
 elif menu == 2:
     my_categories = show_categories(my_path)
-    # choose category
+    my_category = choose_categories(my_categories)
     # cerate new recipe
     # go back to menu
     pass
@@ -77,7 +84,7 @@ elif menu == 3:
 
 elif menu == 4:
     my_categories = show_categories(my_path)
-    # choose category
+    my_category = choose_categories(my_categories)
     # show recipes
     # choose recipe
     # eliminate recipe
@@ -86,7 +93,7 @@ elif menu == 4:
 
 elif menu == 5:
     my_categories = show_categories(my_path)
-    # choose category
+    my_category = choose_categories(my_categories)
     # eliminate category
     # go back to menu
     pass
