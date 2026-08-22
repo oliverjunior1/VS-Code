@@ -1,3 +1,9 @@
+import os
+from pathlib import Path
+from os import system
+
+
+
 #show start menu
 
 menu = 0
