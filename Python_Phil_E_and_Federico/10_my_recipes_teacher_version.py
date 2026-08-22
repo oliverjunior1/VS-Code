@@ -18,6 +18,8 @@ def start():
     system('cls')
     print('*'*50 + "Welcome to the recipe administrator")
     print('*'*50)
+    print(f"The recipes are in {my_path}")
+    print(f'Total recipes: {count_recipes(my_path)}')
 
 start()
 
