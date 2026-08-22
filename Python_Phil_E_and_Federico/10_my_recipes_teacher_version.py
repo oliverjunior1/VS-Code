@@ -3,6 +3,24 @@ from pathlib import Path
 from os import system
 
 
+my_path = Path.home("C:\\Users\\Olive\\OneDrive\\Área de Trabalho\\Receita")
+
+def count_recipes(Path):
+    counter = 0
+
+    for txt in Path(path).glob("**/*.txt"):
+        counter += 1
+
+    return counter
+
+
+def start():
+    system('cls')
+    print('*'*50 + "Welcome to the recipe administrator")
+    print('*'*50)
+
+start()
+
 
 #show start menu
 
