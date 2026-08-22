@@ -21,6 +21,21 @@ def start():
     print(f"The recipes are in {my_path}")
     print(f'Total recipes: {count_recipes(my_path)}')
 
+    menu_choice = 'x'
+    while not menu_choice.isnumeric() or int(menu_choice) not in range(1,7):
+        print("Choose an option.")
+        print('''
+        [1] - Read recipe
+        [2] - Create new recipe
+        [3] - Create new category
+        [4] - Eliminate recipe
+        [5] - Eliminate category
+        [6] - Leave the program''')
+        menu_choice = input()
+
+    return menu_choice
+
+
 start()
 
 
