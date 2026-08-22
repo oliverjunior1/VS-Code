@@ -41,6 +41,13 @@ def show_categories(path):
 
     for folter in categories_path.iterdir():
         folder_str = str(folder.name)
+        print(f"{[counter]} - {folder_str}")
+        categories_list(folder)
+        counter += 1
+
+    return categories_list
+
+
 
 
 #show start menu
@@ -48,7 +55,7 @@ def show_categories(path):
 menu = 0
 
 if menu == 1:
-    # show categories
+    my_categories = show_categories(my_path)
     # choose category
     # show recipes
     # choose recipe
@@ -57,7 +64,7 @@ if menu == 1:
     pass
 
 elif menu == 2:
-    # shows categorires
+    my_categories = show_categories(my_path)
     # choose category
     # cerate new recipe
     # go back to menu
@@ -69,7 +76,7 @@ elif menu == 3:
     pass
 
 elif menu == 4:
-    # show categories
+    my_categories = show_categories(my_path)
     # choose category
     # show recipes
     # choose recipe
@@ -78,7 +85,7 @@ elif menu == 4:
     pass
 
 elif menu == 5:
-    # show categories
+    my_categories = show_categories(my_path)
     # choose category
     # eliminate category
     # go back to menu
