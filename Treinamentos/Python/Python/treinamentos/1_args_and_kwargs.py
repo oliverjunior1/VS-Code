@@ -1,4 +1,5 @@
-def args_kwargs(*args, **kwargs):
+def args_and_kwargs(*args, **kwargs):
     print(args, kwargs)
 
-args_kwargs(1,2,3, a=1, b=2)
+args_and_kwargs(1,2,a=1, b=2)
+
