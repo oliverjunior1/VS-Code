@@ -74,6 +74,23 @@ def choose_recipes(a_list):
 
     return a_list[int(recipe_choice)-1]
 
+def read_recipe(recipe):
+    print(Path.read_text(recipe))
+
+def create_recipe(path):
+    exists = False
+
+    while not exists:
+        print('Write the name of your recipe: ')
+        recipe_name = input() + '.txt'
+        print('Write your new recipe: ')
+        recipe_content = input()
+        new_path = Path(path, recipe_name)
+
+        if not os.path.exists(new_path):
+            Path.write_text(new_path, recipe_content)
+            print(f'Your recipe {recipe_name} has been created')
+            exists = True
 
 
 #show start menu
@@ -85,14 +102,14 @@ if menu == 1:
     my_category = choose_categories(my_categories)
     my_recipes = show_recipes(my_category)
     my_recipe = choose_recipes(my_recipes)
-    # read recipe
+    read_recipe(my_recipe)
     # go back to menu
     pass
 
 elif menu == 2:
     my_categories = show_categories(my_path)
     my_category = choose_categories(my_categories)
-    # cerate new recipe
+    create_recipe(my_category)
     # go back to menu
     pass
 
