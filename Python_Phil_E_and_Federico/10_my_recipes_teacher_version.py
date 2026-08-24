@@ -92,6 +92,21 @@ def create_recipe(path):
             print(f'Your recipe {recipe_name} has been created')
             exists = True
 
+def create_category(path):
+    exists = False
+
+    while not exists:
+        print('Write the new category: ')
+        category_name = input()
+        new_path = Path(path, category_name)
+
+        if not os.path.exists(new_path):
+            Path.mkdir(new_path)
+            print(f'Your new category {category_name} has been created')
+            exists = True
+        else:
+            print("Sorry, that category already exists")
+
 
 #show start menu
 
@@ -114,7 +129,7 @@ elif menu == 2:
     pass
 
 elif menu == 3:
-    # create category
+    create_category(my_path)
     # go back to menu
     pass
 
