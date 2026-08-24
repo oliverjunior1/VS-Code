@@ -54,6 +54,25 @@ def choose_categories(a_list):
 
     return a_list[int(correct_choice) - 1]
 
+def show_recipes(path):
+    print("These are the recipes:")
+    recipes_path = Path(path)
+    recipes_list = []
+    counter = 1
+
+    for recipe in recipes_path.glob('*.txt'):
+        recipe_str = str(recipe.name)
+        print(f"[{counter}] - {recipe_str}")
+        recipes_list.append(recipe)
+        counter += 1
+
+def choose_recipes(a_list):
+    recipe_choice = 'x'
+
+    while not recipe_choice.isnumeric or int(recipe_choice) not in range(1, len(a_list) + 1):
+        recipe_choice = input('nChoose a recipe: ')
+
+    return a_list[int(recipe_choice)-1]
 
 
 
@@ -64,8 +83,8 @@ menu = 0
 if menu == 1:
     my_categories = show_categories(my_path)
     my_category = choose_categories(my_categories)
-    # show recipes
-    # choose recipe
+    my_recipes = show_recipes(my_category)
+    my_recipe = choose_recipes(my_recipes)
     # read recipe
     # go back to menu
     pass
@@ -85,8 +104,8 @@ elif menu == 3:
 elif menu == 4:
     my_categories = show_categories(my_path)
     my_category = choose_categories(my_categories)
-    # show recipes
-    # choose recipe
+    my_recipes = show_recipes(my_category)
+    my_recipe = choose_recipes(my_recipes)
     # eliminate recipe
     # go back to menu
     pass
