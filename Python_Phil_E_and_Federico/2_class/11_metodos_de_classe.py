@@ -1,10 +1,9 @@
 class Pessoa:
-    def __init__(self, nome):
-        self.nome = nome
+    especie = "Humano"
 
-    def apresentar(self):
-        return f"Olá, meu nome é {self.nome}" # isso usa o atributo
+    @classmethod
+    def especie_da_classe(cls):
+        return f"Somos da espécie {cls.especie}"
 
-# Exemplo de uso:
-joao = Pessoa("João")
-print(joao.apresentar()) 
+
+print(Pessoa.especie_da_classe())
