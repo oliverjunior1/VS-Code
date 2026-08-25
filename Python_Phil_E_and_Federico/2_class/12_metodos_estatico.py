@@ -1,9 +1,6 @@
-class Pessoa:
-    especie = "Humano"
+class Calculadora:
+    @staticmethod
+    def somar(a, b):
+        return a + b
 
-    @classmethod
-    def especie_da_classe(cls):
-        return f"Somos da espécie {cls.especie}"
-
-
-print(Pessoa.especie_da_classe())
+print(Calculadora.somar(5,3))
