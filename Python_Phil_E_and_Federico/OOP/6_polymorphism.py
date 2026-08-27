@@ -1,6 +1,5 @@
-'''The built-in function in Python len() has a polymorphic behavior, since it calculates 
-the length of an object based on its type (strings, lists, tuples, among others), returning 
-the number of items or characters that make it.
-Create an iterator that iterates through the following objects: word, list, tuple and displays 
-on the screen (using print()) for each of them its length with the len() function.'''
-
+'''Sobrescrita de métodos (Override)
+Imagine uma classe Animal com um método falar().
+A classe Cachorro sobrescreve esse método para retornar "Au au".
+A classe Gato sobrescreve para retornar "Miau".
+Quando você chama falar() em cada objeto, o resultado muda conforme o tipo do animal.'''
