@@ -1,23 +1,12 @@
-'''Sobrescrita de métodos (Override)
-Imagine uma classe Animal com um método falar().
-A classe Cachorro sobrescreve esse método para retornar "Au au".
-A classe Gato sobrescreve para retornar "Miau".
-Quando você chama falar() em cada objeto, o resultado muda conforme o tipo do animal.'''
+'''Sobrecarga de métodos (Overload)
 
-class Animal:
-    def falar():
-        print("O animal fala")
+Em algumas linguagens (como Java ou C++), você pode ter vários métodos com o mesmo nome, mas parâmetros diferentes.
 
+Exemplo: uma função somar() que aceita dois inteiros ou duas strings.'''
 
-class Cachorro(Animal):
-    def falar():
-        print("Au au")
+def somar(a, b):
+    return a + b
 
-class Gato(Animal):
-    def falar():
-        print("Miau")
-
-
-Gato.falar()
-Cachorro.falar()
-Animal.falar()
+print(somar(2,3))
+print(somar(2.5,3.5))
+print(somar("Olá, ", "Mundo"))
