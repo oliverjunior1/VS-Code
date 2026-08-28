@@ -1,16 +1,5 @@
-class Carro:
-    def mover(self):
-        return "O carro está dirigindo"
+'''
+Special Methods Practice #1
+Given the Book class, implement the special method __str__ so that each time the object is printed, 
+it returns '"{title}", from {author}' (note: the title must be enclosed in double quotes).'''
 
-class Barco:
-    def mover(self):
-        return "O barco está navegando"
-
-class Aviao:
-    def mover(self):
-        return "O avião está voando"
-
-veiculos = [Carro(), Barco(), Aviao()]
-
-for v in veiculos:
-    print(v.mover)
