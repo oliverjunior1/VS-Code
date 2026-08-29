@@ -16,4 +16,3 @@ class Book:
 Acts = Book("Paul", "Acts",35)
 
 print(len(Acts))
-print(Acts)
