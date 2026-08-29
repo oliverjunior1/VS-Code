@@ -1,16 +1,19 @@
-'''
-Special Methods Practice #1
-Given the Book class, implement the special method __str__ so that each time the object is printed, 
-it returns '"{title}", from {author}' (note: the title must be enclosed in double quotes).'''
+'''Given the Book class, implement the special method __len__ so that each time the len() 
+function is executed on it, it returns the number of pages as an integer.'''
 
 class Book:
-    def __init__(self, title, author):
-        self.title = title
+    def __init__(self, author, title, pages):
         self.author = author
-        
-    def __str__(self):
-        return f"Title:{self.title}, \nAuthor:{self.author}"
+        self.title = title
+        self.pages = pages
 
-Plato = Book("Allegory of the cave", "Plato")
+    def __len__(self):
+        return self.pages
 
-print(Plato)
+    
+
+
+Acts = Book("Paul", "Acts",35)
+
+print(len(Acts))
+print(Acts)
