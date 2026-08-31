@@ -9,11 +9,15 @@ not be zero"
 In the event that an error does not occur, it should limit itself to printing the result of the quotient (division) between the
 two numbers given as an argument.'''
 try:
-    pass
+    x = int(input("Put the first number: "))
+    y = int(input("Put the second number: "))
+    division = x / y
+    print("Result:", division)
+except ValueError:
+    print("Arguments must be valid integers")
+except ZeroDivisionError:
+    print("Second argument must not be zero")
 
-
-except TypeError:
-    pass
 
 
 
