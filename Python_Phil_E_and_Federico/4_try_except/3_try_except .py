@@ -8,8 +8,10 @@ In case another type of error occurs, display the message: "Unknown error"
 If no error occurs, print to screen: "Opening successfully"
 In all cases, at the end, print: "Ending execution"'''
 
-
-
+try:
+    pass
+except:
+    pass
 
 
 
