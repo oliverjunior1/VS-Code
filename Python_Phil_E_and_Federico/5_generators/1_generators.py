@@ -8,6 +8,7 @@ def infinite_sequence():
         num += 1
         yield num
 
-practice_generation = infinite_sequence()
+practice_generator = infinite_sequence()
 
-print(practice_generation.next)
+
+
