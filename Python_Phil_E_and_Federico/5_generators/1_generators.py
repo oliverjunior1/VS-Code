@@ -10,5 +10,8 @@ def infinite_sequence():
 
 practice_generator = infinite_sequence()
 
-
-
+print(next(practice_generator))
+print(next(practice_generator))
+print(next(practice_generator))
+print(next(practice_generator))
+print(next(practice_generator))
