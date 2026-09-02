@@ -1,10 +1,11 @@
 import tickets
 
+
 def ask():
-    print("Welcome to Python Drugstore")
+    print('Welcome to Python Drugstore')
 
     while True:
-        print('[P] - Perfume\n[M] - Medicine\n[C] - Cosmetics')
+        print('[P} - Perfume\n[M] - Medicine\n[C] - Cosmetics')
         try:
             my_product = input('Choose your product: ').upper()
             ['P', 'M', 'C'].index(my_product)
@@ -15,12 +16,13 @@ def ask():
 
     tickets.decorator((my_product))
 
+
 def start():
 
     while True:
         ask()
         try:
-            another_ticket == input('Do you want another ticket? [Y] [N]').upper()
+            another_ticket = input('Do you want another ticket? [Y] [N]').upper()
             ['Y', 'N'].index(another_ticket)
         except ValueError:
             print('Not a valid option')
@@ -28,5 +30,6 @@ def start():
             if another_ticket == 'N':
                 print('Thanks for visiting our Python Drugstore')
                 break
+
 
 start()
