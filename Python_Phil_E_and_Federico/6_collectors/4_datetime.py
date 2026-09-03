@@ -1,12 +1,2 @@
-'''A double-ended queue or deque is a linear data structure that allows elements to be inserted and deleted at 
-both ends.
-Find out more about it on any documentation site, and then implement a deque from the collections module. 
-The initial elements of the list are provided below.
-["London", "Berlin", "Paris", "Madrid", "Rome", "Moscow"]
-The list must have the ability to incorporate elements from the left, and be named cities_list.'''
+'''Create a date object called february_date that stores February 3, 1999'''
 
-from collections import deque
-
-cities_list = deque(["London", "Berlin", "Paris", "Madrid", "Rome", "Moscow"])
-
-print(cities_list)
