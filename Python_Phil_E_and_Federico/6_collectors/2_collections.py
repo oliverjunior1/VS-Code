@@ -4,3 +4,7 @@ keyword = age
 value = 44
 Use the defaultdict method of the Collections module.'''
 
+from collections import defaultdict
+
+my_dictionary = defaultdict(lambda:"Value not found")
+my_dictionary['age'] = 44
