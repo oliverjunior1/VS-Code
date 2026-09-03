@@ -3,6 +3,6 @@ For example, if it were executed at 20:43:17, the current_minutes variable shoul
 
 from datetime import datetime
 
-current_minutes = datetime.now()
+current_minutes = datetime.now().minute
 
 print(current_minutes)
