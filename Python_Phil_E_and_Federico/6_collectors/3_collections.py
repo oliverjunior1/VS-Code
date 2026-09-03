@@ -4,3 +4,9 @@ Find out more about it on any documentation site, and then implement a deque fro
 The initial elements of the list are provided below.
 ["London", "Berlin", "Paris", "Madrid", "Rome", "Moscow"]
 The list must have the ability to incorporate elements from the left, and be named cities_list.'''
+
+from collections import deque
+
+cities_list = deque(["London", "Berlin", "Paris", "Madrid", "Rome", "Moscow"])
+
+print(cities_list)
