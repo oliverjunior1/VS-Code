@@ -5,9 +5,9 @@ def login_page():
     password = user_password.get()
 
     if user == "admin" and password == '1234':
-        label_message.config(text="Correct password") 
+        label_message.config(text="Login realizado com sucesso!") 
     else:
-        label_message.config(text="Incorrect Password or user") 
+        label_message.config(text="Usuário ou senha incorretos!") 
 
 janela = tk.Tk()
 janela.title("Login screen")
