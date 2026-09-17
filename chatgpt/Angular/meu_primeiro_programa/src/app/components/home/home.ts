@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
   templateUrl: './home.html',
 })
 export class Home {
-  nome: string = "Maria";
-  idade: number = 25;
+  nome: string = "Carlos";
+  idade: number = 35;
+  cidade: string = "Anápolis";
 }
