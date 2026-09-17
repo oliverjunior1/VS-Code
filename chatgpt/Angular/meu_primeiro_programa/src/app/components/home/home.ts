@@ -7,7 +7,10 @@ import { Component } from '@angular/core';
   templateUrl: './home.html',
 })
 export class Home {
-  nome: string = "Carlos";
-  idade: number = 35;
-  cidade: string = "Anápolis";
+mensagem: string = "";
+
+mostrarMensagem() {
+  this.mensagem = "Botão clicado!";
+}
+
 }
