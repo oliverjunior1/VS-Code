@@ -7,10 +7,6 @@ import { Component } from '@angular/core';
   templateUrl: './home.html',
 })
 export class Home {
-mensagem: string = "";
-
-mostrarMensagem() {
-  this.mensagem = "Botão clicado!";
-}
+imagem: string = "foto.jpg";
 
 }
