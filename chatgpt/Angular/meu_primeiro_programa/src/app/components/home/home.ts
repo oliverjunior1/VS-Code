@@ -1,12 +1,10 @@
-import { Component } from '@angular/core';
+export class AppComponent {
 
-@Component({
-  imports: [],
-  selector: 'app-home',
-  styleUrl: './home.css',
-  templateUrl: './home.html',
-})
-export class Home {
-ativo: boolean = true;
+    nome: string = "";
+    mensagem: string = "";
+
+    mostrarMensagem() {
+        this.mensagem = `Olá, ${this.nome}!`;
+    }
 
 }

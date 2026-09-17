@@ -1,5 +1,11 @@
-@if (ativo) {
-    <p>Cliente ativo</p>
-} @else {
-    <p>Cliente inativo</p>
-}
+<h1>Cadastro</h1>
+
+<label>Nome:</label>
+
+<input [(ngModel)]="nome">
+
+<button (click)="mostrarMensagem()">
+    Enviar
+</button>
+
+<p>{{ mensagem }}</p>
