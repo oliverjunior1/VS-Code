@@ -22,5 +22,7 @@ if (idade>=18) {
 console.log(saudacao("Joaquim")) */
 
 //DOM
+let titulo = document.getElementById("titulo")
 
+titulo.textContent = "Olá, Joaquim"
 
