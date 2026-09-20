@@ -21,3 +21,6 @@ if (idade>=18) {
 
 console.log(saudacao("Joaquim")) */
 
+//DOM
+
+
