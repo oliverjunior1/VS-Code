@@ -26,4 +26,5 @@ console.log(saudacao("Joaquim")) */
 
 titulo.textContent = "Olá, Joaquim" */
 
+//exemplo prático 3 - alterando a página
 
