@@ -27,11 +27,13 @@ console.log(saudacao("Joaquim")) */
 titulo.textContent = "Olá, Joaquim" */
 
 //exemplo prático 3 - alterando a página
-const titulo = document.getElementById("titulo");
+/* const titulo = document.getElementById("titulo");
 const botao = document.getElementById("botao");
 
 botao.addEventListener("click", function() {
 
     titulo.textContent = "Título alterado!";
 
-});
+}); */
+
+
