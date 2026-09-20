@@ -37,3 +37,14 @@ botao.addEventListener("click", function() {
 }); */
 
 
+const input = document.getElementById("nome");
+const botao = document.getElementById("botao");
+const resultado = document.getElementById("resultado");
+
+botao.addEventListener("click", function() {
+
+    const nome = input.value;
+
+    resultado.textContent = "Olá, " + nome + "!";
+
+});
