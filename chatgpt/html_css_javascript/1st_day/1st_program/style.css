@@ -13,3 +13,14 @@ p {
 #titulo {
     font-size: 30px;
 }
+
+.card {
+    width: 300px;
+    padding: 20px;
+    border:1px solid black;
+    margin: 20px;
+}
+
+.card h2 {
+    margin-top: 0;
+}
