@@ -206,9 +206,20 @@ for (int i = 1; i <=10; i++)
 Saudacao(); */
 
 // Métodos com parâmetros
-static void Saudacao(string nome)
+/* static void Saudacao(string nome)
 {
     Console.WriteLine("Olá, " + nome);
 }
 
-Saudacao("Joaquim");
+Saudacao("Joaquim"); */
+
+// Método que retorna valor
+/* using System.Runtime.InteropServices;
+
+static void Somar(int a, int b)
+{
+    return a + b;
+}
+
+Somar(50,35); */
+
