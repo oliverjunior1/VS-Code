@@ -231,9 +231,17 @@ Console.WriteLine(nomes[1]); */
 
 // Percorrendo um array
 
-string[] nomes = {"Ana", "João", "Maria", "Pedro"};
+/* string[] nomes = {"Ana", "João", "Maria", "Pedro"};
 
 for (int i =0; i < nomes.Length; i++)
 {
     Console.WriteLine(nomes[i]);
+} */
+
+// foreach
+string[] nomes = {"Ana", "João", "Maria", "Pedro"};
+
+foreach (string nome in nomes)
+{
+    Console.WriteLine(nome);
 }
