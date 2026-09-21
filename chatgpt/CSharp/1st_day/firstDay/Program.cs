@@ -215,12 +215,17 @@ Saudacao("Joaquim"); */
 
 // Método que retorna valor
 
-static int Somar(int a, int b)
+/* static int Somar(int a, int b)
 {
     return a + b;
 }
 
 int resultado = Somar(10,20);
-Console.WriteLine(resultado);
+Console.WriteLine(resultado); */
 
+// Arrays
+
+string[] nomes = {"Ana", "João", "Maria", "Pedro"};
+
+Console.WriteLine(nomes[1]);
 
