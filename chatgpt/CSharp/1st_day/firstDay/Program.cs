@@ -9,3 +9,6 @@ bool ativo = true; //booleano
 /* string nome = "Maria";
 Console.WriteLine(nome); */
 
+// Integer
+int idade = 25;
+Console.WriteLine(idade+1);
