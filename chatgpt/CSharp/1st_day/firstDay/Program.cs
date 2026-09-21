@@ -27,8 +27,16 @@ Console.WriteLine(total); */
 Console.WriteLine(aprovado); */
 
 // Recebendo dados do usuário
-Console.Write("Digite seu nome: ");
+/* Console.Write("Digite seu nome: ");
 
 string nome = Console.ReadLine();
 
-Console.WriteLine("Olá, " + nome);
+Console.WriteLine("Olá, " + nome); */
+
+//Conversao de dados
+
+Console.Write("Digite sua idade: ");
+
+int idade = int.Parse(Console.ReadLine());
+
+Console.WriteLine("Você tem " + idade + " anos.");
