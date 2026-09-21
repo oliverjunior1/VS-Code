@@ -52,7 +52,7 @@ Console.WriteLine(a / b);
 Console.WriteLine(a % b); */
 
 //Calculadora simples
-Console.Write("Digite o primeiro número: ");
+/* Console.Write("Digite o primeiro número: ");
 double numero1 = double.Parse(Console.ReadLine());
 
 Console.Write("Digite o segundo número: ");
@@ -66,4 +66,12 @@ double divisao = numero1 / numero2;
 Console.WriteLine("Soma: " + soma);
 Console.WriteLine("Subtração: " + subtracao);
 Console.WriteLine("Multiplicação: " + multiplicacao);
-Console.WriteLine("Divisão: " + divisao);
+Console.WriteLine("Divisão: " + divisao); */
+
+// Condições
+int idade = 20;
+
+if (idade >=18)
+{
+    Console.WriteLine("Maior de idade");
+}
