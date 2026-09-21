@@ -225,7 +225,15 @@ Console.WriteLine(resultado); */
 
 // Arrays
 
+/* string[] nomes = {"Ana", "João", "Maria", "Pedro"};
+
+Console.WriteLine(nomes[1]); */
+
+// Percorrendo um array
+
 string[] nomes = {"Ana", "João", "Maria", "Pedro"};
 
-Console.WriteLine(nomes[1]);
-
+for (int i =0; i < nomes.Length; i++)
+{
+    Console.WriteLine(nomes[i]);
+}
