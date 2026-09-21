@@ -90,7 +90,7 @@ else
 
 // else if
 
-int nota = 8;
+/* int nota = 8;
 
 if (nota >= 9)
 {
@@ -107,4 +107,13 @@ else if(nota >= 5)
 else
 {
     Console.WriteLine("Reprovado");
+} */
+
+// Operação de comparação
+int idade = 25;
+
+if (idade >= 18)
+{
+    Console.WriteLine("Pode entrar.");
+
 }
