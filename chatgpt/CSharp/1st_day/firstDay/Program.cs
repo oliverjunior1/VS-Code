@@ -5,5 +5,7 @@ double salario = 3500.50; //double
 bool ativo = true; //booleano
  */
 
-string nome = "Maria";
-Console.WriteLine(nome);
+// first exibition
+/* string nome = "Maria";
+Console.WriteLine(nome); */
+
