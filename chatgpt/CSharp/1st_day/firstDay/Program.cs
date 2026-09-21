@@ -110,10 +110,22 @@ else
 } */
 
 // Operação de comparação
-int idade = 25;
+/* int idade = 25;
 
 if (idade >= 18)
 {
     Console.WriteLine("Pode entrar.");
 
+} */
+
+// And - &&
+
+using System.Text.Json;
+
+int idade = 25;
+bool document = true;
+
+if (idade >= 18 && document == true)
+{
+    Console.WriteLine("Entrada permitida.");
 }
