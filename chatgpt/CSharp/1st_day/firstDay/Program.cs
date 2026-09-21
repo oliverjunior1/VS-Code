@@ -13,3 +13,10 @@ Console.WriteLine(nome); */
 /* int idade = 25;
 Console.WriteLine(idade+1); */
 
+//double
+double preco = 49.90;
+int quantidade = 3;
+
+double total = preco * quantidade;
+
+Console.WriteLine(total);
