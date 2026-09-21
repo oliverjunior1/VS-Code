@@ -198,9 +198,17 @@ for (int i = 1; i <=10; i++)
 } */
 
 // Métodos
-static void Saudacao()
+/* static void Saudacao()
 {
     Console.WriteLine("Olá");
 }
 
-Saudacao();
+Saudacao(); */
+
+// Métodos com parâmetros
+static void Saudacao(string nome)
+{
+    Console.WriteLine("Olá, " + nome);
+}
+
+Saudacao("Joaquim");
