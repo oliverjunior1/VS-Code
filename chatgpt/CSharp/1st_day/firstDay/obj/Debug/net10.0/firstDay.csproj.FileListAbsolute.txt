@@ -1,0 +1,15 @@
+C:\Users\Olive\VS Code\chatgpt\CSharp\1st_day\firstDay\bin\Debug\net10.0\firstDay.exe
+C:\Users\Olive\VS Code\chatgpt\CSharp\1st_day\firstDay\bin\Debug\net10.0\firstDay.deps.json
+C:\Users\Olive\VS Code\chatgpt\CSharp\1st_day\firstDay\bin\Debug\net10.0\firstDay.runtimeconfig.json
+C:\Users\Olive\VS Code\chatgpt\CSharp\1st_day\firstDay\bin\Debug\net10.0\firstDay.dll
+C:\Users\Olive\VS Code\chatgpt\CSharp\1st_day\firstDay\bin\Debug\net10.0\firstDay.pdb
+C:\Users\Olive\VS Code\chatgpt\CSharp\1st_day\firstDay\obj\Debug\net10.0\firstDay.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Olive\VS Code\chatgpt\CSharp\1st_day\firstDay\obj\Debug\net10.0\firstDay.AssemblyInfoInputs.cache
+C:\Users\Olive\VS Code\chatgpt\CSharp\1st_day\firstDay\obj\Debug\net10.0\firstDay.AssemblyInfo.cs
+C:\Users\Olive\VS Code\chatgpt\CSharp\1st_day\firstDay\obj\Debug\net10.0\firstDay.csproj.CoreCompileInputs.cache
+C:\Users\Olive\VS Code\chatgpt\CSharp\1st_day\firstDay\obj\Debug\net10.0\firstDay.sourcelink.json
+C:\Users\Olive\VS Code\chatgpt\CSharp\1st_day\firstDay\obj\Debug\net10.0\firstDay.dll
+C:\Users\Olive\VS Code\chatgpt\CSharp\1st_day\firstDay\obj\Debug\net10.0\refint\firstDay.dll
+C:\Users\Olive\VS Code\chatgpt\CSharp\1st_day\firstDay\obj\Debug\net10.0\firstDay.pdb
+C:\Users\Olive\VS Code\chatgpt\CSharp\1st_day\firstDay\obj\Debug\net10.0\firstDay.genruntimeconfig.cache
+C:\Users\Olive\VS Code\chatgpt\CSharp\1st_day\firstDay\obj\Debug\net10.0\ref\firstDay.dll
