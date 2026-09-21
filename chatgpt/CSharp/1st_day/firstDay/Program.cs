@@ -170,7 +170,17 @@ else
 } */
 
 // for
-for (int i = 1; i <= 5; i++)
+/* for (int i = 1; i <= 5; i++)
 {
     Console.WriteLine(i);
+} */
+
+// while
+int contador = 1;
+
+while (contador <= 5)
+{
+    Console.WriteLine(contador);
+
+    contador++;
 }
