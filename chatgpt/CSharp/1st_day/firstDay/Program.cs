@@ -131,10 +131,18 @@ if (idade >= 18 && document == true)
 } */
 
 // Or - ||
-bool administrador = false;
+/* bool administrador = false;
 bool gerente = true;
 
 if (administrador || gerente)
 {
     Console.WriteLine("Acesso permitido.");
+} */
+
+// Not - !
+bool ativo = true;
+
+if (!ativo)
+{
+    Console.WriteLine("Usuário inativo.");
 }
