@@ -77,7 +77,7 @@ if (idade >=18)
 } */
 
 // if else
-int idade = 16;
+/* int idade = 16;
 
 if (idade >=18)
 {
@@ -86,4 +86,25 @@ if (idade >=18)
 else
 {
     Console.WriteLine("Menor de idade");
+} */
+
+// else if
+
+int nota = 8;
+
+if (nota >= 9)
+{
+    Console.WriteLine("Excelente");
+}
+else if(nota >= 7)
+{
+    Console.WriteLine("Aprovado");
+}
+else if(nota >= 5)
+{
+    Console.WriteLine("Recupecação");
+}
+else
+{
+    Console.WriteLine("Reprovado");
 }
