@@ -176,11 +176,23 @@ else
 } */
 
 // while
-int contador = 1;
+/* int contador = 1;
 
 while (contador <= 5)
 {
     Console.WriteLine(contador);
 
     contador++;
+} */
+
+// Exemplo prático
+Console.Write("Digite um número: ");
+
+int numero = int.Parse(Console.ReadLine());
+
+for (int i = 1; i <=10; i++)
+{
+    int resultado = numero * i;
+
+    Console.WriteLine(numero + " x " + i + " = " + resultado);
 }
