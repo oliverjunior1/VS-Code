@@ -21,3 +21,7 @@ double total = preco * quantidade;
 
 Console.WriteLine(total); */
 
+//boolean
+bool aprovado = true;
+
+Console.WriteLine(aprovado);
