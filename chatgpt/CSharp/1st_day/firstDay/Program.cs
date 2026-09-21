@@ -10,5 +10,6 @@ bool ativo = true; //booleano
 Console.WriteLine(nome); */
 
 // Integer
-int idade = 25;
-Console.WriteLine(idade+1);
+/* int idade = 25;
+Console.WriteLine(idade+1); */
+
