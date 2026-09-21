@@ -69,9 +69,21 @@ Console.WriteLine("Multiplicação: " + multiplicacao);
 Console.WriteLine("Divisão: " + divisao); */
 
 // Condições
-int idade = 20;
+/* int idade = 20;
 
 if (idade >=18)
 {
     Console.WriteLine("Maior de idade");
+} */
+
+// if else
+int idade = 16;
+
+if (idade >=18)
+{
+    Console.WriteLine("Maior de idade.");
+}
+else
+{
+    Console.WriteLine("Menor de idade");
 }
