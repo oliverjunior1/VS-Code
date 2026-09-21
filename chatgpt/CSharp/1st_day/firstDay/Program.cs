@@ -214,12 +214,13 @@ Saudacao(); */
 Saudacao("Joaquim"); */
 
 // Método que retorna valor
-/* using System.Runtime.InteropServices;
 
-static void Somar(int a, int b)
+static int Somar(int a, int b)
 {
     return a + b;
 }
 
-Somar(50,35); */
+int resultado = Somar(10,20);
+Console.WriteLine(resultado);
+
 
