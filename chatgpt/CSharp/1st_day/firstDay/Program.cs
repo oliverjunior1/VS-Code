@@ -120,7 +120,7 @@ if (idade >= 18)
 
 // And - &&
 
-using System.Text.Json;
+/* using System.Text.Json;
 
 int idade = 25;
 bool document = true;
@@ -128,4 +128,13 @@ bool document = true;
 if (idade >= 18 && document == true)
 {
     Console.WriteLine("Entrada permitida.");
+} */
+
+// Or - ||
+bool administrador = false;
+bool gerente = true;
+
+if (administrador || gerente)
+{
+    Console.WriteLine("Acesso permitido.");
 }
