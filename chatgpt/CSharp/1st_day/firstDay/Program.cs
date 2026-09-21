@@ -140,9 +140,31 @@ if (administrador || gerente)
 } */
 
 // Not - !
-bool ativo = true;
+/* bool ativo = true;
 
 if (!ativo)
 {
     Console.WriteLine("Usuário inativo.");
+} */
+
+// Sistema de notas
+Console.Write("Digite a nota:");
+
+double nota = double.Parse(Console.ReadLine());
+
+if (nota >= 9)
+{
+    Console.WriteLine("Excelente!");
+}
+else if (nota >= 7)
+{
+    Console.WriteLine("Aprovado!");
+}
+else if (nota >= 5)
+{
+    Console.WriteLine("Recuperação.");
+}
+else
+{
+    Console.WriteLine("Reprovado");
 }
