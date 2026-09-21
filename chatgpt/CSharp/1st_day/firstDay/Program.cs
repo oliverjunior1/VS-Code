@@ -22,6 +22,13 @@ double total = preco * quantidade;
 Console.WriteLine(total); */
 
 //boolean
-bool aprovado = true;
+/* bool aprovado = true;
 
-Console.WriteLine(aprovado);
+Console.WriteLine(aprovado); */
+
+// Recebendo dados do usuário
+Console.Write("Digite seu nome: ");
+
+string nome = Console.ReadLine();
+
+Console.WriteLine("Olá, " + nome);
