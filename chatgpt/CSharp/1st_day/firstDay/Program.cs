@@ -35,8 +35,17 @@ Console.WriteLine("Olá, " + nome); */
 
 //Conversao de dados
 
-Console.Write("Digite sua idade: ");
+/* Console.Write("Digite sua idade: ");
 
 int idade = int.Parse(Console.ReadLine());
 
-Console.WriteLine("Você tem " + idade + " anos.");
+Console.WriteLine("Você tem " + idade + " anos."); */
+
+int a = 10;
+int b = 3;
+
+Console.WriteLine(a + b);
+Console.WriteLine(a - b);
+Console.WriteLine(a * b);
+Console.WriteLine(a / b);
+Console.WriteLine(a % b);
