@@ -148,7 +148,7 @@ if (!ativo)
 } */
 
 // Sistema de notas
-Console.Write("Digite a nota:");
+/* Console.Write("Digite a nota:");
 
 double nota = double.Parse(Console.ReadLine());
 
@@ -167,4 +167,10 @@ else if (nota >= 5)
 else
 {
     Console.WriteLine("Reprovado");
+} */
+
+// for
+for (int i = 1; i <= 5; i++)
+{
+    Console.WriteLine(i);
 }
