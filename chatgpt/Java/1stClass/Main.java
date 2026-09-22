@@ -13,6 +13,10 @@ public class Main {
     System.out.println(salario);
     System.out.println(ativo); */
 
+    //String
+    /* String nome = "Joaquim";
+    System.out.println(nome); */
+
     
     }
 }
