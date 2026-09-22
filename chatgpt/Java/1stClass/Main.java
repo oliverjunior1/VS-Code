@@ -1,5 +1,18 @@
 public class Main {
     public static void main(String[] args) {
-    System.out.println("Thank you my God!");
+    //System.out.println("Thank you my God!");
+
+    //variáveis
+    /* String nome = "Joaquim";
+    int idade = 30;
+    double salario = 4500.50;
+    boolean ativo = true;
+
+    System.out.println(nome);
+    System.out.println(idade);
+    System.out.println(salario);
+    System.out.println(ativo); */
+
+    
     }
 }
