@@ -239,9 +239,34 @@ for (int i =0; i < nomes.Length; i++)
 } */
 
 // foreach
-string[] nomes = {"Ana", "João", "Maria", "Pedro"};
+/* string[] nomes = {"Ana", "João", "Maria", "Pedro"};
 
 foreach (string nome in nomes)
 {
     Console.WriteLine(nome);
+} */
+
+using System;
+
+class Cliente
+{
+    public string Nome;
+    public int Idade;
+}
+
+namespace MyApplication
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Cliente cliente = new Cliente();
+
+            cliente.Nome = "Joaquim";
+            cliente.Idade = 30;
+
+            Console.WriteLine(cliente.Nome);
+            Console.WriteLine(cliente.Idade);
+        }
+    }
 }
