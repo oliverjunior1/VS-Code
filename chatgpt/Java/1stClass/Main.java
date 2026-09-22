@@ -18,10 +18,14 @@ public class Main {
     System.out.println(nome); */
 
     //Concatenar
-    String nome = "Joaquim";
+    /* String nome = "Joaquim";
     int idade = 30;
 
     System.out.println("Nome: " + nome);
-    System.out.println("Idade: " + idade);
+    System.out.println("Idade: " + idade); */
+
+    // int com operações
+    int idade = 28;
+    System.out.println(idade + 1);
     }
 }
