@@ -17,6 +17,11 @@ public class Main {
     /* String nome = "Joaquim";
     System.out.println(nome); */
 
-    
+    //Concatenar
+    String nome = "Joaquim";
+    int idade = 30;
+
+    System.out.println("Nome: " + nome);
+    System.out.println("Idade: " + idade);
     }
 }
