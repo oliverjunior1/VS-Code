@@ -1,1 +1,1 @@
-console.log("Jesus, how I love you!")
+document.getElementById("demo").innerHTML = document.body.innerHTML;
