@@ -25,7 +25,15 @@ public class Main {
     System.out.println("Idade: " + idade); */
 
     // int com operações
-    int idade = 28;
-    System.out.println(idade + 1);
+    /* int idade = 28;
+    System.out.println(idade + 1); */
+
+    //double
+    double preco = 50;
+    int quantidade = 3;
+
+    double total = preco * quantidade;
+
+    System.out.println(total);
     }
 }
