@@ -29,11 +29,22 @@ public class Main {
     System.out.println(idade + 1); */
 
     //double
-    double preco = 50;
+    /* double preco = 50;
     int quantidade = 3;
 
     double total = preco * quantidade;
 
-    System.out.println(total);
+    System.out.println(total); */
+
+    //Exemplo prático 1
+    String nome = "Joaquim";
+    int idade = 35;
+    double salario = 5000;
+    boolean ativo = true;
+
+    System.out.println("Nome: " + nome);
+    System.out.println("Idade: " + idade);
+    System.out.println("Salário: " + salario);
+    System.out.println("Ativo: " + ativo);
     }
 }
