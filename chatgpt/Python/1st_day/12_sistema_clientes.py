@@ -29,3 +29,11 @@ clientes_dicts = [{
     "cidade":"Rio de Janeiro"
 }]
 
+# 1 mostrar todos os clientes
+print(clientes_dicts)
+
+# mostrar apenas maiores de idade
+for chave in clientes_dicts.idade:
+    if chave['idade'] >= 18:
+        print(chave['nome'])
+
