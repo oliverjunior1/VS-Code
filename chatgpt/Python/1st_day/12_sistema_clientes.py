@@ -40,3 +40,12 @@ for cliente in clientes_dicts:
     if cliente["idade"] >= 18:
         print(cliente["nome"])
 
+# 3. Calcular a média salarial
+soma_salarios = 0
+
+for cliente in clientes_dicts:
+    soma_salarios += cliente["salario"]
+
+media = soma_salarios / len(clientes_dicts)
+
+print("Média salarial:", media)
