@@ -39,3 +39,4 @@ for cliente in clientes_dicts:
 for cliente in clientes_dicts:
     if cliente["idade"] >= 18:
         print(cliente["nome"])
+
