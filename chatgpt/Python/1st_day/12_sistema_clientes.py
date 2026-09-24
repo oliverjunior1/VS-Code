@@ -49,3 +49,10 @@ for cliente in clientes_dicts:
 media = soma_salarios / len(clientes_dicts)
 
 print("Média salarial:", media)
+
+# 4. Mostrar quem ganha mais de 5000
+
+for cliente in clientes_dicts:
+    if cliente["salario"] >= 5000:
+        print(cliente["nome"])
+
