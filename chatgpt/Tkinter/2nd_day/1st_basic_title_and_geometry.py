@@ -1,5 +1,8 @@
 import tkinter as tk
 
+def enviar():
+    label1.config(nome.get())
+
 janela = tk.Tk()
 
 janela.title("Sistema")
@@ -7,7 +10,7 @@ janela.geometry("500x500")
 titulo = tk.Label(janela, text="Sistema de Cadastro")
 titulo.pack()
 nome = tk.Entry(janela)
-button = tk.Button(janela, text="Enviar")
+button = tk.Button(janela, text="Enviar", command=enviar)
 nome.pack()
 button.pack()
 texto = nome.get()
