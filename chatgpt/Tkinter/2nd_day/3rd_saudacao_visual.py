@@ -8,6 +8,7 @@ def saudar():
         text=f"Olá, {nome_digitado}!"
     )
 
+
 janela = tk.Tk()
 
 janela.title("Saudação")
@@ -27,7 +28,16 @@ botao = tk.Button(
     janela,
     text="Saudar",
     command=saudar
-    )
+)
 
 botao.pack()
+
+resultado = tk.Label(
+    janela,
+    text=""
+)
+
+resultado.pack()
+
+janela.mainloop()
 
