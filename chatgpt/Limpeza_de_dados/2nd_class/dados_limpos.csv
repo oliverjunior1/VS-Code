@@ -1,0 +1,6 @@
+nome,idade,cidade,salario,idade_valida
+Joao,32.0,Anápolis,4500.0,True
+Maria,60.5,Goiânia,5200.0,True
+Joao,32.0,Anápolis,4500.0,True
+Pedro,,Brasília,,False
+Ana,28.0,Goiânia,,True
