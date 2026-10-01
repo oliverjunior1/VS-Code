@@ -33,3 +33,5 @@ SELECT COUNT(*) as local_clientes FROM clientes;
 SELECT SUM(salario) AS folha_total FROM clientes c;
 
 SELECT AVG(salario) AS salario_medio FROM clientes;
+
+SELECT MIN(salario) as menor_salario FROM clientes;
