@@ -11,3 +11,5 @@ SELECT * FROM clientes WHERE cidade = 'Goiânia';
 SELECT * FROM clientes c WHERE salario > 5000;
 
 SELECT nome, idade FROM clientes WHERE idade>30;
+
+SELECT * FROM clientes c WHERE cidade = 'Goiânia' AND salario > 5000;
