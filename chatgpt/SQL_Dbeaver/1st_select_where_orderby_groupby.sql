@@ -27,3 +27,7 @@ SELECT nome, salario FROM clientes ORDER BY salario DESC;
 SELECT nome, salario FROM clientes c ORDER BY salario DESC LIMIT 3;
 
 SELECT COUNT(*) FROM clientes;
+
+SELECT COUNT(*) as local_clientes FROM clientes;
+
+SELECT SUM(salario) AS folha_total FROM clientes c;
