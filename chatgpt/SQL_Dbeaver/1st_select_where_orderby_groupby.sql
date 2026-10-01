@@ -43,3 +43,6 @@ SELECT COUNT(*) AS quantidade, SUM(salario) AS total, AVG(salario) AS media, MIN
 SELECT cidade, COUNT(*) as quantidade FROM clientes c GROUP BY cidade;
 
 SELECT cidade, AVG(salario) AS salario_medio FROM clientes c GROUP BY cidade;
+
+SELECT cidade, AVG(salario) AS salario_medio FROM clientes GROUP BY cidade HAVING AVG(salario) > 5000;
+
