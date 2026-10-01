@@ -21,3 +21,5 @@ SELECT  * FROM clientes c WHERE cidade IN ('Goiânia', 'Anápolis');
 SELECT * FROM clientes c WHERE c.cidade NOT IN ('Goiânia', 'Anápolis');
 
 SELECT nome, salario FROM clientes c ORDER BY salario;
+
+SELECT nome, salario FROM clientes ORDER BY salario DESC;
