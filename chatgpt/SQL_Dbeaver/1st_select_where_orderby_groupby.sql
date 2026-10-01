@@ -18,3 +18,4 @@ SELECT * FROM clientes c WHERE cidade = 'Goiânia' or c.cidade = 'Anápolis';
 
 SELECT  * FROM clientes c WHERE cidade IN ('Goiânia', 'Anápolis');
 
+SELECT * FROM clientes c WHERE c.cidade NOT IN ('Goiânia', 'Anápolis');
