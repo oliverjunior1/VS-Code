@@ -48,3 +48,5 @@ SELECT cidade, AVG(salario) AS salario_medio FROM clientes GROUP BY cidade HAVIN
 
 SELECT nome AS cliente, salario AS renda FROM clientes;
 
+SELECT * FROM clientes c WHERE nome LIKE 'A%';
+
