@@ -57,3 +57,5 @@ SELECT * FROM produtos p;
 SELECT nome, preco FROM produtos p;
 
 SELECT * FROM produtos p WHERE preco > 500;
+
+SELECT * from produtos p ORDER BY preco DESC;
