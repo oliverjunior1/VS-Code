@@ -46,3 +46,5 @@ SELECT cidade, AVG(salario) AS salario_medio FROM clientes c GROUP BY cidade;
 
 SELECT cidade, AVG(salario) AS salario_medio FROM clientes GROUP BY cidade HAVING AVG(salario) > 5000;
 
+SELECT nome AS cliente, salario AS renda FROM clientes;
+
