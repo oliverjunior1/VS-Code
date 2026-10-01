@@ -54,3 +54,4 @@ SELECT cidade, COUNT(*) as quantidade_clientes, AVG(salario) AS salario_medio FR
 
 SELECT * FROM produtos p;
 
+SELECT nome, preco FROM produtos p;
