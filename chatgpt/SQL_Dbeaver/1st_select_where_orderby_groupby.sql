@@ -23,3 +23,5 @@ SELECT * FROM clientes c WHERE c.cidade NOT IN ('Goiânia', 'Anápolis');
 SELECT nome, salario FROM clientes c ORDER BY salario;
 
 SELECT nome, salario FROM clientes ORDER BY salario DESC;
+
+SELECT nome, salario FROM clientes c ORDER BY salario DESC LIMIT 3;
