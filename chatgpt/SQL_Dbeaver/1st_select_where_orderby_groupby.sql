@@ -50,3 +50,7 @@ SELECT nome AS cliente, salario AS renda FROM clientes;
 
 SELECT * FROM clientes c WHERE nome LIKE 'A%';
 
+SELECT cidade, COUNT(*) as quantidade_clientes, AVG(salario) AS salario_medio FROM clientes c GROUP BY cidade HAVING AVG(salario) > 4000 ORDER BY salario_medio DESC;
+
+SELECT * FROM produtos p;
+
