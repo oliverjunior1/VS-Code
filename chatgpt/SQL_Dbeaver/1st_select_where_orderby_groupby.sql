@@ -41,3 +41,5 @@ SELECT MAX(salario) AS maior_salario FROM clientes c;
 SELECT COUNT(*) AS quantidade, SUM(salario) AS total, AVG(salario) AS media, MIN(salario) AS menor, MAX(salario) as maior from clientes c;
 
 SELECT cidade, COUNT(*) as quantidade FROM clientes c GROUP BY cidade;
+
+SELECT cidade, AVG(salario) AS salario_medio FROM clientes c GROUP BY cidade;
