@@ -65,3 +65,4 @@ SELECT AVG(preco) FROM produtos p;
 -- ou
 SELECT AVG(preco) AS media_de_precos FROM produtos p; 
 
+SELECT * FROM clientes c ORDER BY salario DESC;
