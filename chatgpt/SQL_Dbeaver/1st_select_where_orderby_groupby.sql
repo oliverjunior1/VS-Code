@@ -58,4 +58,10 @@ SELECT nome, preco FROM produtos p;
 
 SELECT * FROM produtos p WHERE preco > 500;
 
-SELECT * from produtos p ORDER BY preco DESC;
+SELECT * FROM produtos p ORDER BY preco DESC;
+
+-- Mostre a média dos salários
+SELECT AVG(preco) FROM produtos p;
+-- ou
+SELECT AVG(preco) AS media_de_precos FROM produtos p; 
+
