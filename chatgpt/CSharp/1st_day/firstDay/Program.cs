@@ -246,7 +246,7 @@ foreach (string nome in nomes)
     Console.WriteLine(nome);
 } */
 
-using System;
+/* using System;
 
 class Cliente
 {
@@ -267,6 +267,27 @@ namespace MyApplication
 
             Console.WriteLine(cliente.Nome);
             Console.WriteLine(cliente.Idade);
+        }
+    }
+} */
+
+
+// if e switch
+
+
+using System;
+
+namespace Myapplication
+{
+    class Program
+    {
+        static void Main(String[] args)
+        {
+            int idade = 20;
+            if (idade >= 18)
+            {
+                Console.WriteLine("You are adult.");
+            }
         }
     }
 }
