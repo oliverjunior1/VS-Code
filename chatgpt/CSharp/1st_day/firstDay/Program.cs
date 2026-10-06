@@ -337,12 +337,42 @@ namespace Myapplication
                 Console.WriteLine("Fora da faixa adulta.");
             } */
             
-            bool estudante = false;
+            // negativa !
+            /* bool estudante = false;
 
             if (!estudante)
             {
                 Console.WriteLine("Não é estudante.");
-            }
+            } */
+
+            // Switch
+            /* int opcao = 2;
+
+            switch (opcao)
+            {
+                case 1:
+                    Console.WriteLine("Cadastrar");
+                    break;
+
+                case 2:
+                    Console.WriteLine("Consultar");
+                    break;
+
+                case 3:
+                    Console.WriteLine("Excluir");
+                    break;
+
+                case 4:
+                    Console.WriteLine("Excluir");
+                    break;
+
+                default:
+                    Console.WriteLine("Opção inválida");
+                    break;
+
+            } */
+
+            
         }
     }
 }
