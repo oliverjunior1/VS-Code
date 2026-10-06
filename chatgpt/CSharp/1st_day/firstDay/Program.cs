@@ -372,7 +372,35 @@ namespace Myapplication
 
             } */
 
-            
+            /* int idade = 20;
+
+            if (idade >= 18)
+            {
+                Console.WriteLine("Maior de idade.");
+            }
+            else
+            {
+                Console.WriteLine("Menor de idade.");
+            } */
+
+            int idade = 35;
+
+            if (idade <= 12 )
+            {
+                Console.WriteLine("Criança");
+            }
+            else if (idade <= 17)
+            {
+                Console.WriteLine("Adolescente");
+            }
+            else if (idade < 59)
+            {
+                Console.WriteLine("Adulto");
+            }
+            else
+            {
+                Console.WriteLine("Idoso");
+            }
         }
     }
 }
