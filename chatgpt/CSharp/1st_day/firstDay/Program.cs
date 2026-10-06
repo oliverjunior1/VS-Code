@@ -290,7 +290,8 @@ namespace Myapplication
                 Console.WriteLine("You are adult.");
             } */
 
-            int idade = 16;
+            // if else
+            /* int idade = 16;
 
             if (idade >= 18)
             {
@@ -299,8 +300,26 @@ namespace Myapplication
             else
             {
                 Console.WriteLine("You can't drive");
-            }
+            } */
 
+            // else if
+            double nota = 8.5;
+
+            if (nota >= 9)
+            {
+                Console.WriteLine("Excelente");
+            }
+            else if (nota >= 7) {
+                Console.WriteLine("Bom");
+            }
+            else if (nota >= 5)
+            {
+                Console.WriteLine("Recuperação");
+            }
+            else
+            {
+                Console.WriteLine("Reprovado");
+            }
             
         }
     }
