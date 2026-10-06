@@ -435,7 +435,34 @@ namespace Myapplication
                 Console.WriteLine("Aluno reprovado.");
             } */
 
-            
+            int opcao = 3;
+
+            switch (opcao)
+            {
+                case 1:
+                    Console.WriteLine("Cadastrar cliente");
+                    break;
+
+                case 2:
+                    Console.WriteLine("Consultar cliente");
+                    break;
+
+                case 3:
+                    Console.WriteLine("Alterar cliente");
+                    break;
+
+                case 4:
+                    Console.WriteLine("Excluir cliente");
+                    break;
+
+                case 5:
+                    Console.WriteLine("Sair");
+                    break;
+
+                default:
+                    Console.WriteLine("Opção inválida.");
+                    break;
+            }
         }
     }
 }
