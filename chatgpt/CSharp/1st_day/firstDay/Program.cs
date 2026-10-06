@@ -303,7 +303,7 @@ namespace Myapplication
             } */
 
             // else if
-            double nota = 8.5;
+            /* double nota = 8.5;
 
             if (nota >= 9)
             {
@@ -319,6 +319,14 @@ namespace Myapplication
             else
             {
                 Console.WriteLine("Reprovado");
+            } */
+
+            // &&
+
+            int idade = 60;
+            if (idade >= 18 && idade <=60)
+            {
+                Console.WriteLine("Adulto.");
             }
             
         }
