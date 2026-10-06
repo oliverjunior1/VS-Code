@@ -402,7 +402,8 @@ namespace Myapplication
                 Console.WriteLine("Idoso");
             } */
 
-            double nota = 8.5;
+            // Example 1
+            /* double nota = 8.5;
 
             if (nota >= 9)
             {
@@ -419,7 +420,22 @@ namespace Myapplication
             else
             {
                 Console.WriteLine("Reprovado.");
+            } */
+
+            // Exercicio notas e frequência
+            /* double nota = 8.0;
+            double frequencia = 80;
+
+            if (nota >= 7 && frequencia >= 75)
+            {
+                Console.WriteLine("Aluno aprovado!");
             }
+            else
+            {
+                Console.WriteLine("Aluno reprovado.");
+            } */
+
+            
         }
     }
 }
