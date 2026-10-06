@@ -435,7 +435,8 @@ namespace Myapplication
                 Console.WriteLine("Aluno reprovado.");
             } */
 
-            int opcao = 3;
+            // opçoes
+            /* int opcao = 3;
 
             switch (opcao)
             {
@@ -462,7 +463,9 @@ namespace Myapplication
                 default:
                     Console.WriteLine("Opção inválida.");
                     break;
-            }
+            } */
+
+            
         }
     }
 }
