@@ -323,10 +323,18 @@ namespace Myapplication
 
             // &&
 
-            int idade = 60;
+            /* int idade = 60;
             if (idade >= 18 && idade <=60)
             {
                 Console.WriteLine("Adulto.");
+            } */
+
+            // ||
+            int idade = 15;
+
+            if (idade <18 || idade > 60)
+            {
+                Console.WriteLine("Fora da faixa adulta.");
             }
             
         }
