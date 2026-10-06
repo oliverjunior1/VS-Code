@@ -283,11 +283,25 @@ namespace Myapplication
     {
         static void Main(String[] args)
         {
-            int idade = 20;
-            if (idade >= 18)
+            //int idade = 20;
+            /*if 
+             if (idade >= 18)
             {
                 Console.WriteLine("You are adult.");
+            } */
+
+            int idade = 16;
+
+            if (idade >= 18)
+            {
+                Console.WriteLine("You can drive.");
             }
+            else
+            {
+                Console.WriteLine("You can't drive");
+            }
+
+            
         }
     }
 }
