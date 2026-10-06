@@ -330,13 +330,19 @@ namespace Myapplication
             } */
 
             // ||
-            int idade = 15;
+            /* int idade = 15;
 
             if (idade <18 || idade > 60)
             {
                 Console.WriteLine("Fora da faixa adulta.");
-            }
+            } */
             
+            bool estudante = false;
+
+            if (!estudante)
+            {
+                Console.WriteLine("Não é estudante.");
+            }
         }
     }
 }
