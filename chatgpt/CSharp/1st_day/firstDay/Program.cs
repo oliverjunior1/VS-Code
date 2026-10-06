@@ -383,7 +383,7 @@ namespace Myapplication
                 Console.WriteLine("Menor de idade.");
             } */
 
-            int idade = 35;
+           /*  int idade = 35;
 
             if (idade <= 12 )
             {
@@ -400,6 +400,25 @@ namespace Myapplication
             else
             {
                 Console.WriteLine("Idoso");
+            } */
+
+            double nota = 8.5;
+
+            if (nota >= 9)
+            {
+                Console.WriteLine("Excelente!");
+            }
+            else if (nota >= 7)
+            {
+                Console.WriteLine("Aprovado");
+            }
+            else if (nota >= 5)
+            {
+                Console.WriteLine("Recuperação.");
+            }
+            else
+            {
+                Console.WriteLine("Reprovado.");
             }
         }
     }
