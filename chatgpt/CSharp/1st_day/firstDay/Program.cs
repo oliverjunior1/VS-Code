@@ -466,7 +466,24 @@ namespace Myapplication
                     break;
             } */
 
-           
+           int idade = 75;
+
+           if (idade >=0 && idade <12)
+            {
+                Console.WriteLine("Criança");
+            }
+            else if (idade >= 13 && idade < 17)
+            {
+                Console.WriteLine("Adolescente");
+            }
+            else if (idade >= 18 && idade < 59)
+            {
+                Console.WriteLine("Adulto");
+            }
+            else
+            {
+                Console.WriteLine("Idoso");
+            }
         }
     }
 }
