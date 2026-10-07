@@ -465,8 +465,13 @@ namespace Myapplication
                     Console.WriteLine("Opção inválida.");
                     break;
             } */
+        
+        // 0-12   → Criança
+        // 13-17  → Adolescente
+        // 18-59  → Adulto
+        // 60+    → Idoso
 
-           int idade = 75;
+           /* int idade = 75;
 
            if (idade >=0 && idade <12)
             {
@@ -483,6 +488,20 @@ namespace Myapplication
             else
             {
                 Console.WriteLine("Idoso");
+            } */
+
+            // nota >= 70
+            // frequência >= 75
+            int nota = 60;
+            int frequencia = 80;
+
+            if (nota >= 7 && frequencia > 75)
+            {
+                Console.WriteLine("Aprovado");
+            }
+            else
+            {
+                Console.WriteLine("Reprovado");
             }
         }
     }
