@@ -1,13 +1,16 @@
-class Book:
-    def __init__(self, title, author, price):
-        self.title = title
-        self.author = author
-        self.price = price
+from models.book import Book
 
-    def display_information(self):
-        print(f"Title: {self.title}")
-        print(f"Author: {self.author}")
-        print(f"Price: ${self.price:.2f}")
+# Create two Book objects
+book1 = Book("Python for Beginners", "Anna Smith", 100.00)
+book2 = Book("Database Fundamentals", "John Brown", 80.00)
 
-    def apply_duscount(self, percentage):
-        self.price -= self.price * percentage / 100
+book1.display_information()
+print()
+
+book2.display_information()
+
+# Apply a discount only to the first book
+book1.apply_duscount(10)
+
+print("\nAfter the discount:")
+book1.display_information()
