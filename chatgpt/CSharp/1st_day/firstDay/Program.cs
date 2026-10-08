@@ -492,7 +492,7 @@ namespace Myapplication
 
             // nota >= 70
             // frequência >= 75
-            int nota = 60;
+            /* int nota = 60;
             int frequencia = 80;
 
             if (nota >= 7 && frequencia > 75)
@@ -502,7 +502,7 @@ namespace Myapplication
             else
             {
                 Console.WriteLine("Reprovado");
-            }
+            } */
         }
     }
 }
