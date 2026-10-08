@@ -1,4 +1,4 @@
-from models.bank_account import BankAccount
+from models.bank_acoount import BankAccount
 
 account1 = BankAccount("Mary", 500.00)
 
