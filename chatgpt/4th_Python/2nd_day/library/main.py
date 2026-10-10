@@ -32,3 +32,13 @@ p1.age = 25
 print(p1.name)
 print(p1.age) """
 
+""" class Person: # Object
+    def __init__(self, name, age): 
+        self.name = name # Method
+        self.age = age
+
+p1 = Person("Linus", 28)
+
+print(p1.name)
+print(p1.age) """
+
