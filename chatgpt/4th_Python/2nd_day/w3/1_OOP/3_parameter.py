@@ -1,6 +1,6 @@
-class Person:
+class Person: #class
     def __init__(self, name, age):
-        self.name = name
+        self.name = name #atributos
         self.age = age
 
     def greet(self):
