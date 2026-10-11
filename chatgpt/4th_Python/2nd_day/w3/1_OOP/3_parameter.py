@@ -1,4 +1,4 @@
-class Person: #class
+""" class Person: #class
     def __init__(self, name, age):
         self.name = name #atributos
         self.age = age
@@ -9,4 +9,5 @@ class Person: #class
 
 p1 = Person("Emil", 25)
 p1.greet()
-print(p1.age, p1.name)
+print(p1.age, p1.name) """
+
