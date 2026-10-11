@@ -32,9 +32,9 @@ p1.age = 25
 print(p1.name)
 print(p1.age) """
 
-""" class Person: # Object
+""" class Person: 
     def __init__(self, name, age): 
-        self.name = name # Method
+        self.name = name 
         self.age = age
 
 p1 = Person("Linus", 28)
@@ -42,9 +42,9 @@ p1 = Person("Linus", 28)
 print(p1.name)
 print(p1.age) """
 
-""" class Person: # Object
+""" class Person: 
     def __init__(self, name, age= 18):
-        self.name = name # Method
+        self.name = name 
         self.age = age
 
 p1 = Person("Emil") # Instance
@@ -54,3 +54,21 @@ print(p1.name, p1.age)
 print(p2.name, p2.age)
  """
 
+class Person: # class
+    def __init__(self, name, age, city, coutry):
+        self.name = name # Attributos
+        self.age = age 
+        self.city = city
+        self.coutry = coutry
+
+    def andar(self): # Method
+        return "A pessoa anda" 
+
+p1 = Person("Linus", 30, "Oslo", "Norway") # Instance/Object
+
+x = str(p1.andar())
+print(p1.name)
+print(p1.age)
+print(p1.city)
+print(p1.coutry)
+print(x)
