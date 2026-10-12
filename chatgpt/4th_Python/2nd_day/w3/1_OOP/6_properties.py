@@ -55,3 +55,4 @@ p1.city = "Oslo"
 print(p1.name)
 print(p1.age)
 print(p1.city) """
+
