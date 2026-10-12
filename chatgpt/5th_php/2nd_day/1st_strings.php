@@ -15,10 +15,10 @@ echo "Hello $x";
 echo 'Hello $x'; // returns Hello $x */
 
 // Using double quotes
-$x = "John";
+/* $x = "John";
 echo "Hello $x\n";
 echo "\tHow are you?\n";
-
+ */
 // Using single quotes
 /* $x = 'John';
 echo 'Hello $x\n';
@@ -26,5 +26,6 @@ echo '\tHow are you?\n';
  */
 
 //Using simple quotes
+
 ?> 
 
