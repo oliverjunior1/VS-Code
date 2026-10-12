@@ -1,6 +1,10 @@
-
+  
 <?php
-echo "Hello <br>";
+// single and double quotes
+/* echo "Hello <br>";
 echo 'Hello';
+ */
 
-?>
+
+?> 
+
