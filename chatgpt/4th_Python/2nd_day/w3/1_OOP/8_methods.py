@@ -59,7 +59,7 @@ p1 = Person("Emil", 36)
 print(p1)
  """
 # With the __str__() method
-class Person:
+""" class Person:
     def __init__(self, name, age):
         self.name = name
         self.age = age
@@ -68,4 +68,5 @@ class Person:
         return f"{self.name} ({self.age})"
 
 p1 = Person("Tobias", 36)
-print(p1)
+print(p1) """
+
