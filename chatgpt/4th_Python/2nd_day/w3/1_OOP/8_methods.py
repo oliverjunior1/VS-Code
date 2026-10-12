@@ -48,3 +48,5 @@ p1.celebrate_birthday()
 p1.celebrate_birthday()
  """        
 
+# Without the __str__() method
+
