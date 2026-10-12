@@ -21,3 +21,14 @@ calc = Calculator()
 print(calc.add(5,3))
 print(calc.multiply(4,7)) """
 
+# Methods can access and modify object properties using self
+class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def get_info(self):
+        return f"{self.name} is {self.age} years old"
+
+p1 = Person("Tobias", 28)
+print(p1.get_info())
