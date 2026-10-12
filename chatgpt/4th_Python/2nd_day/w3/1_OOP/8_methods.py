@@ -33,3 +33,18 @@ print(calc.multiply(4,7)) """
 p1 = Person("Tobias", 28)
 print(p1.get_info()) """
 
+# A method that changes a property value
+""" class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def celebrate_birthday(self):
+        self.age += 1
+        print(f"Happy birthday! You are now {self.age}")
+
+p1 = Person("Linus", 25)
+p1.celebrate_birthday()
+p1.celebrate_birthday()
+ """        
+
