@@ -5,8 +5,11 @@
 echo 'Hello';
  */
 
-$x = "John";
+// A double quoted string will substitute the value of variables
+/* $x = "John";
 echo "Hello $x";
+ */
+
 
 ?> 
 
