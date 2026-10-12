@@ -5,6 +5,8 @@
 echo 'Hello';
  */
 
+$x = "John";
+echo "Hello $x";
 
 ?> 
 
