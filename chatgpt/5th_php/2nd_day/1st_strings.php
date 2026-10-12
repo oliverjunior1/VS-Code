@@ -10,6 +10,8 @@ echo 'Hello';
 echo "Hello $x";
  */
 
-
+// A single quoted string outputs the string as it is
+$x = "John";
+echo 'Hello $x'; // returns Hello $x
 ?> 
 
