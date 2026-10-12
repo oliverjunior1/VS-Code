@@ -1,3 +1,4 @@
+# Method greet
 """ class Person:
     def __init__(self, name):
         self.name = name
@@ -8,6 +9,7 @@
 p1 = Person("Emil")
 p1.greet() """
 
+# Two Methods add and multiplly
 """ class Calculator:
     def add(self, a, b):
         return a + b
