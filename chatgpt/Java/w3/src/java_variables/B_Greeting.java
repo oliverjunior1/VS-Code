@@ -1,4 +1,4 @@
-package java_intro;
+package java_variables;
 
 
 public class B_Greeting {
