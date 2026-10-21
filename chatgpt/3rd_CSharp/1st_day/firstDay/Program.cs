@@ -504,7 +504,7 @@ namespace Myapplication
                 Console.WriteLine("Reprovado");
             } */
             // Switch
-            int day = 4;
+            /* int day = 4;
 
             switch (day)
             {
@@ -533,7 +533,7 @@ namespace Myapplication
                     Console.WriteLine("Looking forward to the weekend.");
                     break;
                 
-            }
+            } */
             /* Console.WriteLine("Jesus is the light"); */
         }
     }
