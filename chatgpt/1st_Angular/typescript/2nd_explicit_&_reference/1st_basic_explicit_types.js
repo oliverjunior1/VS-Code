@@ -1,14 +1,20 @@
 "use strict";
-// String
-let greeting = "Hello, Typescript!";
+/* // String
+let greeting: string = "Hello, Typescript!";
+
 // Number
-let userCount = 42;
+let userCount: number = 42;
+
 // Boolean
-let isLoading = true;
+let isLoading: boolean = true;
+
 // Array of numbers
-let scores = [100, 95, 98];
+let scores: number[] = [100, 95, 98];
+
 // Output the values
-console.log(greeting);
-console.log(userCount);
-console.log(isLoading);
-console.log(scores);
+console.log(greeting)
+console.log(userCount)
+console.log(isLoading)
+console.log(scores)
+
+ */
