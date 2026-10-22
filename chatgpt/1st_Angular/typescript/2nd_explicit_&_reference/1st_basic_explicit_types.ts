@@ -19,7 +19,7 @@ console.log(scores)
  */
 
 // Function with explicit parameter and return types
-function greet(name: string): string {
+/* function greet(name: string): string {
     return `Hello, ${name}!`;
 }
 
@@ -28,4 +28,6 @@ function greet(name: string): string {
 // greet(42); // Error
 
 
-console.log(greet("Alice")) // OK
+console.log(greet("Alice")) // OK */
+
+
