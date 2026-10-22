@@ -1,4 +1,4 @@
-// String
+/* // String
 let greeting: string = "Hello, Typescript!";
 
 // Number
@@ -15,4 +15,6 @@ console.log(greeting)
 console.log(userCount)
 console.log(isLoading)
 console.log(scores)
+
+ */
 
