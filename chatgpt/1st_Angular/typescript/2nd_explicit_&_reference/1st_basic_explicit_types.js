@@ -31,16 +31,22 @@ console.log(scores)
 console.log(greet("Alice")) // OK */
 // Basic type inference
 // TypeScript infers 'string'
-let username = "Alice";
+/* let username = "Alice"
+
 // Typescript infers 'number'
-let score = 100;
+let score = 100
+
 // Typescript infers 'boolean[]'
-let flags = [true, false, true];
+let flags = [true, false, true]
+
 // Typescript infers return type as 'number'
-function add(a, b) {
-    return a + b;
+function add(a:number, b:number) {
+    return a + b
 }
-console.log(username);
-console.log(score);
-console.log(flags);
-console.log(add(5, 3));
+
+console.log(username)
+console.log(score)
+console.log(flags)
+console.log(add(5,3))
+
+ */
