@@ -51,11 +51,14 @@ console.log(add(5,3))
 
  */
 // Tupescript infers the shape of the object
-const user = {
+/* const user = {
     name: "Alice",
     age: 30,
     isAdmin: true
-};
+}
+
 // TupeScript knows these properties exist
-console.log(user.name);
+console.log(user.name)
 // console.log(user.email) // error
+
+ */
