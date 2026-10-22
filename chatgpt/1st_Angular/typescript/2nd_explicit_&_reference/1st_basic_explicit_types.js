@@ -19,9 +19,13 @@ console.log(scores)
 
  */
 // Function with explicit parameter and return types
-function greet(name) {
+/* function greet(name: string): string {
     return `Hello, ${name}!`;
 }
+
 // Typescript will ensure you pass the correct argument type
+ 
 // greet(42); // Error
-console.log(greet("Alice")); // OK
+
+
+console.log(greet("Alice")) // OK */
