@@ -32,7 +32,7 @@ console.log(greet("Alice")) // OK */
 
 // Basic type inference
 // TypeScript infers 'string'
-let username = "Alice"
+/* let username = "Alice"
 
 // Typescript infers 'number'
 let score = 100
@@ -49,4 +49,8 @@ console.log(username)
 console.log(score)
 console.log(flags)
 console.log(add(5,3))
+
+ */
+
+
 
