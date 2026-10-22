@@ -62,3 +62,11 @@ console.log(user.name)
 // console.log(user.email) // error
 
  */
+// 1. JSON.parse returns 'any' because the structure isn't known at compile time
+const data = JSON.parse('{"name":"Alice", "age":30}');
+// 2. Variables delcared without initialization
+let something;
+something = 'hello';
+something = 42;
+console.log(something);
+console.log(data);
