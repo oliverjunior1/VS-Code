@@ -16,5 +16,7 @@ var_dump(str_contains($txt, "love")); */
 /* $txt = "I really love PHP";
 var_dump(str_starts_with($txt, "I really")); */
 
-
+// Showing case-sensitivity:
+$txt = "I really love PHP!";
+var_dump(str_starts_with($txt, "i really"));
 ?>
