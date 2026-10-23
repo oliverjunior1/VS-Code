@@ -9,5 +9,6 @@
 /* $txt = "I really love PHP!";
 var_dump(str_contains($txt, "love")); */
 
-
+// Search for the text "world" in the string "Hello world!":
+echo strpos("Hello world!", "world");
 ?>
