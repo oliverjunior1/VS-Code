@@ -25,6 +25,7 @@ var_dump(str_starts_with($txt, "i really")); */
 var_dump(str_ends_with($txt, "PHP!"));
  */
 
-$txt = "I really love PHP!";
-var_dump(str_ends_with($txt, "php!"));
+// Showing case-sensitivity:
+/* $txt = "I really love PHP!";
+var_dump(str_ends_with($txt, "php!")); */
 ?>
