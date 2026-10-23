@@ -1,10 +1,11 @@
 /* In the body selector, set background-color to lightblue*/
 body {
     background-color: lightblue;
-}
-/* In the body selector, set background-image to url('img_tree.png') */
-body {
+    /* In the body selector, set background-image to url('img_tree.png') */
     background-image: url('img_tree.png');
+    /* In the body selector, set background-repeat to no-repeat */
+    background-repeat: no-repeat;
+    /* In the body selector, set background-position to right top */
+    background-position: right top;
 }
-/* In the body selector, set background-repeat to no-repeat */
-/* In the body selector, set background-position to right top */
+
