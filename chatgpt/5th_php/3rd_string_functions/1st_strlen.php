@@ -13,6 +13,8 @@ var_dump(str_contains($txt, "love")); */
 /* echo strpos("Hello world!", "world"); */
 
 // Check if a string starts with a specific substring:
-$txt = "I really love PHP";
-var_dump(str_starts_with($txt, "I really"));
+/* $txt = "I really love PHP";
+var_dump(str_starts_with($txt, "I really")); */
+
+
 ?>
