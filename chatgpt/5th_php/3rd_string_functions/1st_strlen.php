@@ -17,6 +17,13 @@ var_dump(str_contains($txt, "love")); */
 var_dump(str_starts_with($txt, "I really")); */
 
 // Showing case-sensitivity:
-$txt = "I really love PHP!";
-var_dump(str_starts_with($txt, "i really"));
+/* $txt = "I really love PHP!";
+var_dump(str_starts_with($txt, "i really")); */
+
+// Check if a string ends with a specific substring:
+/* $txt = "I really love PHP!";
+var_dump(str_ends_with($txt, "PHP!"));
+ */
+
+
 ?>
