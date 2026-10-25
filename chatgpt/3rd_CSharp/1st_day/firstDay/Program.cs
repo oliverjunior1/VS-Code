@@ -536,12 +536,21 @@ namespace Myapplication
             } */
             /* Console.WriteLine("Jesus is the light"); */
             // while
-            int i = 0;
+           /*  int i = 0;
             while (i < 5)
             {
                 Console.WriteLine(i);
                 i++;
+            } */
+
+            // do while
+            int i = 0;
+            do
+            {
+                Console.WriteLine(i);
+                i++;
             }
+            while(i < 5);
         }
     }
 }
