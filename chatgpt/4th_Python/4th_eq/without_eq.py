@@ -8,7 +8,10 @@ p2 = Person("Linus", 30)
 
 print(p1 == p2) """
 
-class Person:
+# Add a __eq__() method that defines that two objects are equal if the values are equal:
+
+
+""" class Person:
     def __init__(self, name, age):
         self.name = name
         self.age = age
@@ -20,4 +23,5 @@ class Person:
 p1 = Person("Linus", 30)
 p2 = Person("Linus", 30)
 
-print(p1 == p2)
+print(p1 == p2) """
+
