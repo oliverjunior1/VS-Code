@@ -14,5 +14,9 @@ echo strrev($x); */
 /* $x = "Hello World!";
 echo trim($x); */
 
+$x = "Hello lovely World!";
+$y = explode(" ", $x);
 
+//Use print_r() to display the result
+print_r($y);
 ?>
