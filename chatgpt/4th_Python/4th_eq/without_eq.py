@@ -1,4 +1,4 @@
-class Person:
+""" class Person:
     def __init__(self, name, age):
         self.name = name
         self.age = age
@@ -6,4 +6,5 @@ class Person:
 p1 = Person("Linus", 30)
 p2 = Person("Linus", 30)
 
-print(p1 == p2)
+print(p1 == p2) """
+
