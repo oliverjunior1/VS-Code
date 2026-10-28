@@ -1,6 +1,6 @@
 package numbers;
 
-public class Int {
+public class MyInt {
 
 	public static void main(String[] args) {
 		int myNum = 100000;
