@@ -1,1 +1,12 @@
-b
+h1 {
+    background-color: rgb(51, 135, 172);
+    color: white;
+    padding: 0.2rem;
+}
+
+p {
+    background-color: tomato;
+    color: white;
+    padding: 1rem;
+
+}
