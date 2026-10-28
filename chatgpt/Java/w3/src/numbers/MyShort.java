@@ -1,6 +1,6 @@
 package numbers;
 
-public class Short {
+public class MyShort {
 
 	public static void main(String[] args) {
 		short myNum = 5000;
