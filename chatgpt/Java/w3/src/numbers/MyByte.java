@@ -1,6 +1,6 @@
 package numbers;
 
-public class Byte {
+public class MyByte {
 
 	public static void main(String[] args) {
 		byte myNum = 100;
