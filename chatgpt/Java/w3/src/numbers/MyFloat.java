@@ -1,6 +1,6 @@
 package numbers;
 
-public class Float {
+public class MyFloat {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
