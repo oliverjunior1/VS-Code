@@ -12,3 +12,6 @@ ORDER BY Country DESC;
 
 SELECT * FROM Customers
 ORDER BY Country, CustomerName;
+
+SELECT * FROM Customers
+ORDER BY Coutry ASC, CustomerName DESC;
