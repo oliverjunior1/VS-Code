@@ -1,0 +1,17 @@
+.all {
+    border: 2px solid black;
+}
+
+.bottom {
+    border-bottom:2px solid red ;
+}
+
+.rounded {
+    border:2px solid rgb(22, 161, 22);
+    border-radius: 10px;
+    
+}
+
+.left {
+    border-left: 5px solid blue;
+}
