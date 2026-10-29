@@ -13,3 +13,9 @@ do {
     i++
 } while (i < 10) */
 
+// do while with text
+let i = 0;
+do {
+    console.log("The number is " + i)
+    i++
+} while (i < 10)
