@@ -552,7 +552,11 @@ namespace Myapplication
             }
             while(i < 5); */
 
-            
+            // for
+            for (int i = 0; i < 5; i++)
+            {
+                Console.WriteLine(i);
+            }
         }
     }
 }
