@@ -1,4 +1,5 @@
 "use strict";
-let names = [];
-names.push("Dylan");
-console.log(names);
+/* let names: string[] = []
+names.push("Dylan")
+
+console.log(names) */
