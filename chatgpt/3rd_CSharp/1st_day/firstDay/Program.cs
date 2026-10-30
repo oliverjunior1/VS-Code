@@ -544,13 +544,15 @@ namespace Myapplication
             } */
 
             // do while
-            int i = 0;
+           /*  int i = 0;
             do
             {
                 Console.WriteLine(i);
                 i++;
             }
-            while(i < 5);
+            while(i < 5); */
+
+            
         }
     }
 }
