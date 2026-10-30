@@ -1,4 +1,5 @@
-let names: string[] = []
+/* let names: string[] = []
 names.push("Dylan")
 
-console.log(names)
+console.log(names) */
+
