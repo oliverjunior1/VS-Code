@@ -10,6 +10,7 @@ names.push("Jack")
 console.log(names) */
 
 // typescript can infer the type of an array if it has values
-let numbers = [1,2,3]
+/* let numbers = [1,2,3]
 numbers.push(4)
-console.log(numbers)
+console.log(numbers) */
+
