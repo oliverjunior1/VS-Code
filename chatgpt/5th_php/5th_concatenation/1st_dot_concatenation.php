@@ -8,8 +8,10 @@ echo $z; */
 $y = "World";
 echo $x . " " . $y; */
 
-/* $x = "Hello";
+$x = "Hello";
 $y = "World";
 $z = "$x $y";
-echo $z; */
+echo $z;
+
+
 ?>
