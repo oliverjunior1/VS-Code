@@ -4,7 +4,7 @@
 }
  */
 
-switch (new Date().getDay()) {
+/* switch (new Date().getDay()) {
     case 0:
         day = "Sunday"
         break
@@ -27,4 +27,5 @@ switch (new Date().getDay()) {
         day = "Saturday"
     }
 
-console.log(day)
+console.log(day) */
+
