@@ -1,6 +1,10 @@
 <?php
-$x = "Hello ";
+/* $x = "Hello ";
 $y = "World";
 $z = $x . $y;
-echo $z;
+echo $z; */
+
+$x = "Hello";
+$y = "World";
+echo $x . " " . $y;
 ?>
