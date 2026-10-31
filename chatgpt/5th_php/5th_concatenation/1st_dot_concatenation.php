@@ -4,7 +4,12 @@ $y = "World";
 $z = $x . $y;
 echo $z; */
 
-$x = "Hello";
+/* $x = "Hello";
 $y = "World";
-echo $x . " " . $y;
+echo $x . " " . $y; */
+
+/* $x = "Hello";
+$y = "World";
+$z = "$x $y";
+echo $z; */
 ?>
