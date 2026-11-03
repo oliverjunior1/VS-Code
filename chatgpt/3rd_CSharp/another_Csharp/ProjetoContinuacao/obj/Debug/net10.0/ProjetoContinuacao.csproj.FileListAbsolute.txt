@@ -1,0 +1,15 @@
+C:\Users\Olive\VS Code\chatgpt\3rd_CSharp\another_Csharp\ProjetoContinuacao\bin\Debug\net10.0\ProjetoContinuacao.exe
+C:\Users\Olive\VS Code\chatgpt\3rd_CSharp\another_Csharp\ProjetoContinuacao\bin\Debug\net10.0\ProjetoContinuacao.deps.json
+C:\Users\Olive\VS Code\chatgpt\3rd_CSharp\another_Csharp\ProjetoContinuacao\bin\Debug\net10.0\ProjetoContinuacao.runtimeconfig.json
+C:\Users\Olive\VS Code\chatgpt\3rd_CSharp\another_Csharp\ProjetoContinuacao\bin\Debug\net10.0\ProjetoContinuacao.dll
+C:\Users\Olive\VS Code\chatgpt\3rd_CSharp\another_Csharp\ProjetoContinuacao\bin\Debug\net10.0\ProjetoContinuacao.pdb
+C:\Users\Olive\VS Code\chatgpt\3rd_CSharp\another_Csharp\ProjetoContinuacao\obj\Debug\net10.0\ProjetoContinuacao.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Olive\VS Code\chatgpt\3rd_CSharp\another_Csharp\ProjetoContinuacao\obj\Debug\net10.0\ProjetoContinuacao.AssemblyInfoInputs.cache
+C:\Users\Olive\VS Code\chatgpt\3rd_CSharp\another_Csharp\ProjetoContinuacao\obj\Debug\net10.0\ProjetoContinuacao.AssemblyInfo.cs
+C:\Users\Olive\VS Code\chatgpt\3rd_CSharp\another_Csharp\ProjetoContinuacao\obj\Debug\net10.0\ProjetoContinuacao.csproj.CoreCompileInputs.cache
+C:\Users\Olive\VS Code\chatgpt\3rd_CSharp\another_Csharp\ProjetoContinuacao\obj\Debug\net10.0\ProjetoContinuacao.sourcelink.json
+C:\Users\Olive\VS Code\chatgpt\3rd_CSharp\another_Csharp\ProjetoContinuacao\obj\Debug\net10.0\ProjetoContinuacao.dll
+C:\Users\Olive\VS Code\chatgpt\3rd_CSharp\another_Csharp\ProjetoContinuacao\obj\Debug\net10.0\refint\ProjetoContinuacao.dll
+C:\Users\Olive\VS Code\chatgpt\3rd_CSharp\another_Csharp\ProjetoContinuacao\obj\Debug\net10.0\ProjetoContinuacao.pdb
+C:\Users\Olive\VS Code\chatgpt\3rd_CSharp\another_Csharp\ProjetoContinuacao\obj\Debug\net10.0\ProjetoContinuacao.genruntimeconfig.cache
+C:\Users\Olive\VS Code\chatgpt\3rd_CSharp\another_Csharp\ProjetoContinuacao\obj\Debug\net10.0\ref\ProjetoContinuacao.dll
