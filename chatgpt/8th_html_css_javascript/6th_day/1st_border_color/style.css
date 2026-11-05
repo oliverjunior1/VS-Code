@@ -8,10 +8,15 @@
     border-color: red green blue yellow;
 } */
 
-p.one {
+/* p.one {
     border-style: solid;
     border-color: #ff0000;
-}    
+}  */
+  
+p.one {
+    border-style: solid;
+    border-color: rgb(255,0,0);
+}
 
 p.two {
     border-style: solid;
