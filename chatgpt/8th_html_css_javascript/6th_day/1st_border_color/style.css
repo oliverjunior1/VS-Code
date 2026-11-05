@@ -13,9 +13,14 @@
     border-color: #ff0000;
 }  */
   
-p.one {
+/* p.one {
     border-style: solid;
     border-color: rgb(255,0,0);
+} */
+
+p.one {
+    border-style: solid;
+    border-color: hsl(0,100%, 50%);
 }
 
 p.two {
