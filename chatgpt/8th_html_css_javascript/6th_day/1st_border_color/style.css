@@ -1,6 +1,11 @@
-p.one {
+/* p.one {
     border-style: solid;
     border-color: red;
+} */
+
+p.one {
+    border-style: solid;
+    border-color: red green blue yellow;
 }
 
 p.two {
