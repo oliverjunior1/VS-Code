@@ -3,10 +3,15 @@
     border-color: red;
 } */
 
-p.one {
+/* p.one {
     border-style: solid;
     border-color: red green blue yellow;
-}
+} */
+
+p.one {
+    border-style: solid;
+    border-color: #ff0000;
+}    
 
 p.two {
     border-style: solid;
