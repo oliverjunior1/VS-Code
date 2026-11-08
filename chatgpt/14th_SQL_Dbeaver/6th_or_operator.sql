@@ -9,3 +9,5 @@ Select CustomerName and Country from the Customers table
 Keep the customers whose Country is 'Spain' or 'Italy'
 The result should show 8 rows and 2 columns. */
 
+SELECT CustomerName, Country FROM Customers
+WHERE Country='Spain' OR Country='Italy';
