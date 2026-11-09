@@ -6,11 +6,11 @@
 
 console.log(car) */
 
-let car = {
+/* let car = {
     type: "Toyota"
 }
 
 car.type = "Ford"
-/* car.type = 2 */ 
+// car.type = 2 
 
-console.log(car)
+console.log(car) */
