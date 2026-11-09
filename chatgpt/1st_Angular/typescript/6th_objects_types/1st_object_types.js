@@ -13,4 +13,9 @@ console.log(car) */
 car.type = "Ford"
 // car.type = 2
 
-console.log(car) */ 
+console.log(car) */
+let car = {
+    type: "Toyota"
+};
+car.mileage = 2000;
+console.log(car);
