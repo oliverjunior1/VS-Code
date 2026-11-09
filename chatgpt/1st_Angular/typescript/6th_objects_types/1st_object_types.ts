@@ -22,3 +22,7 @@ car.mileage = 2000
 
 console.log(car) */
 
+let nameAgeMap: {[index: string]: number} = {}
+nameAgeMap.Jack = 25
+// nameAgeMap.Mark = "Fifty"  // it give error
+console.log(nameAgeMap)
