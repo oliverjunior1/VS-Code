@@ -23,3 +23,4 @@ console.log(car) */
 let nameAgeMap = {};
 nameAgeMap.Jack = 25;
 // nameAgeMap.Mark = "Fifty"  // it give error
+console.log(nameAgeMap);
