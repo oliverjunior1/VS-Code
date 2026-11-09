@@ -1,7 +1,8 @@
-let car: {type:string, model: string, year:number} = {
+/* let car: {type:string, model: string, year:number} = {
     type: "Toyota",
     model:"Corolla",
     year:2009
 }
 
-console.log(car)
+console.log(car) */
+
