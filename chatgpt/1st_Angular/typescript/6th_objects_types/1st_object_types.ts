@@ -14,3 +14,11 @@ car.type = "Ford"
 // car.type = 2 
 
 console.log(car) */
+
+/* let car: {type: string, mileage?: number} = {
+    type: "Toyota"
+}
+car.mileage = 2000
+
+console.log(car) */
+
