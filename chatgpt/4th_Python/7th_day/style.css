@@ -1,6 +1,10 @@
-p {
+/* p {
     border-top-style: dotted;
     border-right-style: solid;
     border-bottom-style: dotted;
     border-left-style: solid;
+} */
+
+p {
+    border-style: dotted solid;
 }
