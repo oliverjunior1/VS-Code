@@ -15,3 +15,9 @@ WHERE CustomerID NOT BETWEEN 10 AND 60;
 
 SELECT * FROM Customers
 WHERE City NOT IN ('Paris', 'London');
+
+SELECT * FROM Customer
+WHERE CustomerID > 50;
+
+SELECT * FROM Customers
+WHERE NOT CustomerID > 50;
