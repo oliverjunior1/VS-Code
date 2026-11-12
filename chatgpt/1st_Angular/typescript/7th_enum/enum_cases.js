@@ -1,10 +1,20 @@
 "use strict";
+/* enum CardinalDirections {
+    North,
+    East,
+    South,
+    West
+}
+
+let currentDirection = CardinalDirections.North
+
+console.log(currentDirection) */
 var CardinalDirections;
 (function (CardinalDirections) {
-    CardinalDirections[CardinalDirections["North"] = 0] = "North";
-    CardinalDirections[CardinalDirections["East"] = 1] = "East";
-    CardinalDirections[CardinalDirections["South"] = 2] = "South";
-    CardinalDirections[CardinalDirections["West"] = 3] = "West";
+    CardinalDirections[CardinalDirections["North"] = 1] = "North";
+    CardinalDirections[CardinalDirections["East"] = 2] = "East";
+    CardinalDirections[CardinalDirections["South"] = 3] = "South";
+    CardinalDirections[CardinalDirections["West"] = 4] = "West";
 })(CardinalDirections || (CardinalDirections = {}));
-let currentDirection = CardinalDirections.North;
-console.log(currentDirection);
+console.log(CardinalDirections.North);
+console.log(CardinalDirections.West);
