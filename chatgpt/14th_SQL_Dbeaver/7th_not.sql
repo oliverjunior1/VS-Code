@@ -9,3 +9,6 @@ WHERE NOT Country='Germany' AND NOT Country='USA';
 
 SELECT * FROM Customers
 WHERE CustomerName NOT LIKE 'A%';
+
+SELECT * FROM Customers
+WHERE CustomerID NOT BETWEEN 10 AND 60;
