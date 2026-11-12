@@ -18,12 +18,21 @@ console.log(currentDirection) */
 
 console.log(CardinalDirections.North)
 console.log(CardinalDirections.West) */
-var StatusCodes;
-(function (StatusCodes) {
-    StatusCodes[StatusCodes["NotFound"] = 404] = "NotFound";
-    StatusCodes[StatusCodes["Success"] = 200] = "Success";
-    StatusCodes[StatusCodes["Accepted"] = 202] = "Accepted";
-    StatusCodes[StatusCodes["BadRequest"] = 400] = "BadRequest";
-})(StatusCodes || (StatusCodes = {}));
-console.log(StatusCodes.NotFound);
-console.log(StatusCodes.Success);
+/* enum StatusCodes {
+    NotFound = 404,
+    Success = 200,
+    Accepted = 202,
+    BadRequest = 400
+}
+
+console.log(StatusCodes.NotFound)
+console.log(StatusCodes.Success) */
+var CardinalDirections;
+(function (CardinalDirections) {
+    CardinalDirections["North"] = "North";
+    CardinalDirections["East"] = "East";
+    CardinalDirections["South"] = "South";
+    CardinalDirections["West"] = "West";
+})(CardinalDirections || (CardinalDirections = {}));
+console.log(CardinalDirections.North);
+console.log(CardinalDirections.West);
