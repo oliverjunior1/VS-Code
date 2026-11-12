@@ -19,7 +19,7 @@ console.log(currentDirection) */
 console.log(CardinalDirections.North)
 console.log(CardinalDirections.West) */
 
-enum StatusCodes {
+/* enum StatusCodes {
     NotFound = 404,
     Success = 200,
     Accepted = 202,
@@ -27,4 +27,14 @@ enum StatusCodes {
 }
 
 console.log(StatusCodes.NotFound)
-console.log(StatusCodes.Success)
+console.log(StatusCodes.Success) */
+
+enum CardinalDirections {
+    North = 'North',
+    East = 'East',
+    South = 'South',
+    West = 'West'
+}
+
+console.log(CardinalDirections.North)
+console.log(CardinalDirections.West)
