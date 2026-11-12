@@ -9,7 +9,7 @@ let currentDirection = CardinalDirections.North
 
 console.log(currentDirection) */
 
-enum CardinalDirections {
+/* enum CardinalDirections {
     North = 1,
     East,
     South,
@@ -17,4 +17,14 @@ enum CardinalDirections {
 }
 
 console.log(CardinalDirections.North)
-console.log(CardinalDirections.West)
+console.log(CardinalDirections.West) */
+
+enum StatusCodes {
+    NotFound = 404,
+    Success = 200,
+    Accepted = 202,
+    BadRequest = 400
+}
+
+console.log(StatusCodes.NotFound)
+console.log(StatusCodes.Success)
