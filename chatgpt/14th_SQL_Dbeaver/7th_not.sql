@@ -6,3 +6,6 @@ WHERE Country='Germany' AND (City='Berlin' OR City='Stutgard');
 
 SELECT * FROM Customers
 WHERE NOT Country='Germany' AND NOT Country='USA';
+
+SELECT * FROM Customers
+WHERE CustomerName NOT LIKE 'A%';
