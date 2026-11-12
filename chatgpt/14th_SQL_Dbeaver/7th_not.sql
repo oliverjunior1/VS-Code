@@ -21,3 +21,6 @@ WHERE CustomerID > 50;
 
 SELECT * FROM Customers
 WHERE NOT CustomerID > 50;
+
+SELECT * FROM Customers
+WHERE NOT CustomerID < 50;
