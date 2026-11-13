@@ -53,5 +53,12 @@ Console.WriteLine(cars[0]); */
 cars[0] = "Opel";
 Console.WriteLine(cars[0]); */
 
-string[] cars =  {"Volvo", "BMW", "Ford", "Mazda"};
-Console.WriteLine(cars.Length);
+/* string[] cars =  {"Volvo", "BMW", "Ford", "Mazda"};
+Console.WriteLine(cars.Length); */
+
+string[] cars = new string[4];
+string[] cars = new string[4] {"Volvo", "BMW", "Ford", "Mazda"};
+string[] cars = new string[] {"Volvo", "BMW", "Ford", "Mazda"};
+string[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+
+Console.WriteLine(cars[1]);
