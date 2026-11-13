@@ -46,3 +46,6 @@ while (i < 10)
     i++;
 } */
 
+string[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+Console.WriteLine(cars[0]);
+
