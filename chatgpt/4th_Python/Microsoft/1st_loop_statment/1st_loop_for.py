@@ -3,10 +3,11 @@
         continue
     print(count) """
 
-while True:
+""" while True:
     user_input = input("Type 'exit' to stop the loop: ")
     if user_input.lower() == "exit":
         break
     print(f"You entered: {user_input}")
 
-print("Goodbye!")
+print("Goodbye!") """
+
