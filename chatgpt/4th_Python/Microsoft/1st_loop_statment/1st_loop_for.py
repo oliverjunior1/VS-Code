@@ -11,7 +11,7 @@
 
 print("Goodbye!") """
 
-current_slot = 0
+""" current_slot = 0
 
 while current_slot < 5:
     current_slot += 1
@@ -23,4 +23,5 @@ while current_slot < 5:
     # This processing code is skipped when current_slot is 3
     print(f"Successfully processed item in slot {current_slot}.")
 
-print("Inventory scan completely")
+print("Inventory scan complete!") """
+
