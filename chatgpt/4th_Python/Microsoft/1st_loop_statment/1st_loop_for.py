@@ -25,7 +25,7 @@ while current_slot < 5:
 
 print("Inventory scan complete!") """
 
-color = "blue"
+""" color = "blue"
 
 for i in range(3):
     user_input = input("Guess my favorite color: ")
@@ -33,4 +33,39 @@ for i in range(3):
         print("You guessed it")
         break
 else:
-    print(f"Sorry, the correct answer is {color}.")
+    print(f"Sorry, the correct answer is {color}.") """
+
+
+""" 
+In this exercise, you build a Guess the Number game. The program picks a random number and uses a while 
+loop to keep asking the player to guess until they get it right. """
+
+from random import randint
+
+guess_number = randint(1, 100)
+counter = 6
+
+while counter > 0:
+    input_number = int(input("Put a number: "))
+
+    if input_number > guess_number:
+        counter -= 1
+        print("It is less than that.")
+        print(f"Careful. You have {counter} lives left.")
+
+    elif input_number < guess_number:
+        counter -= 1
+        print("It is greater than that.")
+        print(f"Careful. You have {counter} lives left.")
+
+    else:
+        print(f"You win. The number is {guess_number}")
+        break
+
+if counter == 0 and input_number != guess_number:
+    print(f"You lose. The guessed number was {guess_number}")
+    
+
+    
+        
+
