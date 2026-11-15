@@ -2,6 +2,10 @@
     border: 5px solid red;
 } */
 
-p {
+/* p {
     border-left: 6px solid red;
+} */
+
+p {
+    border-bottom: 6px solid red;
 }
