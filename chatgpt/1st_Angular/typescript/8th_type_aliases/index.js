@@ -20,8 +20,8 @@ let car: Car = {
 console.log(carYear)
 console.log(cartType)
 console.log(carModel) */
-let bear = { name: "Winnie", honey: true };
-let response = "success";
-console.log(bear);
-console.log(response);
-console.log(bear);
+let rectangle = {
+    height: 20,
+    width: 10
+};
+console.log(rectangle);
