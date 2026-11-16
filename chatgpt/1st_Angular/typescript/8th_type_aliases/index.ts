@@ -31,7 +31,7 @@ console.log(bear)
 console.log(response)
 console.log(bear) */
 
-interface Rectangle {
+/* interface Rectangle {
     height: number,
     width: number
 }
@@ -41,4 +41,24 @@ let rectangle: Rectangle = {
     width: 10
 }
 
-console.log(rectangle)
+console.log(rectangle) */
+
+
+interface Rectangle {
+    height: number,
+    width: number
+}
+
+interface ColoredRectangle extends Rectangle {
+    color: string
+}
+
+let coloredRectangle: ColoredRectangle = {
+    height: 20,
+    width: 10,
+    color: "red"
+}
+
+console.log(coloredRectangle)
+
+
