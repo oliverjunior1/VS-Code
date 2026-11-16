@@ -20,8 +20,9 @@ let car: Car = {
 console.log(carYear)
 console.log(cartType)
 console.log(carModel) */
-let rectangle = {
+let coloredRectangle = {
     height: 20,
-    width: 10
+    width: 10,
+    color: "red"
 };
-console.log(rectangle);
+console.log(coloredRectangle);
