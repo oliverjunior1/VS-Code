@@ -20,7 +20,7 @@ console.log(carYear)
 console.log(cartType)
 console.log(carModel) */
 
-type Animal = {name: string}
+/* type Animal = {name: string}
 type Bear = Animal & {honey: boolean}
 let bear: Bear = {name: "Winnie", honey: true}
 
@@ -29,4 +29,16 @@ let response: Status = "success"
 
 console.log(bear)
 console.log(response)
-console.log(bear)
+console.log(bear) */
+
+interface Rectangle {
+    height: number,
+    width: number
+}
+
+let rectangle: Rectangle = {
+    height: 20,
+    width: 10
+}
+
+console.log(rectangle)
