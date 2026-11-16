@@ -1,4 +1,4 @@
-type CarYear = number
+/* type CarYear = number
 type CarType = string
 type CarModel = string
 type Car = {
@@ -18,4 +18,15 @@ let car: Car = {
 
 console.log(carYear)
 console.log(cartType)
-console.log(carModel)
+console.log(carModel) */
+
+type Animal = {name: string}
+type Bear = Animal & {honey: boolean}
+let bear: Bear = {name: "Winnie", honey: true}
+
+type Status = "success" | "error"
+let response: Status = "success"
+
+console.log(bear)
+console.log(response)
+console.log(bear)
