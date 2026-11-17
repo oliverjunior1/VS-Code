@@ -36,11 +36,13 @@ var_dump(is_numeric($x));
 $x = "Hello";
 var_dump(is_numeric($x)); */
 
-$x = 23465.768;
+/* $x = 23465.768;
 echo intval($x);
 
 echo "<br>";
 
 $x = "23465.768";
-echo intval($x);
+echo intval($x); */
+
+
 ?>
