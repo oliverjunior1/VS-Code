@@ -46,8 +46,8 @@ print(check_age("200")) """
 
 
 
-def calculate_average(total_price: float, item_count: int) -> float:
-    """ Return the average price per item """
+""" def calculate_average(total_price: float, item_count: int) -> float:
+    "Return the average price per item"
     if item_count <= 0:
         raise ValueError("Item_count must be greater than zero.")
     return total_price / item_count
@@ -55,4 +55,5 @@ def calculate_average(total_price: float, item_count: int) -> float:
 try:
     print(calculate_average(100,0))
 except ValueError as error:
-    print(f"Invalid Input: {error}")
+    print(f"Invalid Input: {error}") """
+
