@@ -25,7 +25,7 @@ var_dump($x);
 // Check if value is not a number (NaN)
 var_dump(is_nan($x)); */
 
-$x = 5985;
+/* $x = 5985;
 var_dump(is_numeric($x));
 
 $x = "5985";
@@ -34,6 +34,13 @@ $x = "59.85" + 100;
 var_dump(is_numeric($x));
 
 $x = "Hello";
-var_dump(is_numeric($x));
+var_dump(is_numeric($x)); */
 
+$x = 23465.768;
+echo intval($x);
+
+echo "<br>";
+
+$x = "23465.768";
+echo intval($x);
 ?>
