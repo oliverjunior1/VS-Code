@@ -27,3 +27,19 @@ except ZeroDivisionError:
 
 
 
+def check_age(age_text):
+    "Return the age as an int from 0 to 150, or None if the input is valid."
+    try:
+        age = int(age_text)
+    except (ValueError, TypeError):
+        return None
+
+    if age < 0 or age > 150:
+        return None
+
+    return age
+
+print(check_age("25"))
+print(check_age('abc'))
+print(check_age("-5"))
+print(check_age("200"))
