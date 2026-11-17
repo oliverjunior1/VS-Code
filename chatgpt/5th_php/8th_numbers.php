@@ -13,5 +13,6 @@ var_dump(is_int($x));
 $y = 59.85;
 var_dump(is_int(is_int($y))); */
 
-
+$x = 10.365;
+var_dump(is_float($x));
 ?>
