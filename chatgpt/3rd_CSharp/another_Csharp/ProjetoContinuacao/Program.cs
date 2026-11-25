@@ -91,8 +91,9 @@ foreach (int i in myNumbers)
 } */
 
 
-int[] myNumbers = {5,1,8,9};
+/* int[] myNumbers = {5,1,8,9};
 Console.WriteLine(myNumbers.Max());
 Console.WriteLine(myNumbers.Min());
-Console.WriteLine(myNumbers.Sum());
+Console.WriteLine(myNumbers.Sum()); */
+
 
