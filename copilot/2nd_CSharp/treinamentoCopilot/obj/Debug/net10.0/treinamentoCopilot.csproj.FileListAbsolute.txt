@@ -1,0 +1,15 @@
+C:\Users\Olive\VS Code\copilot\2nd_CSharp\treinamentoCopilot\bin\Debug\net10.0\treinamentoCopilot.exe
+C:\Users\Olive\VS Code\copilot\2nd_CSharp\treinamentoCopilot\bin\Debug\net10.0\treinamentoCopilot.deps.json
+C:\Users\Olive\VS Code\copilot\2nd_CSharp\treinamentoCopilot\bin\Debug\net10.0\treinamentoCopilot.runtimeconfig.json
+C:\Users\Olive\VS Code\copilot\2nd_CSharp\treinamentoCopilot\bin\Debug\net10.0\treinamentoCopilot.dll
+C:\Users\Olive\VS Code\copilot\2nd_CSharp\treinamentoCopilot\bin\Debug\net10.0\treinamentoCopilot.pdb
+C:\Users\Olive\VS Code\copilot\2nd_CSharp\treinamentoCopilot\obj\Debug\net10.0\treinamentoCopilot.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Olive\VS Code\copilot\2nd_CSharp\treinamentoCopilot\obj\Debug\net10.0\treinamentoCopilot.AssemblyInfoInputs.cache
+C:\Users\Olive\VS Code\copilot\2nd_CSharp\treinamentoCopilot\obj\Debug\net10.0\treinamentoCopilot.AssemblyInfo.cs
+C:\Users\Olive\VS Code\copilot\2nd_CSharp\treinamentoCopilot\obj\Debug\net10.0\treinamentoCopilot.csproj.CoreCompileInputs.cache
+C:\Users\Olive\VS Code\copilot\2nd_CSharp\treinamentoCopilot\obj\Debug\net10.0\treinamentoCopilot.sourcelink.json
+C:\Users\Olive\VS Code\copilot\2nd_CSharp\treinamentoCopilot\obj\Debug\net10.0\treinamentoCopilot.dll
+C:\Users\Olive\VS Code\copilot\2nd_CSharp\treinamentoCopilot\obj\Debug\net10.0\refint\treinamentoCopilot.dll
+C:\Users\Olive\VS Code\copilot\2nd_CSharp\treinamentoCopilot\obj\Debug\net10.0\treinamentoCopilot.pdb
+C:\Users\Olive\VS Code\copilot\2nd_CSharp\treinamentoCopilot\obj\Debug\net10.0\treinamentoCopilot.genruntimeconfig.cache
+C:\Users\Olive\VS Code\copilot\2nd_CSharp\treinamentoCopilot\obj\Debug\net10.0\ref\treinamentoCopilot.dll
